@@ -1,0 +1,14 @@
+
+.. _$_03-detail-1-chemicals-1-nutrients-3-taxonomy-3-a-proximates:
+
+==========
+Proximates
+==========
+
+Intro text goes here
+
+.. figure:: 3_a_Proximates.png
+   :align: center
+   
+   This is the caption for the figure
+

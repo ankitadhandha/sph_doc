@@ -1,0 +1,24 @@
+
+.. _$_03-detail-1-chemicals-1-nutrients-3-taxonomy-3-n15-vitamins:
+
+========
+Vitamins
+========
+
+Part 1
+^^^^^^
+
+.. figure:: 3_n15_Vitamins_part_1.png
+   :align: center
+   
+   This is the caption for the figure
+
+Part 2
+^^^^^^
+
+.. figure:: 3_n16_Vitamins_part_2.png
+   :align: center
+   
+   This is the caption for the figure
+
+

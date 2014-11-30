@@ -1,0 +1,531 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>REST Services and Reports</title>
+  
+
+  
+  
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+    <link rel="top" title="" href="index.html"/>
+        <link rel="up" title="Features - Core" href="$_02-core.html"/>
+        <link rel="next" title="International Data and Methods" href="$_02-core-13-internationalization.html"/>
+        <link rel="prev" title="Mathematics" href="$_02-core-11-mathematics.html"/> 
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+        <a href="$_00-master.html" class="fa fa-home"> USDA Nutrition Database</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        
+        
+            <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="$_01-convention.html">Conventions Used in Proposal</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="$_02-core.html">Features - Core</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="$_02-core-01-preview.html">Preview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="$_02-core-02-deliverables.html">Deliverables</a></li>
+<li class="toctree-l2"><a class="reference internal" href="$_02-core-03-training.html">Training and Support</a></li>
+<li class="toctree-l2"><a class="reference internal" href="$_02-core-04-rights.html">Property Rights</a></li>
+<li class="toctree-l2"><a class="reference internal" href="$_02-core-05-plan.html">Project Plan</a></li>
+<li class="toctree-l2"><a class="reference internal" href="$_02-core-06-services.html">Services, Products and Technologies</a></li>
+<li class="toctree-l2"><a class="reference internal" href="$_02-core-07-examples.html">Examples: Production Applications</a></li>
+<li class="toctree-l2"><a class="reference internal" href="$_02-core-08-relationships.html">Generic Relationships</a></li>
+<li class="toctree-l2"><a class="reference internal" href="$_02-core-09-user-friendly.html">User Friendly Designs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="$_02-core-10-deposition.html">Data Depository</a></li>
+<li class="toctree-l2"><a class="reference internal" href="$_02-core-11-mathematics.html">Mathematics</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="">REST Services and Reports</a></li>
+<li class="toctree-l2"><a class="reference internal" href="$_02-core-13-internationalization.html">International Data and Methods</a></li>
+<li class="toctree-l2"><a class="reference internal" href="$_02-core-14-harmonization.html">Information Harmonization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="$_02-core-15-integration.html">Data Integration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="$_02-core-16-stakeholders.html">Satisfying Stakeholders&#8217; Data Requirements</a></li>
+<li class="toctree-l2"><a class="reference internal" href="$_02-core-17-real-time-infrastructure.html">Real-time Infrastructure and Reporting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="$_02-core-18-deployment.html">OnTarget Deployment Services</a></li>
+<li class="toctree-l2"><a class="reference internal" href="$_02-core-19-non-composition-data.html">Non-composition Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="$_02-core-20-governance.html">Governance</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="$_03-detail.html">Features - Core with Detail</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="$_03-detail-1-chemicals.html">Chemicals</a></li>
+<li class="toctree-l2"><a class="reference internal" href="$_03-detail-3-commodities.html">Commodities</a></li>
+<li class="toctree-l2"><a class="reference internal" href="$_03-detail-4-foods.html">Foods</a></li>
+<li class="toctree-l2"><a class="reference internal" href="$_03-detail-5-meals.html">Meals</a></li>
+<li class="toctree-l2"><a class="reference internal" href="$_03-detail-6-methods.html">Methods</a></li>
+<li class="toctree-l2"><a class="reference internal" href="$_03-detail-7-mathematics.html">Mathematics</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="$_04-fda.html">Features - FDA Label Specifications</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="$_04-fda-1.html">4-FDA-1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="$_04-fda-2.html">4-FDA-2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="$_04-fda-3.html">4-FDA-3</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="$_06-future.html">Features - Future</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="$_06-future-1.html">6-future-1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="$_06-future-2.html">6-future-2</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="$_07-glossary.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="$_09-figures.html">Figures</a></li>
+<li class="toctree-l1"><a class="reference internal" href="$_10-terms-project.html">Terms related to Project</a></li>
+<li class="toctree-l1"><a class="reference internal" href="$_11-terms-ontology.html">Terms imported from Ontologies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="$_13-bibliography.html">Bibliographies</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="$_13-bibliography-articles-food.html">Articles - Food</a></li>
+<li class="toctree-l2"><a class="reference internal" href="$_13-bibliography-articles-technology.html">Articles - Technology</a></li>
+<li class="toctree-l2"><a class="reference internal" href="$_13-bibliography-books.html">Books</a></li>
+<li class="toctree-l2"><a class="reference internal" href="$_13-bibliography-misc.html">Web Resources</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="$_15-ontomatica.html">Ontomatica</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="$_15-ontomatica-exec-summary.html">Executive Summary</a></li>
+<li class="toctree-l2"><a class="reference internal" href="$_15-ontomatica-expertise.html">Ontomatica Expertise</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="$_12-project-humor.html">Project Humor</a></li>
+</ul>
+
+        
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="$_00-master.html">USDA Nutrition Database</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="$_00-master.html">Docs</a> &raquo;</li>
+      
+          <li><a href="$_02-core.html">Features - Core</a> &raquo;</li>
+      
+    <li>REST Services and Reports</li>
+      <li class="wy-breadcrumbs-aside">
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            
+  <div class="section" id="rest-services-and-reports">
+<span id="core-12-rest-prov"></span><h1>REST Services and Reports<a class="headerlink" href="#rest-services-and-reports" title="Permalink to this headline">¶</a></h1>
+<dl class="role">
+<dt id="role-USDA #6">
+<code class="descname">:USDA #6:</code><a class="headerlink" href="#role-USDA #6" title="Permalink to this definition">¶</a></dt>
+<dd><p>Permit export of composition and analytical data and conversion of composition data to an application development format.</p>
+</dd></dl>
+
+<dl class="role">
+<dt id="role-USDA #10">
+<code class="descname">:USDA #10:</code><a class="headerlink" href="#role-USDA #10" title="Permalink to this definition">¶</a></dt>
+<dd><p>Permit assembly of ad hoc databases to suit individual needs.</p>
+</dd></dl>
+
+<dl class="role">
+<dt id="role-USDA #11">
+<code class="descname">:USDA #11:</code><a class="headerlink" href="#role-USDA #11" title="Permalink to this definition">¶</a></dt>
+<dd><p>Permit export of ad hoc data.</p>
+</dd></dl>
+
+<div class="contents local topic" id="table-of-contents">
+<p class="topic-title first"><cite>Table of contents</cite></p>
+<ul class="simple">
+<li><a class="reference internal" href="#general-structure-of-rest-api" id="id1">General Structure of REST API</a></li>
+<li><a class="reference internal" href="#ondemand-rest-data-services" id="id2">OnDemand REST Data Services</a><ul>
+<li><a class="reference internal" href="#sample-usda-rest-api" id="id3">Sample USDA REST API</a></li>
+<li><a class="reference internal" href="#query-parameters-input-specification" id="id4">Query Parameters: Input Specification</a></li>
+<li><a class="reference internal" href="#query-parameters-operation-specification" id="id5">Query Parameters: Operation Specification</a></li>
+<li><a class="reference internal" href="#query-parameters-output-specification" id="id6">Query Parameters: Output Specification</a></li>
+<li><a class="reference internal" href="#example-full-record-retrieval" id="id7">Example: Full-record retrieval</a></li>
+<li><a class="reference internal" href="#request-food-property-tables" id="id8">Request: Food property tables</a><ul>
+<li><a class="reference internal" href="#return-food-property-table" id="id9">Return food property table</a></li>
+<li><a class="reference internal" href="#variation-return-nutrient-fact-panel-nfp" id="id10">Variation: Return Nutrient Fact Panel (NFP)</a></li>
+<li><a class="reference internal" href="#variation-return-dates" id="id11">Variation: Return dates</a></li>
+<li><a class="reference internal" href="#variation-return-cross-references-xrefs" id="id12">Variation: Return Cross References (XRefs)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<p><a class="reference internal" href="$_10-terms-project.html#terms-label-project"><em>Label project</em></a>  data will be available to <a class="reference internal" href="$_10-terms-project.html#terms-investigator"><em>investigators</em></a>  via <a class="reference internal" href="$_10-terms-project.html#terms-rest"><em>REST</em></a>  (Representational State Transfer) services. REST is a simple stateless architecture that runs over HTTP. REST service reads a designated Web page that contains an XML file in RDF format. XML/RDF file describes and includes label project data. Data is returned to investigator in <a class="reference internal" href="$_10-terms-project.html#terms-json-ld"><em>JSON-LD</em></a>  format.</p>
+<div class="figure">
+<img alt="_images/2_REST.png" src="_images/2_REST.png" />
+</div>
+<div class="section" id="general-structure-of-rest-api">
+<h2><a class="toc-backref" href="#id1">General Structure of REST API</a><a class="headerlink" href="#general-structure-of-rest-api" title="Permalink to this headline">¶</a></h2>
+<p>The following illustrates the retrieval of blog posts by a specific user and identified by a specific tag. The general structure is:</p>
+<dl class="get">
+<dt id="get--users-(int-user_id_)-posts-(tag)">
+<code class="descname">GET </code><code class="descname">/users/</code><span class="sig-paren">(</span><em class="property">int: </em><em>user_id_</em><span class="sig-paren">)</span><code class="descname">/posts/</code><span class="sig-paren">(</span><em>tag</em><span class="sig-paren">)</span><a class="headerlink" href="#get--users-(int-user_id_)-posts-(tag)" title="Permalink to this definition">¶</a></dt>
+<dd><p><strong>Example request</strong>:</p>
+<div class="highlight-http"><div class="highlight"><pre><span class="nf">GET</span> <span class="nn">/users/123/posts/web</span> <span class="kr">HTTP</span><span class="o">/</span><span class="m">1.1</span>
+<span class="na">Host</span><span class="o">:</span> <span class="l">example.com</span>
+<span class="na">Accept</span><span class="o">:</span> <span class="l">application/json, text/javascript</span>
+</pre></div>
+</div>
+<p><strong>Example response</strong>:</p>
+<div class="highlight-http"><div class="highlight"><pre><span class="kr">HTTP</span><span class="o">/</span><span class="m">1.1</span> <span class="m">200</span> <span class="ne">OK</span>
+<span class="na">Vary</span><span class="o">:</span> <span class="l">Accept</span>
+<span class="na">Content-Type</span><span class="o">:</span> <span class="l">text/javascript</span>
+
+<span class="p">[</span>
+  <span class="p">{</span>
+    <span class="s2">&quot;post_id&quot;</span><span class="o">:</span> <span class="mi">12345</span><span class="p">,</span>
+    <span class="s2">&quot;author_id&quot;</span><span class="o">:</span> <span class="mi">123</span><span class="p">,</span>
+    <span class="s2">&quot;tags&quot;</span><span class="o">:</span> <span class="p">[</span><span class="s2">&quot;server&quot;</span><span class="p">,</span> <span class="s2">&quot;web&quot;</span><span class="p">],</span>
+    <span class="s2">&quot;subject&quot;</span><span class="o">:</span> <span class="s2">&quot;I tried JavaScript&quot;</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="s2">&quot;post_id&quot;</span><span class="o">:</span> <span class="mi">12346</span><span class="p">,</span>
+    <span class="s2">&quot;author_id&quot;</span><span class="o">:</span> <span class="mi">123</span><span class="p">,</span>
+    <span class="s2">&quot;tags&quot;</span><span class="o">:</span> <span class="p">[</span><span class="s2">&quot;html5&quot;</span><span class="p">,</span> <span class="s2">&quot;standards&quot;</span><span class="p">,</span> <span class="s2">&quot;web&quot;</span><span class="p">],</span>
+    <span class="s2">&quot;subject&quot;</span><span class="o">:</span> <span class="s2">&quot;We moved to HTML 5&quot;</span>
+  <span class="p">}</span>
+<span class="p">]</span>
+</pre></div>
+</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name" colspan="2">Query Parameters:</th></tr>
+<tr class="field-odd field"><td>&nbsp;</td><td class="field-body"><ul class="first simple">
+<li><strong>sort</strong> &#8211; one of <code class="docutils literal"><span class="pre">hit</span></code>, <code class="docutils literal"><span class="pre">created-at</span></code></li>
+<li><strong>offset</strong> &#8211; offset number. default is 0</li>
+<li><strong>limit</strong> &#8211; limit number. default is 30</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Request Headers:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"><ul class="first simple">
+<li><a class="reference external" href="http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.1">Accept</a> &#8211; the response content type depends on
+<em class="mailheader">Accept</em> header</li>
+<li><a class="reference external" href="http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.8">Authorization</a> &#8211; optional OAuth token to authenticate</li>
+</ul>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name" colspan="2">Response Headers:</th></tr>
+<tr class="field-odd field"><td>&nbsp;</td><td class="field-body"><ul class="first simple">
+<li><a class="reference external" href="http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.17">Content-Type</a> &#8211; this depends on
+<em class="mailheader">Accept</em> header of request</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Status Codes:</th><td class="field-body"><ul class="first last simple">
+<li><a class="reference external" href="http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1">200 OK</a> &#8211; no error</li>
+<li><a class="reference external" href="http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.5">404 Not Found</a> &#8211; there&#8217;s no user</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="ondemand-rest-data-services">
+<h2><a class="toc-backref" href="#id2">OnDemand REST Data Services</a><a class="headerlink" href="#ondemand-rest-data-services" title="Permalink to this headline">¶</a></h2>
+<p>Discussion of REST and <a class="reference internal" href="$_10-terms-project.html#terms-ondemand"><em>OnDemand</em></a></p>
+<div class="section" id="sample-usda-rest-api">
+<h3><a class="toc-backref" href="#id3">Sample USDA REST API</a><a class="headerlink" href="#sample-usda-rest-api" title="Permalink to this headline">¶</a></h3>
+<p>Structure:</p>
+<dl class="get">
+<dt id="get--input specification-operation specification-output specification-operation_options">
+<code class="descname">GET </code><code class="descname">/input specification/operation specification/output specification/operation_options</code><a class="headerlink" href="#get--input specification-operation specification-output specification-operation_options" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<p>Specific:</p>
+<div class="highlight-python"><div class="highlight"><pre>http://usda.ars.gov/rest/&lt;input specification&gt;/&lt;operation specification&gt;/[&lt;output specification&gt;][?&lt;operation_options&gt;]
+</pre></div>
+</div>
+</div>
+<div class="section" id="query-parameters-input-specification">
+<h3><a class="toc-backref" href="#id4">Query Parameters: Input Specification</a><a class="headerlink" href="#query-parameters-input-specification" title="Permalink to this headline">¶</a></h3>
+<p>Input portion of URL tells service which records to use as subject of query. This is further subdivided into two or more locations in URL &#8220;path&#8221; as follows:</p>
+<div class="highlight-python"><div class="highlight"><pre>&lt;input specification&gt; = &lt;domain&gt;/&lt;namespace&gt;/&lt;identifiers&gt;
+
+  &lt;domain&gt; = food | compound | NFP_values | &lt;other inputs&gt;
+
+    food domain &lt;namespace&gt; = USDA_fid | sourceid/&lt;source name&gt; | sourceall/&lt;source name&gt; | name | &lt;xref&gt;
+
+    compound domain &lt;namespace&gt; = PC_cid | name | inchikey | &lt;xref&gt;
+
+    &lt;xref&gt; = xref / {RegistryID | RN | NCBI_ProteinGI | NCBI_TaxonomyID }
+
+    &lt;source name&gt; = any valid Branded Food depositor name
+
+  NFP_values domain &lt;namespace&gt; = NFP_id | type/&lt;NFP type&gt; | sourceall/&lt;source name&gt; | activity/&lt;activity column name&gt; | {_to_be_specified_}
+
+    &lt;NFP type&gt; = all | panel | summary | {_to_be_specified_}
+
+  &lt;identifiers&gt; = comma-separated list of positive integers (e.g. PC_cid, USDA_fid, NFP_id) or identifier strings (source, inchikey)
+
+    &lt;other inputs _to_be_specified_&gt; = sources / [substance, assay] | conformers
+</pre></div>
+</div>
+</div>
+<div class="section" id="query-parameters-operation-specification">
+<h3><a class="toc-backref" href="#id5">Query Parameters: Operation Specification</a><a class="headerlink" href="#query-parameters-operation-specification" title="Permalink to this headline">¶</a></h3>
+<p>Operation part of URL tells service what to do with input records - such as to retrieve whole record or specific properties of a food. Construction of this part of &#8220;path&#8221; will depend on operation. If no operation is specified, default is to retrieve entire record. Available operations dependent on input domain. For example, certain operations are applicable only to foods, compounds and not NFP_values.</p>
+<div class="highlight-python"><div class="highlight"><pre>food domain &lt;operation specification&gt; = record | &lt;food property&gt; | synonyms | PC_cids | NFP_values | classification | &lt;xrefs&gt; | description
+
+  &lt;food property&gt; = property / [comma-separated list of property tags]
+
+  &lt;xrefs&gt; = xrefs / [comma-separated list of xrefs tags]
+
+  NFP domain &lt;operation specification&gt; = record | NFP_ids | USDA_fids | PC_cids | description | summary | classification | xrefs
+</pre></div>
+</div>
+</div>
+<div class="section" id="query-parameters-output-specification">
+<h3><a class="toc-backref" href="#id6">Query Parameters: Output Specification</a><a class="headerlink" href="#query-parameters-output-specification" title="Permalink to this headline">¶</a></h3>
+<p>Final portion of URL tells service what output format is desired. Output format also can be specified in HTTP Accept field of request header.</p>
+<div class="highlight-python"><div class="highlight"><pre>&lt;output specification&gt; = JSON | CSV | TXT
+</pre></div>
+</div>
+</div>
+<div class="section" id="example-full-record-retrieval">
+<h3><a class="toc-backref" href="#id7">Example: Full-record retrieval</a><a class="headerlink" href="#example-full-record-retrieval" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-python"><div class="highlight"><pre>http://usda.ars.gov/rest/food/USDA_fid/2244/JSON
+</pre></div>
+</div>
+</div>
+<div class="section" id="request-food-property-tables">
+<h3><a class="toc-backref" href="#id8">Request: Food property tables</a><a class="headerlink" href="#request-food-property-tables" title="Permalink to this headline">¶</a></h3>
+<p>Request properties for a food (USDA_fid) or compound (PC_cid).</p>
+<div class="highlight-python"><div class="highlight"><pre>http://usda.ars.gov/rest/food/USDA_fid/3114/property/JSON
+</pre></div>
+</div>
+<div class="section" id="return-food-property-table">
+<h4><a class="toc-backref" href="#id9">Return food property table</a><a class="headerlink" href="#return-food-property-table" title="Permalink to this headline">¶</a></h4>
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Property</th>
+<th class="head">Notes</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>_to_be_specified_</td>
+<td>_to_be_specified_</td>
+</tr>
+<tr class="row-odd"><td>_to_be_specified_</td>
+<td>_to_be_specified_</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="variation-return-nutrient-fact-panel-nfp">
+<h4><a class="toc-backref" href="#id10">Variation: Return Nutrient Fact Panel (NFP)</a><a class="headerlink" href="#variation-return-nutrient-fact-panel-nfp" title="Permalink to this headline">¶</a></h4>
+<table border="1" class="docutils">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Options</th>
+<th class="head">Allowed Values</th>
+<th class="head">meaning</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>NFP_type</td>
+<td>all, primary, secondary</td>
+<td>Type of NFP to return given, USDA_fids, PC_cids</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="variation-return-dates">
+<h4><a class="toc-backref" href="#id11">Variation: Return dates</a><a class="headerlink" href="#variation-return-dates" title="Permalink to this headline">¶</a></h4>
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Date</th>
+<th class="head">Meaning</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Deposition</td>
+<td>when an USDA_fid or NFP_id first appeared</td>
+</tr>
+<tr class="row-odd"><td>Modification</td>
+<td>when an USDA_fid or NFP_id was last modified</td>
+</tr>
+<tr class="row-even"><td>Hold</td>
+<td>when an USDA_fid or NFP_id will be released</td>
+</tr>
+<tr class="row-odd"><td>Creation</td>
+<td>when a USDA_fid or NFP_id first appeared</td>
+</tr>
+<tr class="row-even"><td>Deprecation</td>
+<td>when a USDA_fid or NFP_id is no longer active</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="variation-return-cross-references-xrefs">
+<h4><a class="toc-backref" href="#id12">Variation: Return Cross References (XRefs)</a><a class="headerlink" href="#variation-return-cross-references-xrefs" title="Permalink to this headline">¶</a></h4>
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Cross Reference</th>
+<th class="head">Meaning</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>RegistryID</td>
+<td>external registry identifier</td>
+</tr>
+<tr class="row-odd"><td>PubMedID</td>
+<td>NCBI PubMed identifier</td>
+</tr>
+<tr class="row-even"><td>DBURL</td>
+<td>external database home page URL</td>
+</tr>
+<tr class="row-odd"><td>TaxonomyID</td>
+<td>NCBI taxonomy identifier</td>
+</tr>
+<tr class="row-even"><td>SourceName</td>
+<td>external depositor name</td>
+</tr>
+<tr class="row-odd"><td>SourceCategory</td>
+<td>depositor category(ies)</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<p>Model sites that implement REST</p>
+<ul class="last simple">
+<li><a class="reference external" href="http://www.chemaxon.com/products/jchem-web-services/">ChemAxon concepts</a></li>
+<li><a class="reference external" href="https://restdemo.chemaxon.com/apidocs/">ChemAxon application programming interface (APIs)</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="$_02-core-13-internationalization.html" class="btn btn-neutral float-right" title="International Data and Methods"/>Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="$_02-core-11-mathematics.html" class="btn btn-neutral" title="Mathematics"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+    </p>
+  </div>
+
+  <a href="https://github.com/snide/sphinx_rtd_theme">Sphinx theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
