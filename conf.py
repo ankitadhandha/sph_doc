@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# sample_doc documentation build configuration file, created by sphinx-quickstart.
-#
 # This file is execfile()d with the current directory set to its containing dir.
 #
 
@@ -17,7 +15,7 @@ if not on_rtd:  # only import and set the theme if we're building docs locally
 # directory relative to this conf file
 CURDIR = os.path.abspath(os.path.dirname(__file__))
 
-# If extensions (or modules to document with autodoc) are in another directory, add these directories to sys.path here.
+# If extensions (or modules to document with auto-doc) are in another directory, add these directories to sys.path here.
 # If the directory is relative to the documentation root, use os.path.abspath to make it absolute, like shown here.
 
 # add custom extensions directory to python path
@@ -45,7 +43,7 @@ source_suffix = '.rst'
 source_encoding = 'utf-8-sig'
 
 # The master toctree document.
-master_doc = '$_00-master'
+master_doc = 'index.rst'
 
 # Project information. Label goes into left nav title block
 project = 'USDA Nutrition Database'
@@ -219,9 +217,9 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
-latex_documents = [
-  ('index', 'sample_doc.tex', 'sample\\_doc Documentation', 'hidepy', 'manual'),
-]
+#latex_documents = [
+#                  ('index', 'sample_doc.tex', 'sample\\_doc Documentation', 'hidepy', 'manual'),
+#                  ]
 
 # The name of an image file (relative to this directory) to place at the top of the title page.
 #latex_logo = None
@@ -246,9 +244,9 @@ latex_documents = [
 
 # One entry per manual page.
 # List of tuples (source start file, name, description, authors, manual section).
-man_pages = [
-    ('index', 'sample_doc', 'sample_doc Documentation', ['hidepy'], 1)
-]
+#man_pages = [
+#            ('index', 'sample_doc', 'sample_doc Documentation', ['hidepy'], 1)
+#            ]
 
 # If true, show URL addresses after external links.
 #man_show_urls = False
@@ -257,10 +255,10 @@ man_pages = [
 
 # Grouping the document tree into Texinfo files.
 # List of tuples (source start file, target name, title, author, dir menu entry, description, category)
-texinfo_documents = [
-  ('index', 'sample_doc', 'sample_doc Documentation', 'hidepy', 
-  'sample_doc', 'One line description of project.', 'Miscellaneous'),
-]
+#texinfo_documents = [
+#                    ('index', 'sample_doc', 'sample_doc Documentation', 'hidepy', 
+#                    'sample_doc', 'One line description of project.', 'Miscellaneous'),
+#                    ]
 
 # Documents to append as an appendix to all manuals.
 #texinfo_appendices = []
