@@ -43,7 +43,7 @@ source_suffix = '.rst'
 source_encoding = 'utf-8-sig'
 
 # The master toctree document.
-master_doc = 'index.rst'
+master_doc = 'index'
 
 # Project information. Label goes into left nav title block
 project = 'USDA Nutrition Database'

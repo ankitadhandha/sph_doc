@@ -5,9 +5,9 @@
 Articles - Food
 ===============
 
-.. bibliography:: $_14-refs-articles-food.bib
-   :cited:
-   :all:
-   :style: plain
-   :labelprefix: F
+# .. bibliography:: $_14-refs-articles-food.bib
+#    :cited:
+#    :all:
+#    :style: plain
+#    :labelprefix: F
 

@@ -5,9 +5,9 @@
 Articles - Technology
 =====================
 
-.. bibliography:: $_14-refs-articles-technology.bib
-   :cited:
-   :all:
-   :style: plain
-   :labelprefix: T
+# .. bibliography:: $_14-refs-articles-technology.bib
+#    :cited:
+#    :all:
+#    :style: plain
+#    :labelprefix: T
 

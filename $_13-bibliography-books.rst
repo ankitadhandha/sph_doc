@@ -5,9 +5,9 @@
 Books
 =====
 
-.. bibliography:: $_14-refs-books.bib
-   :cited:
-   :all:
-   :style: plain
-   :labelprefix: B
+# .. bibliography:: $_14-refs-books.bib
+#    :cited:
+#    :all:
+#    :style: plain
+#    :labelprefix: B
 

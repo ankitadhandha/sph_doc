@@ -11,6 +11,5 @@ Intro text goes here
    :maxdepth: 3
 
    $_03-detail-1-chemicals-1-nutrients-1-web.rst
-   $_03-detail-1-chemicals-1-nutrients-2-local.rst
    $_03-detail-1-chemicals-1-nutrients-3-taxonomy.rst
 
