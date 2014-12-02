@@ -101,8 +101,8 @@ default_role = None
 #show_authors = False
 
 # A string of reStructuredText that will be included at the end of every source file that is read.
-# decode fails: rst_epilog = open(os.path.join(CURDIR, 'epilog.rst'),'r').read().decode('utf8')
-rst_epilog = open(os.path.join(CURDIR, 'epilog.rst'),'r').read().decode('utf-8')
+# decode fails: rst_epilog = open(os.path.join(CURDIR, 'epilog.rst'),'r').read().decode('utf-8')
+rst_epilog = open(os.path.join(CURDIR, 'epilog.rst'),'r').read()
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
