@@ -31,9 +31,20 @@ sys.path.append(os.path.join(os.path.abspath(os.path.dirname(__file__)), '_exten
 extensions = [
                'sphinx.ext.autodoc',
                'sphinxcontrib.napoleon',
-#              'sphinxcontrib.bibtex',
+               'sphinxcontrib.bibtex',
 #              'sphinxcontrib.httpdomain',
              ]
+# Napoleon settings
+napoleon_google_docstring = True
+napoleon_numpy_docstring = True
+napoleon_include_private_with_doc = False
+napoleon_include_special_with_doc = True
+napoleon_use_admonition_for_examples = False
+napoleon_use_admonition_for_notes = False
+napoleon_use_admonition_for_references = False
+napoleon_use_ivar = False
+napoleon_use_param = True
+napoleon_use_rtype = True
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -131,8 +142,8 @@ html_title = ""
 # They are copied after the builtin static files, so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
-# Add any extra paths that contain custom files (such as robots.txt or .htaccess) here, 
-# relative to this directory. These files are copied directly to the root of the documentation.
+# Add any extra paths that contain custom files (such as robots.txt or .htaccess) here, relative to this directory.
+# These files are copied directly to the root of the documentation.
 html_extra_path = ['_images']
 
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom, using the given strftime format.
