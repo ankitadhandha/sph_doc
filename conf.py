@@ -32,7 +32,7 @@ extensions = [
               'sphinx.ext.autodoc',
               'sphinxcontrib.napoleon',
               'sphinxcontrib.bibtex',
-#              'sphinxcontrib.httpdomain',
+              'sphinxcontrib.httpdomain',
              ]
 # Napoleon settings
 napoleon_google_docstring = True

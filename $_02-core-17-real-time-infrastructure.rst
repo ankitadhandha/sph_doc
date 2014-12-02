@@ -48,7 +48,7 @@ Example from access to Nobel Prize application.
    
    * IP address: 72.167.253.87
    
-   * query terms: select name from gender where parent=
+   * query terms: (see example below, beginning "select name from gender where parent= ...")
 
 ::
 
