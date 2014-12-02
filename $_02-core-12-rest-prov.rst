@@ -67,11 +67,9 @@ The following illustrates the retrieval of blog posts by a specific user and ide
    :query sort: one of ``hit``, ``created-at``
    :query offset: offset number. default is 0
    :query limit: limit number. default is 30
-   :reqheader Accept: the response content type depends on
-                      :mailheader:`Accept` header
+   :reqheader Accept: the response content type depends on :mailheader:`Accept` header
    :reqheader Authorization: optional OAuth token to authenticate
-   :resheader Content-Type: this depends on
-                      :mailheader:`Accept` header of request
+   :resheader Content-Type: this depends on :mailheader:`Accept` header of request
    :statuscode 200: no error
    :statuscode 404: there's no user
 
@@ -92,7 +90,7 @@ Specific:
 
 ::
 
-    http://usda.ars.gov/rest/<input specification>/<operation specification>/[<output specification>][?<operation_options>]
+   http://usda.ars.gov/rest/<input_specification>/<operation_specification>/[<output_specification>][?<operation_options>]
 
 Query Parameters: Input Specification
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -101,7 +99,7 @@ Input portion of URL tells service which records to use as subject of query. Thi
 
 ::
 
-    <input specification> = <domain>/<namespace>/<identifiers>
+    <input_specification> = <domain>/<namespace>/<identifiers>
     
       <domain> = food | compound | NFP_values | <other inputs>
     
@@ -111,15 +109,15 @@ Input portion of URL tells service which records to use as subject of query. Thi
     
         <xref> = xref / {RegistryID | RN | NCBI_ProteinGI | NCBI_TaxonomyID }
     
-        <source name> = any valid Branded Food depositor name
+        <source_name> = any valid Branded Food depositor name
     
       NFP_values domain <namespace> = NFP_id | type/<NFP type> | sourceall/<source name> | activity/<activity column name> | {_to_be_specified_}
     
-        <NFP type> = all | panel | summary | {_to_be_specified_}
+        <NFP_type> = all | panel | summary | {_to_be_specified_}
     
       <identifiers> = comma-separated list of positive integers (e.g. PC_cid, USDA_fid, NFP_id) or identifier strings (source, inchikey)
     
-        <other inputs _to_be_specified_> = sources / [substance, assay] | conformers
+        <other_inputs_to_be_specified_> = sources / [substance, assay] | conformers
 
 Query Parameters: Operation Specification
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -128,13 +126,13 @@ Operation part of URL tells service what to do with input records - such as to r
 
 ::
 
-    food domain <operation specification> = record | <food property> | synonyms | PC_cids | NFP_values | classification | <xrefs> | description
+    food domain <operation_specification> = record | <food_property> | synonyms | PC_cids | NFP_values | classification | <xrefs> | description
     
-      <food property> = property / [comma-separated list of property tags]
+      <food_property> = property / [comma-separated list of property tags]
     
       <xrefs> = xrefs / [comma-separated list of xrefs tags]
     
-      NFP domain <operation specification> = record | NFP_ids | USDA_fids | PC_cids | description | summary | classification | xrefs
+      NFP domain <operation_specification> = record | NFP_ids | USDA_fids | PC_cids | description | summary | classification | xrefs
 
 Query Parameters: Output Specification
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -143,7 +141,7 @@ Final portion of URL tells service what output format is desired. Output format 
 
 ::
 
-    <output specification> = JSON | CSV | TXT
+    <output:specification> = JSON | CSV | TXT
 
 Example: Full-record retrieval
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
