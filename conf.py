@@ -29,8 +29,8 @@ sys.path.append(os.path.join(os.path.abspath(os.path.dirname(__file__)), '_exten
 # Add any Sphinx extension module names here, as strings.
 # They can be extensions coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
 extensions = [
-               'sphinx.ext.autodoc',
-               'sphinxcontrib.napoleon',
+#              'sphinx.ext.autodoc',
+#              'sphinxcontrib.napoleon',
 #              'sphinxcontrib.bibtex',
 #              'sphinxcontrib.httpdomain',
              ]
@@ -204,29 +204,29 @@ htmlhelp_basename = 'htmlhelpoutput'
 
 latex_elements = {
 # The paper size ('letterpaper' or 'a4paper').
-#'papersize': 'letterpaper',
+'papersize': 'letterpaper',
 
 # The font size ('10pt', '11pt' or '12pt').
-#'pointsize': '10pt',
+'pointsize': '10pt',
 
 # Additional stuff for the LaTeX preamble.
-#'preamble': '',
+'preamble': '',
 
 # Latex figure (float) alignment
-#'figure_align': 'htbp',
-#}
+'figure_align': 'htbp',
+}
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto, manual, or own class]).
-#latex_documents = [
-#                  ('index', 'sample_doc.tex', 'sample\\_doc Documentation', 'hidepy', 'manual'),
-#                  ]
+latex_documents = [
+                  ('index', 'sample_doc.tex', 'sample\\_doc Documentation', 'hidepy', 'manual'),
+                  ]
 
 # The name of an image file (relative to this directory) to place at the top of the title page.
-#latex_logo = None
+latex_logo = None
 
 # For "manual" documents, if this is true, then toplevel headings are parts, not chapters.
-#latex_use_parts = False
+latex_use_parts = False
 
 # If true, show page references after internal links.
 #latex_show_pagerefs = False
@@ -245,9 +245,9 @@ latex_elements = {
 
 # One entry per manual page.
 # List of tuples (source start file, name, description, authors, manual section).
-#man_pages = [
-#            ('index', 'sample_doc', 'sample_doc Documentation', ['hidepy'], 1)
-#            ]
+man_pages = [
+            ('index', 'sample_doc', 'sample_doc Documentation', ['hidepy'], 1)
+            ]
 
 # If true, show URL addresses after external links.
 #man_show_urls = False
@@ -256,10 +256,10 @@ latex_elements = {
 
 # Grouping the document tree into Texinfo files.
 # List of tuples (source start file, target name, title, author, dir menu entry, description, category)
-#texinfo_documents = [
-#                    ('index', 'sample_doc', 'sample_doc Documentation', 'hidepy', 
-#                    'sample_doc', 'One line description of project.', 'Miscellaneous'),
-#                    ]
+texinfo_documents = [
+                    ('index', 'sample_doc', 'sample_doc Documentation', 'hidepy', 
+                    'sample_doc', 'One line description of project.', 'Miscellaneous'),
+                    ]
 
 # Documents to append as an appendix to all manuals.
 #texinfo_appendices = []
