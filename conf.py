@@ -30,7 +30,7 @@ sys.path.append(os.path.join(os.path.abspath(os.path.dirname(__file__)), '_exten
 # They can be extensions coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
 extensions = [
               'sphinx.ext.autodoc',
-#              'sphinxcontrib.napoleon',
+              'sphinxcontrib.napoleon',
 #              'sphinxcontrib.bibtex',
 #              'sphinxcontrib.httpdomain',
              ]
