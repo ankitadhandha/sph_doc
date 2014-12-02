@@ -102,7 +102,7 @@ default_role = None
 
 # A string of reStructuredText that will be included at the end of every source file that is read.
 # decode fails: rst_epilog = open(os.path.join(CURDIR, 'epilog.rst'),'r').read().decode('utf8')
-rst_epilog = open(os.path.join(CURDIR, 'epilog.rst'),'r').read()
+rst_epilog = open(os.path.join(CURDIR, 'epilog.rst'),'r').read().decode('utf-8')
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
@@ -139,14 +139,14 @@ html_title = ""
 #html_favicon = "USDA_ARS.png"
 
 # Add any paths that contain custom static files (such as style sheets) here, relative to this directory.
-# They are copied after the builtin static files, so a file named "default.css" will overwrite the builtin "default.css".
+# They are copied after the built-in static files, so a file named "default.css" will overwrite the built-in "default.css".
 html_static_path = ['_static']
 
 # Add any extra paths that contain custom files (such as robots.txt or .htaccess) here, relative to this directory.
 # These files are copied directly to the root of the documentation.
 html_extra_path = ['_images']
 
-# If not '', a 'Last updated on:' timestamp is inserted at every page bottom, using the given strftime format.
+# If not '', a 'Last updated on:' time-stamp is inserted at every page bottom, using the given strftime format.
 #html_last_updated_fmt = '%d %b %Y'
 
 # If true, SmartyPants will be used to convert quotes and dashes to typographically correct entities.
