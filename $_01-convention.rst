@@ -5,6 +5,18 @@
 Conventions Used in Proposal
 ============================
 
+Test
+
+:param path: The path of the file to wrap
+:type path: str
+:param field_storage: The :class:`FileStorage` instance to wrap
+:type field_storage: FileStorage
+:param temporary: Whether or not to delete the file when the File
+   instance is destructed
+:type temporary: bool
+:returns: A buffered writable file descriptor
+:rtype: BufferedFileStorage
+
 Introduction
 
 USDA **requirements** are formatted as follows:
@@ -27,15 +39,13 @@ A bibliographic **references** is formatted as follows: See :cite:`5002` for mor
 
 .. sidebar:: Sidebar
 
-   Complementary detail listed here
+   Provides complementary detail
 
 **Discussion** about a design or approach.
 
    * point 1
    * point 2
    * point 3
-
-Call-outs as follows:
 
 .. seealso::
      

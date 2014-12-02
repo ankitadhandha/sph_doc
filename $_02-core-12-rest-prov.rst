@@ -34,16 +34,21 @@ The following illustrates the retrieval of blog posts by a specific user and ide
 .. http:get:: /users/(int:user_id_)/posts/(tag)
 
    **Example request**:
+
    .. sourcecode:: http
+
       GET /users/123/posts/web HTTP/1.1
       Host: example.com
       Accept: application/json, text/javascript
 
-      **Example response**:
+   **Example response**:
+
    .. sourcecode:: http
+
       HTTP/1.1 200 OK
       Vary: Accept
       Content-Type: text/javascript
+
       [
         {
           "post_id": 12345,
