@@ -5,9 +5,9 @@
 Web Resources
 =============
 
-# .. bibliography:: $_14-refs-misc.bib
-#    :cited:
-#    :all:
-#    :style: plain
-#    :labelprefix: W
+.. bibliography:: $_14-refs-misc.bib
+   :cited:
+   :all:
+   :style: plain
+   :labelprefix: W
 
