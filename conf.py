@@ -31,7 +31,7 @@ sys.path.append(os.path.join(os.path.abspath(os.path.dirname(__file__)), '_exten
 extensions = [
               'sphinx.ext.autodoc',
 #              'sphinx.ext.napoleon',
-              'sphinxcontrib.bibtex',
+#              'sphinxcontrib.bibtex',
 #              'sphinxcontrib.httpdomain',
              ]
 # Napoleon settings
