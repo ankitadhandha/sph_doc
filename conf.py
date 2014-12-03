@@ -4,7 +4,8 @@
 # This file is execfile()d with the current directory set to its containing dir.
 #
 
-import sys, os
+import sys
+import os
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
 if not on_rtd:  # only import and set the theme if we're building docs locally
@@ -18,7 +19,7 @@ CURDIR = os.path.abspath(os.path.dirname(__file__))
 
 # If extensions (or modules to document with auto-doc) are in another directory, add these directories to sys.path here.
 # add custom extensions directory to python path
-sys.path.append(os.path.join(os.path.abspath(os.path.dirname(__file__)), '_extensions'))
+#sys.path.append(os.path.join(os.path.abspath(os.path.dirname(__file__)), '_extensions'))
 
 # -- General configuration ---------------------------------------------------------------------------------------------
 
@@ -29,21 +30,71 @@ sys.path.append(os.path.join(os.path.abspath(os.path.dirname(__file__)), '_exten
 # They can be extensions coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
 extensions = [
               'sphinx.ext.autodoc',
+              'sphinx.ext.doctest',
+              'sphinx.ext.coverage',
+              'sphinx.ext.mathjax',
+              'sphinx.ext.viewcode',
               'sphinxcontrib.napoleon',
               'sphinxcontrib.bibtex',
               'sphinxcontrib.httpdomain',
              ]
-# Napoleon settings
+
+# -- Options for Napoleon Extension --------------------------------------------
+
+# Parse Google style docstrings.
+# See http://google-styleguide.googlecode.com/svn/trunk/pyguide.html
 napoleon_google_docstring = True
+
+# Parse NumPy style docstrings.
+# See https://github.com/numpy/numpy/blob/master/doc/HOWTO_DOCUMENT.rst.txt
 napoleon_numpy_docstring = False
+
+# Should special members (like __membername__) and private members (like _membername) members be included
+# in the documentation if they have docstrings.
 napoleon_include_private_with_doc = False
 napoleon_include_special_with_doc = True
+
+# If True, docstring sections will use the ".. admonition::" directive.
+# If False, docstring sections will use the ".. rubric::" directive.
+# One may look better than the other depending on what HTML theme is used.
 napoleon_use_admonition_for_examples = False
 napoleon_use_admonition_for_notes = False
 napoleon_use_admonition_for_references = False
+
+# If True, use Sphinx :ivar: directive for instance variables:
+#     :ivar attr1: Description of attr1.
+#     :type attr1: type
+# If False, use Sphinx .. attribute:: directive for instance variables:
+#     .. attribute:: attr1
+#
+#        *type*
+#
+#        Description of attr1.
 napoleon_use_ivar = False
+
+# If True, use Sphinx :param: directive for function parameters:
+#     :param arg1: Description of arg1.
+#     :type arg1: type
+# If False, output function parameters using the :parameters: field:
+#     :parameters: **arg1** (*type*) -- Description of arg1.
 napoleon_use_param = True
+
+# If True, use Sphinx :rtype: directive for the return type:
+#     :returns: Description of return value.
+#     :rtype: type
+# If False, output the return type inline with the return description:
+#     :returns: *type* -- Description of return value.
 napoleon_use_rtype = True
+
+# -- Autodoc configuration -----------------------------------------------------------------
+
+autoclass_content = 'class'
+
+autodoc_member_order = 'bysource'
+
+autodoc_default_flags = ['members']
+
+# -- More general configuration ------------------------------------------------------------
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -143,7 +194,7 @@ html_static_path = ['_static']
 
 # Add any extra paths that contain custom files (such as robots.txt or .htaccess) here, relative to this directory.
 # These files are copied directly to the root of the documentation.
-html_extra_path = ['_images']
+#html_extra_path = ['_images']
 
 # If not '', a 'Last updated on:' time-stamp is inserted at every page bottom, using the given strftime format.
 #html_last_updated_fmt = '%d %b %Y'

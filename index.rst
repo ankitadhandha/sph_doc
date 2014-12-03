@@ -52,6 +52,7 @@ Table of Contents
 .. toctree::
    :maxdepth: 2
 
+   $_00-preamble.rst
    $_01-convention.rst
    $_02-core.rst
    $_03-detail.rst
