@@ -13,12 +13,5 @@ Odor Samples
 ============
 
 Level 2
--------
-
-Level 3
 ^^^^^^^
-
-.. seealso::
-
-   Reference to a related section of the Proposal
 

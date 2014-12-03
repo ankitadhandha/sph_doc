@@ -10,42 +10,15 @@ Food Additives from ChEFS and ChEMATIC
    :local:
 
 Example_1
-=========
+---------
 
-Level 2
--------
-
-Level 3
-^^^^^^^
-
-.. seealso::
-
-   Reference to a related section of the Proposal
 
 Example_2
-=========
+---------
 
-Level 2
--------
-
-Level 3
-^^^^^^^
-
-.. seealso::
-
-   Reference to a related section of the Proposal
 
 Example_3
-=========
+---------
 
-Level 2
--------
-
-Level 3
-^^^^^^^
-
-.. seealso::
-
-   Reference to a related section of the Proposal
 
    

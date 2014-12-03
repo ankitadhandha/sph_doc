@@ -6,8 +6,7 @@ Preamble
 ========
 
 
-|     I keep six honest serving-men
-|      (they taught me all I knew);
+|     I keep six honest serving-men (they taught me all I knew);
 |     Their names are What and Why and When
 |     and How and Where and Who.
 |

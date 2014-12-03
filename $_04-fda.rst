@@ -10,7 +10,7 @@ Intro text goes here
 .. toctree::
    :maxdepth: 1
 
-   $_04-fda-1.rst
-   $_04-fda-2.rst
-   $_04-fda-3.rst
+   $_04-fda-1-coverage.rst
+   $_04-fda-2-allergens.rst
+   $_04-fda-3-label-claims.rst
 

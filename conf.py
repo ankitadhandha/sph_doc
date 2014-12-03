@@ -136,6 +136,7 @@ number_figures = True
 exclude_patterns = [
                     '_build',
                     'epilog.rst',
+                    '$_00-a-samples.rst',
                    ]
 
 # The reST default role (used for this markup: `text`) to use for all documents.

@@ -13,25 +13,11 @@ Added to Foods
 ==============
 
 Level 2
--------
-
-Level 3
 ^^^^^^^
-
-.. seealso::
-
-   Reference to a related section of the Proposal
 
 Bioactivity
 ===========
 
 Level 2
--------
-
-Level 3
 ^^^^^^^
-
-.. seealso::
-
-   Reference to a related section of the Proposal
 
