@@ -29,6 +29,7 @@ Table of contents for REST Service and Reports
 :ref:`Label project <terms-Label-Project>` |_| data will be available to :ref:`investigators <terms-Investigator>` |_| via :ref:`REST <terms-REST>` |_| (Representational State Transfer) services. REST is a simple stateless architecture that runs over HTTP. REST service reads a designated Web page that contains an XML file in RDF format. XML/RDF file describes and includes label project data. Data is returned to investigator in :ref:`JSON-LD <terms-JSON-LD>` |_| format.
 
 .. figure:: 2_REST.png
+   :align: center
 
 -----------------------------
 General Structure of REST API

@@ -60,7 +60,3 @@ Ontomatica harmonizes information from many sources. Our technique creates relat
    "", "AOAC international methods", ""
    "", "Methods associated with specific analytical devices and equipment", ""
 
-.. seealso::
-
-   Reference to a related section of the Proposal
-

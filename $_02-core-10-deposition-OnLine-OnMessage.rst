@@ -8,20 +8,19 @@ OnLine and OnMessage
 Process
 -------
 
+Explanation.
+
 .. figure:: $_02-core-10-deposition-OnLine-OnMessage_.png
    :align: center
    
-   Image: Top Down and Bottom Up Deposition
+   OnLine and OnMessage Deposition
 
 Integration of GS1, GTIN and Vocal Data
 ---------------------------------------
 
+Explanation.
+
 .. figure:: $_02-core-10-deposition-OnLine-OnMessage-GTIN-Vocal_.png
    :align: center
    
-   Image: GS1, GTIN, Bricks and Vocal
-
-.. seealso::
-
-   Reference to a related section of the Proposal
 

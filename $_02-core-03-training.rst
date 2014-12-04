@@ -23,6 +23,5 @@ Ontomatica anticipates an upgrade to :ref:`Navigator <terms-Navigator>` |_| duri
 
 Ontomatica can provide optional :ref:`maintenance services <terms-Maintenance-Service>` |_| in second and subsequent operating years.
 
-
 .. |_| unicode:: 0x80
 

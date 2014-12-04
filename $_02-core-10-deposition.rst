@@ -19,11 +19,6 @@ Table of contents for Data Depository
 
    $_02-core-10-deposition-OnLine-OnMessage.rst
    $_02-core-10-deposition-top-down.rst
-   $_02-core-10-deposition-pre-combined.rst
    $_02-core-10-deposition-bottom-up.rst
 
-
-.. seealso::
-
-   Reference to a related section of the Proposal
 

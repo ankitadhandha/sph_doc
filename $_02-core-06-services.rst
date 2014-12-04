@@ -5,10 +5,10 @@
 Services, Products and Technologies
 ===================================
 
-The following table identifies Technologies used by Ontomatica Products that implement types of Services.
+The following table identifies technologies used by Ontomatica products that implement :ref:`label project <terms-Label-Project>` |_|  services.
 
 .. csv-table::
-   :header: "Services", "Ontomatica Products", "Technologies"
+   :header: "Label Project Services", "Ontomatica Products", "Technologies"
    :widths: 15, 20, 25
 
    "Application Services", ":ref:`Navigator <terms-Navigator>`", ":ref:`Label Classes <terms-Label-Class>`"
@@ -40,4 +40,6 @@ The following table identifies Technologies used by Ontomatica Products that imp
 
 .. |S| replace:: See illustration
 .. _S: $_02-core-17-real-time-infrastructure.html
+
+.. |_| unicode:: 0x80
 

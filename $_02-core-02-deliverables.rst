@@ -38,7 +38,7 @@ Ontomatica deposition services:
 Two options are available to deposit data:
 
 - :ref:`Message deposit <terms-Message-Deposit>` |_| is an electronic submissions from GS1
-- :ref:`Web deposit <terms-Web-Deposit>` |_| is on-line interface for food suppliers and investigators
+- :ref:`Web deposit <terms-Web-Deposit>` |_| is an on-line interface for food suppliers and investigators
 
 Ontomatica application, deposition and data services will support two data groups:
 

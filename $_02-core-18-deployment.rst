@@ -19,12 +19,17 @@ Table of contents for OnTarget Deployment Services
 OnTarget
 ========
 
+Description.
+
 .. image:: 2_OnTarget_deployment.png
+   :align: center
 
 make++
 ======
 
-Make file code::
+Description.
+
+::
 
    #!/usr/bin/env python
    
@@ -115,8 +120,4 @@ Make file code::
    for item in itemids:
        file.write('%d\t%s\n' % (item, ' '.join(texts[item].split())))
    file.close()
-
-.. seealso::
-
-   Reference to a related section of the Proposal
 

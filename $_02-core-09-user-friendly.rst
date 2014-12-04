@@ -14,58 +14,54 @@ This section addresses:
 Ontomatica Navigator
 ====================
 
-Ontomatica's :ref:`Navigator <terms-Navigator>` architecture is similar to other modern navigation systems. The Volkswagen `"Find a Match" application <http://www.vw.com/find-match/engine/>`_ is one example.
+Ontomatica's :ref:`Navigator <terms-Navigator>` |_| architecture is similar to other modern navigation systems. The Volkswagen `"Find a Match" application <http://www.vw.com/find-match/engine/>`_ is one example.
 
 .. figure:: $_02-core-09-user-friendly-volkswagen_.png
    :align: center
    
-   Image: Volkswagen "Find a Match" application
+   Volkswagen "Find a Match" application
 
 The Volkswagen application navigates this `ontology <http://ontorule-project.eu/parrot/parrot?documentUri=http://www.volkswagen.co.uk/vocabularies/vvo/ns.owl>`_.
 
-Ontomatica's Navigator, traversing the :ref:`graphs <terms-Graph>` implemented in the `homeopathic application <http://72.167.253.87/cgi-bin/flamenco.cgi/_Homeopathic_Remedies_-_14-01-16_/Flamenco?q=arthritis&index=0>`_, operates in the same way as the Volkswagen navigator, but use different data.
+Ontomatica's Navigator, traversing the :ref:`graphs <terms-Graph>` |_| implemented in the `homeopathic application <http://72.167.253.87/cgi-bin/flamenco.cgi/_Homeopathic_Remedies_-_14-01-16_/Flamenco?q=arthritis&index=0>`_, operates in the same way as the Volkswagen navigator, but use different data.
 
 .. figure:: $_02-core-09-user-friendly-homeopathic_.png
    :align: center
    
-   Image: Ontology for a remedy composed of biological components
+   Ontology for a remedy composed of biological components
 
 Navigator's Underlying Data Structures
 ======================================
 
 Volkswagen and Ontomatica use the same underlying technology for specifying and storing data. Both specify data using ontologies and store ontology representations in the following formats:
 
-- `XML <http://en.wikipedia.org/wiki/XML>`_
+- `Web Ontology Language <http://en.wikipedia.org/wiki/Web_Ontology_Language>`_ |_| (OWL)
 
-- `RDF <http://en.wikipedia.org/wiki/Resource_Description_Framework>`_
+- `XML/RDF <http://en.wikipedia.org/wiki/Resource_Description_Framework>`_
 
 - `JSON-LD <http://en.wikipedia.org/wiki/JSON-LD>`_
 
 Navigator and USDA Label Project
 ================================
 
-Ontomatica Nobel Prize application illustrates :ref:`application services <terms-Application-Service>` |_| navigating :ref:`data services <terms-Data-Service>` |_| that manage content familiar to many. For example, `U.S. Nobel Laureates in Chemistry <http://72.167.253.87/cgi-bin/flamenco.cgi/_Nobel_Prize_Winners_-_14-01-16_/Flamenco?q=country:50/prize:1&group=country>`_.
+Ontomatica Nobel Prize application illustrates :ref:`application services <terms-Application-Service>` |_| navigating :ref:`data services <terms-Data-Service>` |_| that manage content familiar to many. For example, here are `U.S. Nobel Laureates in Chemistry <http://72.167.253.87/cgi-bin/flamenco.cgi/_Nobel_Prize_Winners_-_14-01-16_/Flamenco?q=country:50/prize:1&group=country>`_.
 
 .. figure:: $_02-core-09-user-friendly-nobel-prize_.png
    :align: center
    
-   Image: U.S. winners of the Nobel Prize for Chemistry
+   U.S. winners of the Nobel Prize for Chemistry
 
 :ref:`Complete System <terms-Complete-System>` |_| will look and operate like the Nobel Prize applications and the Volkswagen "Find a Match" application.
 
-In place of the Nobel Laureate image will be the branded food label image registered by a :ref:`supplier <terms-Food-Supplier>` |_| during the :ref:`web deposit <terms-Web-Deposit>` |_|  process.
+In place of the Nobel Laureate's picture will be the branded food label image registered by a :ref:`supplier <terms-Food-Supplier>` |_| during the :ref:`web deposit <terms-Web-Deposit>` |_| process.
 
-All queries are represented as a `Universal Resource Identifier <http://en.wikipedia.org/wiki/Uniform_resource_identifier>`_. This means that an :ref:`end user <terms-End-User>`, :ref:`investigator <terms-Investigator>` |_| and supplier can easily link to and re-use a reference to a food.
+All queries are represented as a `Universal Resource Identifier <http://en.wikipedia.org/wiki/Uniform_resource_identifier>`_ |_| (URI). This means that an :ref:`end user <terms-End-User>`, :ref:`investigator <terms-Investigator>` |_| and supplier can easily link to and re-use a reference to a food.
 
 Ontomatica's Navigator, as of 2014, is unique in the technology marketplace.
 
 Some modern tools enable a user to compose a query by selecting two or more single-level facets. An example is `NCCOR <http://tools.nccor.org/css/>`_.
 
 Only Navigator enables a user to compose queries by selecting terms from multiple hierarchies of terms.
-
-.. seealso::
-
-   Reference to a related section of the Proposal
 
 .. |_| unicode:: 0x80
 

@@ -5,8 +5,6 @@
 Conventions Used in Proposal
 ============================
 
-Introduction
-
 USDA **requirements** are formatted as follows:
 
 .. rst:role:: USDA #12
@@ -15,9 +13,9 @@ USDA **requirements** are formatted as follows:
 
 **Ontology terms** are formatted as follows:
 
-   * :class:`schema:sameAs` (the schema.org facet term meaning that A is the same as B)
-   * :class:`ncit:C46090` (the NIH NCI facet term code for the facet term "Glycemic Index")
-   * :class:`agrontology:isUsedToMake` (the UN FAO term meaning that A is used to make B)
+- :class:`schema:sameAs` (the schema.org facet term meaning that A is the same as B)
+- :class:`ncit:C46090` (the NIH NCI facet term code for the facet term "Glycemic Index")
+- :class:`agrontology:isUsedToMake` (the UN FAO term meaning that A is used to make B)
 
 A **word** or **phrase** that is a link to a URL is formatted as follows: `food labeling services for the USDA community <http://www.ontomatica.com/public/organizations/BETV/Intro.html>`_
 
@@ -31,9 +29,14 @@ A bibliographic **references** is formatted as follows: See :cite:`5002` for mor
 
 **Discussion** about a design or approach.
 
-   * point 1
-   * point 2
-   * point 3
+- point 1
+- point 2
+- point 3
+- point 4
+
+Illustration of a **REST conversation**
+
+.. http:get:: /users/(int:user_id_)/posts/(tag)
 
 .. seealso::
      

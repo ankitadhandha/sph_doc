@@ -15,9 +15,7 @@ Data deposits will be available under Creative Commons Attribution 4.0 Internati
 
 AFDSI :ref:`Vocal <terms-Vocal>` |_| terms are available under Creative Commons Public Domain Dedication license :ref:`(CC0 1.0) <terms-Creative-Commons-CC0>`. No copyright is associated with Vocal terms.
 
-Other terms used by Ontomatica applications, such as terms defined by National Center for Biomedical Ontology, also are copyright-free and available under :ref:`CC0 1.0 <terms-Creative-Commons-CC0>`.
-
-
+Other terms used by Ontomatica applications, such as terms defined by `National Center for Biomedical Ontology <http://www.bioontology.org/>`_, also are copyright-free and available under :ref:`CC0 1.0 <terms-Creative-Commons-CC0>`.
 
 .. |_| unicode:: 0x80
 
