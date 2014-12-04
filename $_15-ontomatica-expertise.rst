@@ -5,13 +5,16 @@
  Ontomatica Expertise
 =====================
 
-.. contents:: `Table of contents`
+Table of contents for Ontomatica Expertise
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. contents::
    :depth: 3
    :local:
 
--------------------------------
- Overview: Ontomatica Expertise
--------------------------------
+--------
+Overview
+--------
 
 Ontomatica integrates knowledge and informatics about foods, agricultural commodities, agrochemicals and pharmaceuticals. Knowledge and informatics are documented as Ontologies, from which production systems are generated. Scope of Ontomatica expertise is demonstrated in more than twenty (20) production systems. Twelve (12) systems are presented below.
 
@@ -151,12 +154,12 @@ Standard Reference items organized by these Facets
 
 :Significance: USDA SR implemented in Facet navigation architecture.
 
-Specialized Foods and GS1
-=========================
+Specialty Foods and GS1
+=======================
 
 Same structure as Dietary Data Reference but with different items
 
-:Example: `Specialized Foods and GS1 <http://72.167.253.87/cgi-bin/flamenco.cgi/_specialty_foods_-_14-01-25_/Flamenco>`_
+:Example: `Specialty Foods and GS1 <http://72.167.253.87/cgi-bin/flamenco.cgi/_specialty_foods_-_14-01-25_/Flamenco>`_
 
 Basic Food Data Kit
 ===================
@@ -491,9 +494,9 @@ Microbes include `bacteria <http://72.167.253.87/cgi-bin/flamenco.cgi/_ChEMATIC_
 
 Ontomatica Microbiome Ontology implements relationships between food intake; bacteria, archaea and viruses; human anatomy (location of microbe Classes e.g., human gut); and, health outcomes.
 
-------------------------------
- Summary: Ontomatica Expertise
-------------------------------
+-------
+Summary
+-------
 
 Examples and projects above demonstrate that Ontomatica is the world leader in building information systems delivering knowledge and informatics about foods, agricultural commodities, agrochemicals and pharmaceuticals.
 
