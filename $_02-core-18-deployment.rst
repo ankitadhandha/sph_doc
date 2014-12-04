@@ -9,7 +9,10 @@ This section addresses:
 
 .. rst:role:: Ontomatica defined objective
 
-.. contents:: `Table of contents`
+Table of contents for OnTarget Deployment Services
+--------------------------------------------------
+
+.. contents::
    :depth: 2
    :local:
 

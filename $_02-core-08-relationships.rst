@@ -17,7 +17,7 @@ This section addresses:
    
    - :class:`verb` (a.k.a. predicate, relationship, object property)
    
-   - noun (a.k.a. thing, object) specified as **X** and **Y**. A more precise term is specified as **{noun}**. A precise noun, as specified by an :ref:`authority <terms-Authority>`, are identified on |N|_. Many examples are listed in |G|_.
+   - noun (a.k.a. thing, object) specified as **X** and **Y**. A more precise term is specified as **{noun}**. A precise noun, as specified by an :ref:`authority <terms-Authority>`, is identified on |N|_. Many examples are listed in |G|_.
 
 `isA <http://en.wikipedia.org/wiki/Is-a>`_ Relationships
 --------------------------------------------------------

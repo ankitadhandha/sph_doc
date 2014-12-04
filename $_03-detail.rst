@@ -5,7 +5,7 @@
 Features - Core with Detail
 ===========================
 
-Intro text goes here
+Intro text here.
 
 .. toctree::
    :maxdepth: 2
@@ -16,5 +16,6 @@ Intro text goes here
    $_03-detail-5-meals.rst
    $_03-detail-6-methods.rst
    $_03-detail-7-mathematics.rst
+   $_03-detail-8-technology.rst
 
    

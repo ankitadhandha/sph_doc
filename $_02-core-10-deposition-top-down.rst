@@ -1,12 +1,12 @@
 
 .. _$_02-core-10-deposition-top-down:
 
-====================
-Deposition: Top Down
-====================
+========
+Top Down
+========
 
 Process
-=======
+-------
 
 .. figure:: $_02-core-10-deposition-top-down_.png
    :align: center
@@ -14,7 +14,7 @@ Process
    Image: Top Down Deposition
 
 Pre-Combined Items
-==================
+------------------
 
 Table of pre-combined items.
 

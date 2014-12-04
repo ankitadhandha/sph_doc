@@ -1,12 +1,12 @@
 
 .. _$_02-core-10-deposition-bottom-up:
 
-=====================
-Deposition: Bottom Up
-=====================
+=========
+Bottom Up
+=========
 
 Process
-=======
+-------
 
 .. figure:: $_02-core-10-deposition-bottom-up_.png
    :align: center
@@ -14,7 +14,7 @@ Process
    Image: Bottom Up Deposition
 
 Vocal Terms
-===========
+-----------
 
 terms to support bottom-up
 
