@@ -40,7 +40,7 @@ For the purpose of complying with FALCPA labeling requirements, question and ans
 Reviews of Food Ingredients and Finished Foods
 ==============================================
 
-This document identifies examples of food ingredients and finished foods that either are or may contain one or more major food allergens. It is not intended to serve as an all-inclusive list. Stated in parentheses after the names of some ingredients/foods are their synonyms and/or a description of what they are or their common uses. The list below may be helpful to FDA staff when conducting label reviews of food ingredients and finished foods for compliance with FALCPA requirements. Any common synonyms for the terms listed below are also identified using bolded text immediately following those terms in parentheses. Also stated in the parentheses are descriptions of the terms, other related information, and when applicable, reference to the notes section following each allergen subheading.
+This document identifies examples of food ingredients and finished foods that either are or may contain one or more major food allergens. It is not intended to serve as an all-inclusive list. Stated in parentheses after the names of some ingredients/foods are their synonyms and/or a description of what they are or their common uses. Any common synonyms for the terms listed below are also identified using bolded text immediately following those terms in parentheses. Also stated in the parentheses are descriptions of the terms, other related information, and when applicable, reference to the notes section following each allergen subheading.
 
 Some ingredients and finished foods always contain a major food allergen due to their basic nature or when they either have a standard of identity or are otherwise defined or described by Federal law or regulation that confirms the presence of a major food allergen. When ingredients used to make another ingredient or finished food can vary, it may be necessary to review the ingredient specification sheets to determine if the product contains a major food allergen. In other cases, when an ingredient or finished food is derived from the food source of a major food allergen but there is uncertainty about the presence of any protein residue from that allergen, it may be necessary to analyze the food ingredient or the finished food.
 
@@ -278,7 +278,7 @@ Notes:
 
 - "Nondairy" is not equivalent to "milk free." Products that are labeled as "nondairy" (e.g., coffee whiteners, whipped toppings, creamy drinks/drink mixes, and imitation cheese products) may contain casein or caseinates.
 
-- A kosher "D" designation on a label indicates "dairy" or that the product contains "milk-derived ingredients.
+- A kosher "D" designation on a label indicates "dairy" or that the product contains "milk-derived ingredients."
 
 - A kosher "DE" designation on a label indicates "dairy equipment" but no actual dairy or milk-derived ingredients were used to make the product.
 
@@ -630,6 +630,7 @@ toffee
    (confection commonly made with butter and occasionally wheat flour and/or nuts, usually almonds; e.g., English, cinder, or sponge toffee)
 
 walnut(s)
+   
 
 Notes:
 ^^^^^^

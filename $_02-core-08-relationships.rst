@@ -15,7 +15,7 @@ This section addresses:
 
    The following terms are members of a :ref:`class <terms-class>` of ontology-independent-terms. These terms map to **specific terms** in ontologies. The summary below identifies:
    
-   - :class:`verb` (a.k.a. predicate, relationship, object propertie)
+   - :class:`verb` (a.k.a. predicate, relationship, object property)
    
    - **{noun}** (a.k.a. thing, object).
 
@@ -138,8 +138,4 @@ Additional Relationships
      - 
    * - Substance :class:`measuredIn` Unit of measurement
      - 
-
-.. seealso::
-   
-   Reference to a related section of the Proposal
 
