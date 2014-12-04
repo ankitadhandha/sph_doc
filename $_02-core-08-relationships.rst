@@ -1,11 +1,11 @@
 
 .. _$_02-core-08-relationships:
 
-=====================
-Generic Relationships
-=====================
+=======================
+Generic Verbs and Nouns
+=======================
 
-Introduction
+This section addresses:
 
 .. rst:role:: USDA #12
 
@@ -13,7 +13,11 @@ Introduction
 
 .. note::
 
-   These are not ``ontology terms``. These are generic expressions that map to **specific terms** in :class:`ontologies`.
+   The following terms are members of a :ref:`class <terms-class>` of ontology-independent-terms. These terms map to **specific terms** in ontologies. The summary below identifies:
+   
+   - :class:`verb` (a.k.a. predicate, relationship, object propertie)
+   
+   - **{noun}** (a.k.a. thing, object).
 
 `isA <http://en.wikipedia.org/wiki/Is-a>`_ Relationships
 --------------------------------------------------------
