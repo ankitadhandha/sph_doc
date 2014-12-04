@@ -19,7 +19,10 @@ This section addresses:
 
    Allow for tracking of the use of the database (e.g., frequency of record/field selection for viewing or export).
 
-.. contents:: `Table of contents`
+Table of Contents for Infrastructure and Reporting
+--------------------------------------------------
+
+.. contents::
    :depth: 2
    :local:
 

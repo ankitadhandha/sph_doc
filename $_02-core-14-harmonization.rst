@@ -15,12 +15,12 @@ This section addresses:
 
    Provide links to other nutrition-related databases.
 
-Ontomatica harmonizes common information. Our technique creates relationships between Terms by using one or more of following Predicates:
+Ontomatica harmonizes information from many sources. Our technique creates relationships between Terms by using one or more of following Predicates:
 
 :class:`schema:sameAs` :class:`skos:exactMatch` :class:`skos:closeMatch` :class:`skos:relatedMatch`
 
-.. csv-table:: Information Harmonization
-   :header: "Domain", "Harmonized Terms from Stakeholders", "Example"
+.. csv-table::
+   :header: "Domain", "Harmonized Terms from Authorities", "Example"
    :widths: 15, 35, 10
 
    "Bio-chemistry", "USDA ARS chemicals", ""

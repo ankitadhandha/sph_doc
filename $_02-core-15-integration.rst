@@ -15,10 +15,10 @@ This section addresses:
 
    Provide links to other nutrition-related databases.
 
-Ontomatica integrates data from different Information Providers.
+Ontomatica integrates data from the following Authorities.
 
-.. csv-table:: Data Integration from Stakeholders
-   :header: "Stakeholders", "Projects", "Integrated Data"
+.. csv-table::
+   :header: "Authorities", "Projects", "Integrated Data"
    :widths: 15, 35, 10
 
    "US NIH", "PubChem", "Chemicals"

@@ -23,7 +23,7 @@ Ontomatica's :ref:`Navigator <terms-Navigator>` architecture is similar to other
 
 The Volkswagen application navigates this `ontology <http://ontorule-project.eu/parrot/parrot?documentUri=http://www.volkswagen.co.uk/vocabularies/vvo/ns.owl>`_.
 
-Ontomatica's Navigator, traversing the `graphs <terms-Graph>` implemented in the `homeopathic application <http://72.167.253.87/cgi-bin/flamenco.cgi/_Homeopathic_Remedies_-_14-01-16_/Flamenco?q=arthritis&index=0>`_, operates in the same way as the Volkswagen navigator, but uses different data.
+Ontomatica's Navigator, traversing the :ref:`graphs <terms-Graph>` implemented in the `homeopathic application <http://72.167.253.87/cgi-bin/flamenco.cgi/_Homeopathic_Remedies_-_14-01-16_/Flamenco?q=arthritis&index=0>`_, operates in the same way as the Volkswagen navigator, but use different data.
 
 .. figure:: $_02-core-09-user-friendly-homeopathic_.png
    :align: center
@@ -44,9 +44,7 @@ Volkswagen and Ontomatica use the same underlying technology for specifying and 
 Navigator and USDA Label Project
 ================================
 
-Ontomatica Nobel Prize application illustrates :ref:`application services <terms-Application-Service>` |_| navigating :ref:`data services <terms-Data-Service>` |_| that manage content familiar to many.
-
-For example, `U.S. Nobel Laureates in Chemistry <http://72.167.253.87/cgi-bin/flamenco.cgi/_Nobel_Prize_Winners_-_14-01-16_/Flamenco?q=country:50/prize:1&group=country>`_.
+Ontomatica Nobel Prize application illustrates :ref:`application services <terms-Application-Service>` |_| navigating :ref:`data services <terms-Data-Service>` |_| that manage content familiar to many. For example, `U.S. Nobel Laureates in Chemistry <http://72.167.253.87/cgi-bin/flamenco.cgi/_Nobel_Prize_Winners_-_14-01-16_/Flamenco?q=country:50/prize:1&group=country>`_.
 
 .. figure:: $_02-core-09-user-friendly-nobel-prize_.png
    :align: center
@@ -59,7 +57,7 @@ In place of the Nobel Laureate image will be the branded food label image regist
 
 All queries are represented as a `Universal Resource Identifier <http://en.wikipedia.org/wiki/Uniform_resource_identifier>`_. This means that an :ref:`end user <terms-End-User>`, :ref:`investigator <terms-Investigator>` |_| and supplier can easily link to and re-use a reference to a food.
 
-Ontomatica Navigator, as of 2014, is unique in the technology marketplace.
+Ontomatica's Navigator, as of 2014, is unique in the technology marketplace.
 
 Some modern tools enable a user to compose a query by selecting two or more single-level facets. An example is `NCCOR <http://tools.nccor.org/css/>`_.
 
