@@ -16,6 +16,7 @@ Intro text here.
    $_03-detail-5-meals.rst
    $_03-detail-6-methods.rst
    $_03-detail-7-mathematics.rst
-   $_03-detail-8-technology.rst
+   $_03-detail-8-depository.rst
+   $_03-detail-9-technology.rst
 
    

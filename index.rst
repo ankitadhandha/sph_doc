@@ -46,6 +46,14 @@ Nutrition Database Modernization
 
    `USDA ARS National Agricultural Library Thesaurus (NALT) <http://agclass.nal.usda.gov/dne/newde.shtml>`_
 
+   `US NIH National Cancer Institute (NCI) thesaurus <http://ncit.nci.nih.gov/ncitbrowser/pages/home.jsf?version=14.10d>`_
+
+   `US NIH National Center for Biotechnology Information (NCBI) PubChem <https://pubchem.ncbi.nlm.nih.gov/>`_
+
+   `US National Institute of Standards and Technology (NIST) <http://www.nist.gov/chemistry-portal.cfm>`_
+
+   `National Center for Biomedical Ontology (NCBO) <http://www.bioontology.org/>`_
+
 Table of Contents
 -----------------
 
@@ -78,6 +86,7 @@ License
 Copyright 2014, Ontomatica LLC. This work is licensed under a `Creative Commons Attribution 3.0 License <http://creativecommons.org/licenses/by/3.0/us/deed.en_US>`_.
 
 .. image:: 1_cc_icon.png
-   :align: center
+   :align: left
    :alt: Creative Commons License
+
 

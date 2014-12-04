@@ -15,7 +15,7 @@ This section addresses:
 
    Provide links to other nutrition-related databases.
 
-Ontomatica harmonizes information from many sources. Our technique creates relationships between Terms by using one or more of following Predicates:
+Ontomatica harmonizes information from many :ref:`authorities <terms-Authority>`. Our methods create relationships between :ref:`terms <terms-Term>` |_| by using one or more of the following :ref:`predicates <terms-Predicate>`:
 
 :class:`schema:sameAs` :class:`skos:exactMatch` :class:`skos:closeMatch` :class:`skos:relatedMatch`
 
@@ -59,4 +59,6 @@ Ontomatica harmonizes information from many sources. Our technique creates relat
    "Analytical methods", "UN INFOODS tags for CODEX methods", ""
    "", "AOAC international methods", ""
    "", "Methods associated with specific analytical devices and equipment", ""
+
+.. |_| unicode:: 0x80
 

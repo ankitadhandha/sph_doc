@@ -15,10 +15,10 @@ This section addresses:
 
    Provide links to other nutrition-related databases.
 
-Ontomatica integrates data from the following Authorities.
+Ontomatica integrates data from the following :ref:`authorities <terms-Authority>`.
 
 .. csv-table::
-   :header: "Authorities", "Projects", "Integrated Data"
+   :header: "Authority", "Project", "Data"
    :widths: 15, 35, 10
 
    "US NIH", "PubChem", "Chemicals"
