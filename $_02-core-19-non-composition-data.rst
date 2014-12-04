@@ -5,7 +5,7 @@
 Non-composition Data
 ====================
 
-Introduction
+This section addresses:
 
 .. rst:role:: USDA #9
 

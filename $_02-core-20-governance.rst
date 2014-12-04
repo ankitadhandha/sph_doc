@@ -5,6 +5,8 @@
 Governance
 ==========
 
+This section addresses:
+
 .. rst:role:: Ontomatica defined objective
 
 Status reports

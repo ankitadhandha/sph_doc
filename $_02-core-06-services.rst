@@ -5,7 +5,7 @@
 Services, Products and Technologies
 ===================================
 
-Introduction.
+The following table identifies Technologies used by Ontomatica Products that implement types of Services.
 
 .. csv-table::
    :header: "Services", "Ontomatica Products", "Technologies"

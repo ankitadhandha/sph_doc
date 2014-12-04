@@ -5,7 +5,7 @@
 Satisfying Stakeholders' Data Requirements
 ==========================================
 
-Stakeholder intro.
+This section addresses:
 
 .. rst:role:: Ontomatica defined objective
 

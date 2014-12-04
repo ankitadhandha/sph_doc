@@ -5,6 +5,8 @@
 OnTarget Deployment Services
 ============================
 
+This section addresses:
+
 .. rst:role:: Ontomatica defined objective
 
 .. contents:: `Table of contents`

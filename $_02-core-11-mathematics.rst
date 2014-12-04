@@ -5,7 +5,7 @@
 Mathematics
 ===========
 
-Introduction
+This section addresses:
 
 .. rst:role:: USDA #3
 

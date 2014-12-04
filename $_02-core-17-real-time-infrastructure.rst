@@ -5,7 +5,7 @@
 Real-time Infrastructure and Reporting
 ======================================
 
-Introduction
+This section addresses:
 
 .. rst:role:: USDA #7
 

@@ -5,7 +5,7 @@
 Information Harmonization
 =========================
 
-Introduction
+This section addresses:
 
 .. rst:role:: USDA #4
 

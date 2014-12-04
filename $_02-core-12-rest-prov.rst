@@ -5,6 +5,8 @@
 REST Services and Reports
 =========================
 
+This section addresses:
+
 .. rst:role:: USDA #6
 
    Permit export of composition and analytical data and conversion of composition data to an application development format.
@@ -17,7 +19,7 @@ REST Services and Reports
 
    Permit export of ad hoc data.
 
-.. contents:: `Table of contents`
+.. contents:: `Table of contents for REST Service and Reports`
    :depth: 3
    :local:
 

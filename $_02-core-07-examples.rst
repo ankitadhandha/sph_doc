@@ -8,7 +8,7 @@ Examples: Production Applications
 Chemicals
 =========
 
-Chemical Entities of Food Significance - ChEFS
+Chemical Entities of Food Significance (ChEFS)
 ----------------------------------------------
 
 - `L-ascorbic acid <http://72.167.253.87/cgi-bin/flamenco.cgi/_ChEFS_1.0_/Flamenco?q=facet_ChEBI_R105:35805,116996/facet_NTRNT:19650/facet_USES_BIOL:2929,6117&morelike=1>`_
@@ -21,7 +21,7 @@ Commodities
 Glucosinolates
 --------------
 
-- `Glucosinolates: origin conditions for Brassica Vegetables, Flowerhead Brassica <http://72.167.253.87/cgi-bin/flamenco.cgi/_Glucosinolates_-_14-01-16_/Flamenco?q=facet_GC:5/facet_GP:80/facet_MP:5/facet_NC:448/facet_PT:238/facet_TP:24/facet_YR:107&group=facet_NC>`_
+- `Origin conditions for Brassica Vegetables, Flowerhead Brassica <http://72.167.253.87/cgi-bin/flamenco.cgi/_Glucosinolates_-_14-01-16_/Flamenco?q=facet_GC:5/facet_GP:80/facet_MP:5/facet_NC:448/facet_PT:238/facet_TP:24/facet_YR:107&group=facet_NC>`_
 
 ChEFS
 -----
@@ -39,7 +39,7 @@ USDA Standard Reference (SR)
 Food Data Kit Basic
 -------------------
 
-- `Crop groups  <http://72.167.253.87/cgi-bin/flamenco.cgi/_Food_Data_Kit_-_Basic_-_14-01-16_/Flamenco?q=facet_FCID_Crop:395&group=facet_FCID_Crop>`_
+- `Crop groups <http://72.167.253.87/cgi-bin/flamenco.cgi/_Food_Data_Kit_-_Basic_-_14-01-16_/Flamenco?q=facet_FCID_Crop:395&group=facet_FCID_Crop>`_
 
 Meals
 =====
@@ -71,13 +71,13 @@ Food Taxonomy
 
 - `USDA grade, cut, packaging and related properties <http://72.167.253.87/cgi-bin/flamenco.cgi/_food_taxonomy_-_14-01-25_/Flamenco?q=facet_10_USA_01:1771/facet_12_USA_01:131/facet_12_USO_01:91/facet_12_XXB_01:88/facet_14_USO_01:14/facet_15_USA_02:8/facet_15_XXB_04:7/facet_16_XXB_02:81/facet_17_XXB_01:28/fac>`_
 
-Plants
-======
+Plants (according to ternary nomenclature)
+==========================================
 
 - `Winter Savory <http://72.167.253.87/cgi-bin/flamenco.cgi/_plant_ternary_-_14-01-25_/Flamenco?q=facet_11_XXF_01_plant_ternary:77&group=facet_11_XXF_01_plant_ternary&index=0>`_
 
-Dietary Supplements
-===================
+Dietary Supplements (classified according to US FDA SPL specifications)
+=======================================================================
 
 - `Calcium <http://72.167.253.87/cgi-bin/flamenco.cgi/_dietary_supplements_-_14-01-25_/Flamenco?q=A:22/B:1192/E:43/F:29/M:14,34/P:226/X:607&group=M&morelike=1>`_
 

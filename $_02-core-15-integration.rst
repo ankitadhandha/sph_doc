@@ -5,7 +5,7 @@
 Data Integration
 ================
 
-Introduction
+This section addresses:
 
 .. rst:role:: USDA #4
 

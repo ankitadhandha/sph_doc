@@ -5,7 +5,7 @@
 International Data and Methods
 ==============================
 
-Introduction
+This section addresses:
 
 .. rst:role:: Ontomatica defined objective
 
