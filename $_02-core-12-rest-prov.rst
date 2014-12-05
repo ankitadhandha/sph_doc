@@ -35,6 +35,25 @@ Table of contents for REST Service and Reports
 General Structure of REST API
 -----------------------------
 
+Structure of a USDA REST CONVERSATION:
+
+http://usda.ars.gov/rest/<input specification>/<operation specification>/<output specification>
+
+Example: retrieve food description using food identifier [USDA_fid] and ITEM number 2244:
+
+http://usda.ars.gov/rest/food/USDA_fid/2244/JSON
+
+Detailed REST features are illustrated in Ontomatica Proposal Online.
+
+Several conversation types will be supported. For example, Ontomatica IMPORTS the Provenance Ontology [prov]. Here is an example of a CURATOR using [prov]:
+
+Alanna wishes to verify that a new data set correctly addresses previous error. John [ex:John] documents Alanna's instructions [ex:instructions] in a plan [prov:Plan]. John then generates a new dataset [ex:dataset2] that implements correction activity [ex:correct1]. Alanna confirms [prov:Plan] and executes a diff (difference) to contrast [ex:dataset2] with [ex:dataset1].
+
+Curator uses a REST conversation to implement the example above.
+
+
+<consider moving to Concept - Detail>
+
 The following illustrates the retrieval of blog posts by a specific user and identified by a specific tag. The general structure is:
 
 .. http:get:: /users/(int:user_id_)/posts/(tag)

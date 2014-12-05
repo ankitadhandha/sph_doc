@@ -30,28 +30,39 @@ Table of Contents for Infrastructure and Reporting
 Infrastructure
 --------------
 
+ONDEMAND - real-time infrastructure:
+
+Platform on which all services operate.
+
+Infrastructure is designed for high performance and automated FAIL-OVER if a core component (e.g. memory, storage) fails.
+
 .. image:: 2_OnDemand_infrastructure.png
 
 ---------
 Reporting
 ---------
 
-Introduction
+Infrastructure also presents comprehensive utilization data. For example:
 
+- Record all Navigator queries
+   - by IP address
+   - by date
+   - by query
 
-   by IP address
-     by date
-        by query terms
+- Record all REST transactions
+   - by IP address
+   - by date
+   - by transaction
 
 Example from access to Nobel Prize application.
 
-   * ID: 7396
-   
-   * date: 2014-11-15 02:00:02
-   
-   * IP address: 72.167.253.87
-   
-   * query terms: (see example below, beginning "select name from gender where parent= ...")
+- ID: 7396
+
+- date: 2014-11-15 02:00:02
+
+- IP address: 72.167.253.87
+
+- query terms: (see example below, beginning "select name from gender where parent= ...")
 
 ::
 
@@ -119,9 +130,9 @@ Example from access to Nobel Prize application.
    select name from year where parent=122
    
    7395  0.24 secs            /cgi-bin/flamenco.cgi/_Nobel_Prize_Winners_-_14-01-16_/Flamenco
-   
 
-.. seealso::
-   
-   Reference to a related section of the Proposal
+----------------
+Service Provider
+----------------
 
+Ontomatica plans to use `Cybercon <http://www.cybercon.com/>`_ as the hosting service provider.

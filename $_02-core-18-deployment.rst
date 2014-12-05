@@ -16,18 +16,35 @@ Table of contents for OnTarget Deployment Services
    :depth: 2
    :local:
 
+--------
 OnTarget
-========
+--------
 
-Description.
+ONTOMATION manages the promotion of application content:
+- from DEVELOPMENT (1)
+- to QUALITY ASSURANCE (5)
+- to PRODUCTION (6 and 7).
 
 .. image:: 2_OnTarget_deployment.png
    :align: center
 
-make++
-======
+-----
+OnTop
+-----
 
-Description.
+Description (2)
+
+----------
+Versioning
+----------
+
+Description about GitHub (3)
+
+------
+make++
+------
+
+Description (4)
 
 ::
 
@@ -121,3 +138,16 @@ Description.
        file.write('%d\t%s\n' % (item, ' '.join(texts[item].split())))
    file.close()
 
+-----------
+OntolLogics
+-----------
+
+Not part of Proposal
+
+---------------
+Future Features
+---------------
+
+Presented on next page.
+
+  
