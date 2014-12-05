@@ -1,9 +1,9 @@
 
 .. _$_02-core-16-stakeholders:
 
-==========================================
-Satisfying Stakeholders' Data Requirements
-==========================================
+==================================
+USDA Stakeholder Data Requirements
+==================================
 
 This section addresses:
 

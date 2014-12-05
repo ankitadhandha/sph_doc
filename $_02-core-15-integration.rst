@@ -15,7 +15,19 @@ This section addresses:
 
    Provide links to other nutrition-related databases.
 
-Ontomatica integrates data from the following :ref:`authorities <terms-Authority>`.
+Ontomatica Coverage
+-------------------
+
+Ontomatica integrates data from projects sponsored by the following :ref:`authorities <terms-Authority>`.
+
+Integration enables Ontomatica to automate the specification of a food description using authority terms familiar to a :ref:`depositor <terms-Depositor>`.
+
+An authority can easily verify that :ref:`components <terms-Component>` |_| of a food description accurately represent their data.
+
+Ontomatica has developed :ref:`web services <terms-Web-Service>` that keep integrated data fresh and accurate.
+
+Authorities
+-----------
 
 .. csv-table::
    :header: "Authority", "Project", "Data"
@@ -61,7 +73,5 @@ Ontomatica integrates data from the following :ref:`authorities <terms-Authority
    "KEGG", "chemicals ", "Identity"
    "", "bioactive components ", "Identity"
 
-.. seealso::
-
-   Reference to a related section of the Proposal
+.. |_| unicode:: 0x80
 
