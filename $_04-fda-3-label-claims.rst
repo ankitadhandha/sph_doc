@@ -14,10 +14,10 @@ FDA Specifications for Food Label Claims
 ----------------------------------------
 
 .. csv-table::
-   :header: "Claim class", "Claim type", "Claim phrase"
+   :header: "Claim class", "Label claim", "Claim determination"
    :widths: 10, 10, 15
 
-   "Low sodium", "Salt free", "Less than 5 milligrams sodium per serving."
+   "Sodium content", "Salt free", "Less than 5 milligrams sodium per serving."
    "", "Sodium free", "Less than 5 milligrams sodium per serving."
    "", "No Salt added", "No salt added during processing; does not necessarily mean sodium free."
    "", "Very Low Sodium", "35 milligrams or less sodium per serving."

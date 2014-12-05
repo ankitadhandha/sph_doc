@@ -5,16 +5,32 @@
 OnLine Top Down Deposition
 ==========================
 
+Table of contents for OnLine Top Down Deposition
+------------------------------------------------
+
+.. contents::
+   :depth: 3
+   :local:
+
+-------
 Process
 -------
 
+Template-driven process that classifies a food by its similarity to another food.
+
+Templates are :ref:`pre-combined items <terms-Pre-Combined-Items>` specified by ontology terms.
+
+One ontology used by Ontomatica is `Simple Knowledge Object Sharing <http://www.w3.org/2004/02/skos/core#>`_ (SKOS) :cite:`6050`. Example of applying SKOS:
+
+- Initiate :ref:`conversation <terms-Conversation>` by identifying an exact match :class:`skos:exactMatch` or close match :class:`skos:closeMatch` for :ref:`deposition <terms-Deposition>`.
+
+
 .. figure:: $_02-core-10-deposition-top-down_.png
    :align: center
-   
-   OnLine Top Down Deposition
 
-Pre-Combined Items
-------------------
+----------------------------
+Examples: Pre-Combined Items
+----------------------------
 
 Explanation.
 
@@ -107,4 +123,6 @@ Explanation.
    "Yogurt", "A0101 B1201 C0235 E0119 H0101"
    "Water, Distilled", "A0112 B1217 C0005 E0123 H0270"
    "Whole Wheat Bread, Loaf", "A0178 B1312 C0133 E0146 H0256"
+
+.. |_| unicode:: 0x80
 

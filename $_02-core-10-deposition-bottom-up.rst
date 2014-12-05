@@ -8,13 +8,31 @@ OnLine Bottom Up Deposition
 Process
 -------
 
+Ontology driven process that classifies a food according to precise ontology terms.
+
+- Initiate :ref:`conversation <terms-Conversation>` |_| by traversing a :ref:`graph <terms-Graph>` |_| and selecting appropriate terms.
+
+- Use a broad term when there is insufficient information to use a more narrow, precise term.
+
+:ref:`Conversation <terms-Conversation>` |_| has three stages:
+
+- identify unique terms [source; part of source; origin of source]
+
+- identify combinations of terms that are :ref:`jointWith <terms-Joint-With>` |_| and :ref:`disjointWith <terms-Disjoint-With>`
+
+- identify data associated with ontology terms.
+
+Concept
+-------
+
 .. figure:: $_02-core-10-deposition-bottom-up_.png
    :align: center
    
-   OnLine Bottom Up Deposition
 
 Vocal Terms
 -----------
 
 terms to support bottom-up
+
+.. |_| unicode:: 0x80
 

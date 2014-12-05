@@ -15,7 +15,7 @@ Table of contents for Data Depository
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    $_02-core-10-deposition-OnLine-OnMessage.rst
    $_02-core-10-deposition-top-down.rst

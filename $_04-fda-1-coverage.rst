@@ -5,7 +5,7 @@
 FDA Food Labeling Specifications
 ================================
 
-FDA food labeling regulations are defined for the Jurisdiction Facet USA.
+The following food labeling regulations are specified by the :ref:`authority <terms-Authority>` |_| **FDA** that is part of :class:`[schema:partOf]` the :ref:`jurisdiction <terms-Jurisdiction>` |_| **USA**.
 
 Ontomatica Coverage
 -------------------
