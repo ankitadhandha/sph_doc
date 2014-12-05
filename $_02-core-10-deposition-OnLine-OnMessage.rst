@@ -13,7 +13,7 @@ Table of contents for OnLine and OnMessage Deposition
    :local:
 
 --------------------
-Deposition Work-flow
+Deposition Workflow
 --------------------
 
 A :ref:`Depositor <terms-Depositor>` |_| registers information via:

@@ -27,7 +27,6 @@ Concept
 
 .. figure:: $_02-core-10-deposition-bottom-up_.png
    :align: center
-   
 
 Vocal Terms
 -----------

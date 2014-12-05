@@ -13,9 +13,34 @@ This section addresses:
 
 .. rst:role:: USDA #5
 
-   Allow incorporation of ARS analytics for expanding the database.
+OnTask - Ontomatica workflow engine
+-----------------------------------
 
-.. seealso::
+Examples of :ref:`USDA mathematics <terms-USDA-Mathematics>` |_| processed by :ref:`OnTask <terms-OnTask>` |_| deposition workflow:
 
-   Reference to a related section of the Proposal
+- Validate: sum of :ref:`proximates <terms-Proximates>` |_| is less than or equal to 100.
+
+- Validate: sum of carbohydrate :ref:`fractions <terms-Fraction>` |_| is less than or equal to total :ref:`carbohydrates <term-Carbohydrate>`.
+
+- Validate: sum of individual :ref:`fatty acids <terms-Fatty-Acid>` |_| is less than or equal to total :ref:`fat <terms-Fat>`.
+
+- Validate: sum of individual :ref:`carotenoids <terms-Carotenoid>` |_| times the appropriate :ref:`factors <terms-Factor>` |_| is less than or equal to :ref:`vitamin A <terms-Vitmin-A>` |_| value.
+
+- Validate: each food has :ref:`refuse value <terms-Refuse-Value>`.
+
+- Validate: each food has at least one :ref:`household measure <terms-Household-Measure>`.
+
+- Compute: value of missing value for FNDDS nutrient :ref:`component <terms-Component>`.
+
+- Compute :ref:`retention values <terms-Retention-Value>` |_| based on :ref:`cooking method <terms-Cooking-Method>`.
+
+- Email: food record to :ref:`depositor <terms-Depositor>` |_| for review.
+
+Sample workflow
+---------------
+
+.. figure:: $_02-core-11-mathematics-USDA-processes_.png
+   :align: center
+
+.. |_| unicode:: 0x80
 
