@@ -18,8 +18,6 @@ Ontomatica's :ref:`Navigator <terms-Navigator>` |_| architecture is similar to o
 
 .. figure:: $_02-core-09-user-friendly-volkswagen_.png
    :align: center
-   
-   Volkswagen "Find a Match" application
 
 The Volkswagen application navigates this `ontology <http://ontorule-project.eu/parrot/parrot?documentUri=http://www.volkswagen.co.uk/vocabularies/vvo/ns.owl>`_.
 
@@ -27,8 +25,6 @@ Ontomatica's Navigator, traversing the :ref:`graphs <terms-Graph>` |_| implement
 
 .. figure:: $_02-core-09-user-friendly-homeopathic_.png
    :align: center
-   
-   Ontology for a remedy composed of biological components
 
 Navigator's Underlying Data Structures
 ======================================

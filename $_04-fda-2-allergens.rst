@@ -1,11 +1,19 @@
 
 .. _$_04-2-fda-allergens:
 
-==========================
-FDA Food Allergen Coverage
-==========================
+================================
+FDA Food Allergen Specifications
+================================
 
-Under the Food Allergen labeling and Consumer Protection Act of 2004 (FALCPA), food labels are required to state clearly whether the food is or contains any ingredient that is a "major food allergen." The law defines a major food allergen to mean any one of the following eight foods/food groups or an ingredient that contains their proteins:
+Ontomatica Coverage
+-------------------
+
+Ontomatica :ref:`label classes <terms-Label-Class>` |_| integrate allergen data as specified by FDA, including coverage of all specifications below.
+
+FDA Specifications for Food Allergen Labeling
+---------------------------------------------
+
+Under the Food Allergen Labeling and Consumer Protection Act of 2004 (FALCPA), food labels are required to state clearly whether the food is or contains any ingredient that is a "major food allergen." The law defines a major food allergen to mean any one of the following eight foods/food groups or an ingredient that contains their proteins:
 
 - milk,
 
@@ -994,3 +1002,4 @@ Notes:
 
 - Vegetarian foods are commonly made with soy protein-containing ingredients.
 
+.. |_| unicode:: 0x80

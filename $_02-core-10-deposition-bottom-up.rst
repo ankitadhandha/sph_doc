@@ -1,9 +1,9 @@
 
 .. _$_02-core-10-deposition-bottom-up:
 
-=========
-Bottom Up
-=========
+===========================
+OnLine Bottom Up Deposition
+===========================
 
 Process
 -------
@@ -11,7 +11,7 @@ Process
 .. figure:: $_02-core-10-deposition-bottom-up_.png
    :align: center
    
-   Bottom Up Deposition
+   OnLine Bottom Up Deposition
 
 Vocal Terms
 -----------

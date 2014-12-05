@@ -60,5 +60,25 @@ Ontomatica harmonizes information from many :ref:`authorities <terms-Authority>`
    "", "AOAC international methods", ""
    "", "Methods associated with specific analytical devices and equipment", ""
 
+Example: Fish
+-------------
+
+.. csv-table::
+   :header: "Aquatic term", "UN FAO term code", "EUNIS term code", "DBpedia term", "AgroVoc term code", "NALT term code"
+   :widths: 15, 10, 10, 10, 10, 10
+
+   "Common octopus", "cl_species:OCC", "eunis:60605", "dbpedia:Common_Octopus", "agrovoc:c_5307", "nalt:55627"
+   "Angler", "cl_species:MON", "eunis:124874", "dbpedia:Lophius_piscatorius", "agrovoc:c_46042", "nalt:201339"
+   "Red mullet", "cl_species:MUT", "eunis:124879", "dbpedia:Mullus_barbatus", "agrovoc:c_43349", "nalt:43361"
+   "Great Atlantic scallop", "cl_species:SCE", "eunis:60712", "dbpedia:Pecten_maximus", "agrovoc:c_31159", "nalt:57135"
+   "Red swamp crawfish", "cl_species:RCW", "eunis:258990", "dbpedia:Procambarus_clarkii", "agrovoc:c_46824", "nalt:50664"
+   "Swordfish", "cl_species:SWO", "eunis:124899", "dbpedia:Swordfish", "agrovoc:c_7559", "nalt:65299"
+   "Crested flounder", "cl_species:LFG", "", "dbpedia:Crested_flounder", "agrovoc:c_45572", "nalt:40297"
+   "Giant grouper", "cl_species:EEN", "", "dbpedia:Giant_grouper", "agrovoc:c_42341", "nalt:40299"
+   "Largemouth black bass", "cl_species:MPS", "eunis:10072", "dbpedia:Largemouth_bass", "agrovoc:c_37035", "nalt:52789"
+   "Pacific herring", "cl_species:HEP", "eunis:124939", "dbpedia:Pacific_herring", "agrovoc:c_39009", "nalt:40303"
+   "Pandalid shrimps", "cl_species:PDZ", "", "dbpedia:Pandalidae", "agrovoc:c_46467", "nalt:31889"
+   "Penaeid shrimps", "cl_species:PEZ", "", "dbpedia:Penaeidae", "agrovoc:c_46269", "nalt:31890"
+
 .. |_| unicode:: 0x80
 

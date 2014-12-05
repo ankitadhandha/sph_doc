@@ -1,9 +1,9 @@
 
 .. _$_03-detail-8-depository:
 
-==========
-Depository
-==========
+===============
+Data Depository
+===============
 
 Architecture
 ------------
@@ -17,7 +17,7 @@ Publications and Slide are stored in Reference Library.
 
 Metadata, Results and Data are represented as Graphs and stored in appropriate Graph database.
 
-Workflow is defined in Tavera, but workflow meta data is associated with appropriate Graph application.
+Work-flow is defined in Taverna, but work-flow meta data is associated with appropriate Graph application.
 
 Minimum Information Model Ontology
 ----------------------------------

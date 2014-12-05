@@ -1,9 +1,9 @@
 
 .. _$_04-fda:
 
-===================================
-Features - FDA Label Specifications
-===================================
+======================================
+Features - FDA Labeling Specifications
+======================================
 
 Intro text goes here
 
