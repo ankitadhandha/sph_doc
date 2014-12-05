@@ -16,7 +16,7 @@ Table of contents for OnLine and OnMessage Deposition
 Deposition Workflow
 --------------------
 
-A :ref:`Depositor <terms-Depositor>` |_| registers information via:
+A :ref:`depositor <terms-Depositor>` |_| registers information via:
 
 1. :ref:`OnLine <terms-Deposition-OnLine>` |_| interface, or
 
@@ -37,10 +37,66 @@ Data then is stored on :ref:`MySQL <terms-MySQL>` |_| and :ref:`REST <terms-REST
 Harmonization of GS1, GTIN and Vocal Data
 -----------------------------------------
 
-Explanation.
+Explanation; equivalence :class:`schema:sameAs`.
 
-.. figure:: $_02-core-10-deposition-OnLine-OnMessage-GTIN-Vocal_2_.png
-   :align: center
+.. csv-table::
+   :header: "GS1 GPC", "Vocal facet term and facet term code"
+   :widths: 15, 20
+
+   "**Brick attribute: Classification**", "**Product Type**"
+   "--", "[A0361]"
+   "*Family: Fruits; Vegetables; Nuts; Seeds*", "*Facet term*"
+   "[50100000]", "[A0987]"
+   "*Class: Fruit - Prepared; Processed*", "*Facet term*"
+   "[50102000]", "[A0988]"
+   "*Brick: Fruit - Prepared; Processed (Perishable)*", "*Facet term*"
+   "[10000205]", "[A0990]"
+   "", ""
+   "**Brick attribute: Formation**", "**Physical State, Shape Or Form**"
+   "[20000352]", "Facet E FTC"
+   "*Chopped*", "*Divided into pieces*"
+   "[30000653]", "[E0100]"
+   "*Halved*", "*Divided into halves*"
+   "[30001224]", "[E0116]"
+   "*Homogenized*", "*Homogenized*"
+   "[30001266]", "[H0306]"
+   "", ""
+   "**Brick attribute: Organic claim**", "**Consumer Group, Dietary Use, Label Claim**"
+   "[20000142]", "Facet P FTC"
+   "--", "*Organic food claim or use*"
+   "--", "[P0128]"
+   "*No*", "--"
+   "[30002960]", "--"
+   "*Yes*", "--"
+   "[30002654]", "--"
+   "", ""
+   "**Brick attribute: If pitted, stoned**", "**Part of Plant or Animal/Fruit**"
+   "[20000109]", "[C0167]"
+   "*No*", "*Fruit, peel undetermined, core, pit or seed present*"
+   "[30002960]", "[C0163]"
+   "*Yes*", "*Fruit, peel undetermined, core, pit or seed removed*"
+   "[30002654]", "[C0213]"
+   "", ""
+   "**Brick attribute: Cooking process**", "**Cooking Method**"
+   "[20000128]", "Facet TBD"
+   "*Cooked*", "*Sterilized by heat*"
+   "[30002953]", "[J0123]"
+   "*Dried*", "*Dehydrated or dried*"
+   "[30002762]", "[J0116]"
+   "*Sugared*", "*Preserved by adding sugar*"
+   "[30002518]", "[J0146]"
+   "", ""
+   "**Brick attribute: Refrigeration claim**", "**Preservation Method**"
+   "[20000153]", "Facet J"
+   "*Can be refrigerated*", "*Preserved by chilling*"
+   "[30000517]", "[J0131]"
+   "*Must be refrigerated*", "--"
+   "[30000090]", "--"
+   "", ""
+   "**Brick attribute: Type of fruit**", "**Fruit Producing Plant**"
+   "[20000076] 103 possible types of fruits", "[B1140]"
+   "*Apples*", "*Apple*"
+   "[30003020]", "[B1245]"
 
 ---------------------------------------
 Integration of GS1, GTIN and Vocal Data
