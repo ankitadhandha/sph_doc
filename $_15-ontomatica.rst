@@ -6,7 +6,7 @@ Ontomatica
 ==========
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    $_15-ontomatica-exec-summary.rst
    $_15-ontomatica-expertise.rst
