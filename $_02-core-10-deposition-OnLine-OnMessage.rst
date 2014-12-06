@@ -12,9 +12,9 @@ Table of contents for OnLine and OnMessage Deposition
    :depth: 3
    :local:
 
---------------------
+-------------------
 Deposition Workflow
---------------------
+-------------------
 
 A :ref:`depositor <terms-Depositor>` |_| registers information via:
 
@@ -45,15 +45,15 @@ Explanation; equivalence :class:`schema:sameAs`.
 
    "**Brick attribute: Classification**", "**Product Type**"
    "--", "[A0361]"
-   "*Family: Fruits; Vegetables; Nuts; Seeds*", "*Facet term*"
+   "*Family: Fruits; Vegetables; Nuts; Seeds*", "*Fruits; Vegetables; Nuts; Seeds*"
    "[50100000]", "[A0987]"
-   "*Class: Fruit - Prepared; Processed*", "*Facet term*"
+   "*Class: Fruit - Prepared; Processed*", "*Fruit - Prepared; Processed*"
    "[50102000]", "[A0988]"
-   "*Brick: Fruit - Prepared; Processed (Perishable)*", "*Facet term*"
+   "*Brick: Fruit - Prepared; Processed (Perishable)*", "*Fruit - Prepared; Processed (Perishable)*"
    "[10000205]", "[A0990]"
    "", ""
    "**Brick attribute: Formation**", "**Physical State, Shape Or Form**"
-   "[20000352]", "Facet E FTC"
+   "[20000352]", "[E0113]"
    "*Chopped*", "*Divided into pieces*"
    "[30000653]", "[E0100]"
    "*Halved*", "*Divided into halves*"
@@ -62,7 +62,7 @@ Explanation; equivalence :class:`schema:sameAs`.
    "[30001266]", "[H0306]"
    "", ""
    "**Brick attribute: Organic claim**", "**Consumer Group, Dietary Use, Label Claim**"
-   "[20000142]", "Facet P FTC"
+   "[20000142]", "[P0023]"
    "--", "*Organic food claim or use*"
    "--", "[P0128]"
    "*No*", "--"
@@ -70,15 +70,15 @@ Explanation; equivalence :class:`schema:sameAs`.
    "*Yes*", "--"
    "[30002654]", "--"
    "", ""
-   "**Brick attribute: If pitted, stoned**", "**Part of Plant or Animal/Fruit**"
+   "**Brick attribute: If pitted, stoned**", "**Part of Plant/Fruit**"
    "[20000109]", "[C0167]"
    "*No*", "*Fruit, peel undetermined, core, pit or seed present*"
    "[30002960]", "[C0163]"
    "*Yes*", "*Fruit, peel undetermined, core, pit or seed removed*"
    "[30002654]", "[C0213]"
    "", ""
-   "**Brick attribute: Cooking process**", "**Cooking Method**"
-   "[20000128]", "Facet TBD"
+   "**Brick attribute: Cooking process**", "**Preservation Method**"
+   "[20000128]", "[J0107]"
    "*Cooked*", "*Sterilized by heat*"
    "[30002953]", "[J0123]"
    "*Dried*", "*Dehydrated or dried*"
@@ -87,7 +87,7 @@ Explanation; equivalence :class:`schema:sameAs`.
    "[30002518]", "[J0146]"
    "", ""
    "**Brick attribute: Refrigeration claim**", "**Preservation Method**"
-   "[20000153]", "Facet J"
+   "[20000153]", "[J0107]"
    "*Can be refrigerated*", "*Preserved by chilling*"
    "[30000517]", "[J0131]"
    "*Must be refrigerated*", "--"
