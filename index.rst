@@ -60,7 +60,7 @@ Table of Contents
 .. toctree::
    :maxdepth: 2
 
-   $_00-preamble.rst
+   $_00-prologue.rst
    $_01-convention.rst
    $_02-core.rst
    $_03-detail.rst
@@ -72,7 +72,7 @@ Table of Contents
    $_11-terms-ontology.rst
    $_13-bibliography.rst
    $_15-ontomatica.rst
-   $_12-project-humor.rst
+   $_12-epilogue.rst
 
 Indices and Tables
 ^^^^^^^^^^^^^^^^^^

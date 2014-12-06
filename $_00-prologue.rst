@@ -1,8 +1,8 @@
 
-.. _$_00-preamble:
+.. _$_00-prologue:
 
 ========
-Preamble
+Prologue
 ========
 
 

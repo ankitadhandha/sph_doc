@@ -1,9 +1,9 @@
 
-.. _$_12-project-humor:
+.. _$_12-epilogue:
 
-=============
-Project Humor
-=============
+========
+Epilogue
+========
 
 * Vegetables are a must on a diet. I suggest carrot cake, zucchini bread, and pumpkin pie. ~Jim Davis
 
