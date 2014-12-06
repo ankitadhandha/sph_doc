@@ -1,9 +1,9 @@
 
-.. _$_02-core-17-real-time-infrastructure:
+.. _$_02-core-17-infrastructure:
 
-======================================
-Real-time Infrastructure and Reporting
-======================================
+============================
+Infrastructure and Reporting
+============================
 
 This section addresses:
 
