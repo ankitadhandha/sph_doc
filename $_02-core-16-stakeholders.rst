@@ -9,15 +9,26 @@ This section addresses:
 
 .. rst:role:: Ontomatica defined objective
 
-Ontomatica Coverage
--------------------
+Table of contents for Stakeholder Data Requirements
+---------------------------------------------------
+
+.. contents::
+   :depth: 3
+   :local:
+
+------------------------------------------
+ASA24 Data Specifications and Requirements
+------------------------------------------
 
 Ontomatica :ref:`label classes <terms-Label-Class>` |_| integrate data requirements for US NIH National Cancer Institute (NCI) `Automated Self-administered 24-hour Recall <http://appliedresearch.cancer.gov/asa24/>`_ (ASA24), including coverage of all specifications below.
 
-For the term "Glycemic load", Ontomatica imports the NCI thesaurus identifier :class:`ncit:C46090` (facet term code for the facet term "Glycemic Index")
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Ontomatica Coverage - ASA24 Requirements
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-ASA24 Data Specifications and Requirements
-------------------------------------------
+For the term "Glycemic load", Ontomatica imports the NCI thesaurus identifier :class:`ncit:C46090` (facet term code for the facet term "Glycemic Index").
+
+The following ASA terms will need to be defined: :class:`low` :class:`high` :class:`non-term` :class:`other-term` :class:`lean` and :class:`discretionary`
 
 .. hlist::
    :columns: 3
@@ -198,6 +209,28 @@ ASA24 Data Specifications and Requirements
    - Sorbitol
    - Xylitol
    - Nitrogen
+
+---------------------------------------------------
+National Food and Nutrient Analysis Program (NFNAP)
+---------------------------------------------------
+
+The goals of NFNAP are to improve the quantity and quality of data in the USDA National Nutrient Databank (NDB).
+
+NFNAP has produced annual updates of NDB for Standard Reference and a number of **Special Interest Databases**: isoflavones, choline, proanthocyanidins, fluoride, and flavonoids.
+
+NFNAP is guided by five principle:
+
+1. Identify and rank foods and nutrients for analysis
+2. Evaluate existing data for foods and nutrients
+3. Develop strategies for sampling
+4. Process and analyze foods
+5. Review and disseminate results
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Ontomatica Coverage - NFNAP Requirements
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Ontomatica proposal enables #1, #2 and #4, and specifically with respect to **Special Interest Database** requirements.
 
 .. |_| unicode:: 0x80
 

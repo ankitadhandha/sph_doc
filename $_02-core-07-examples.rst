@@ -10,7 +10,7 @@ Chemicals
 
 - Chemical Entities of Food Significance (ChEFS)
 
-   - `L-ascorbic acid <http://72.167.253.87/cgi-bin/flamenco.cgi/_ChEFS_1.0_/Flamenco?q=facet_ChEBI_R105:35805,116996/facet_NTRNT:19650/facet_USES_BIOL:2929,6117&morelike=1>`_
+   - `L-ascorbic acid <http://72.167.253.87/cgi-bin/flamenco.cgi/_ChEFS_/Flamenco?q=facet_ChEBI_R105:35805,116996/facet_NTRNT:19650/facet_USES_BIOL:2929,6117&morelike=1>`_
 
    - `Flavonols class <http://72.167.253.87/cgi-bin/flamenco.cgi/_ChEFS_/Flamenco?q=facet_ChEBI_R105:360248>`_
 
