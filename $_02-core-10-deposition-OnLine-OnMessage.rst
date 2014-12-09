@@ -18,9 +18,9 @@ Deposition Workflow
 
 A :ref:`depositor <terms-Depositor>` |_| registers information via:
 
-1. :ref:`OnLine <terms-Deposition-OnLine>` |_| interface, or
+1. :ref:`OnLine <terms-OnLine>` |_| interface, or
 
-2. :ref:`OnMessage <terms-Deposition-OnMessage>` |_| interface.
+2. :ref:`OnMessage <terms-OnMessage>` |_| interface.
 
 :ref:`OnTop <terms-OnTop>` |_| parser interacts with :ref:`ontologies <terms-Ontology>` to properly classify :ref:`deposit <terms-Deposit>`.
 

@@ -18,7 +18,7 @@ Process
 
 Template-driven process that classifies a food by its similarity to another food.
 
-Templates are :ref:`pre-combined items <terms-Pre-Combined-Items>` specified by ontology terms.
+Templates are :ref:`pre-combined items <terms-Pre-Combined-Item>` specified by ontology terms.
 
 One ontology used by Ontomatica is `Simple Knowledge Object Sharing <http://www.w3.org/2004/02/skos/core#>`_ (SKOS) :cite:`6050`. Example of applying SKOS:
 

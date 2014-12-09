@@ -30,11 +30,7 @@ Table of Contents for Infrastructure and Reporting
 Infrastructure
 --------------
 
-ONDEMAND - real-time infrastructure:
-
-Platform on which all services operate.
-
-Infrastructure is designed for high performance and automated FAIL-OVER if a core component (e.g. memory, storage) fails.
+Infrastructure is designed for high performance and automated :ref:`fail-over <terms-Failover>` |_| if a core component (e.g. memory, storage) fails.
 
 .. image:: 2_OnDemand_infrastructure.png
 
@@ -136,3 +132,7 @@ Service Provider
 ----------------
 
 Ontomatica plans to use `Cybercon <http://www.cybercon.com/>`_ as the hosting service provider.
+
+
+.. |_| unicode:: 0x80
+

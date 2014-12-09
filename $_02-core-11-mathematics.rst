@@ -9,22 +9,24 @@ This section addresses:
 
 .. rst:role:: USDA #3
 
-   Develop capability for checking the quality of incoming data based on general database principles and specific ARS analytics. USDA 
+   Develop capability for checking the quality of incoming data based on general database principles and specific ARS analytics. 
 
 .. rst:role:: USDA #5
+
+   Allow incorporation of ARS analytics for expanding the database.
 
 OnTask - Ontomatica workflow engine
 -----------------------------------
 
 Examples of :ref:`USDA mathematics <terms-USDA-Mathematics>` |_| processed by :ref:`OnTask <terms-OnTask>` |_| deposition workflow:
 
-- Validate: sum of :ref:`proximates <terms-Proximates>` |_| is less than or equal to 100.
+- Validate: sum of :ref:`proximates <terms-Proximate>` |_| is less than or equal to 100.
 
-- Validate: sum of carbohydrate :ref:`fractions <terms-Fraction>` |_| is less than or equal to total :ref:`carbohydrates <term-Carbohydrate>`.
+- Validate: sum of carbohydrate :ref:`fractions <terms-Fraction>` |_| is less than or equal to total :ref:`carbohydrates <terms-Carbohydrate>`.
 
 - Validate: sum of individual :ref:`fatty acids <terms-Fatty-Acid>` |_| is less than or equal to total :ref:`fat <terms-Fat>`.
 
-- Validate: sum of individual :ref:`carotenoids <terms-Carotenoid>` |_| times the appropriate :ref:`factors <terms-Factor>` |_| is less than or equal to :ref:`vitamin A <terms-Vitmin-A>` |_| value.
+- Validate: sum of individual :ref:`carotenoids <terms-Carotenoid>` |_| times the appropriate :ref:`factors <terms-Factor>` |_| is less than or equal to :ref:`vitamin A <terms-Vitamin-A>` |_| value.
 
 - Validate: each food has :ref:`refuse value <terms-Refuse-Value>`.
 

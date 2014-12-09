@@ -18,7 +18,7 @@ Ontology driven process that classifies a food according to precise ontology ter
 
 - identify unique terms [source; part of source; origin of source]
 
-- identify combinations of terms that are :ref:`jointWith <terms-Joint-With>` |_| and :ref:`disjointWith <terms-Disjoint-With>`
+- identify combinations of terms that are :ref:`jointWith <terms-jointWith>` |_| and :ref:`disjointWith <terms-disjointWith>`
 
 - identify data associated with ontology terms.
 

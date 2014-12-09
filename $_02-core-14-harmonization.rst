@@ -28,7 +28,7 @@ Ontomatica Coverage
 
 Ontomatica harmonizes terms defined by the :ref:`authorities <terms-Authority>` |_| below.
 
-Our methods create relationships between :ref:`terms <terms-Term>` |_| by using one or more of the following :ref:`predicates <terms-Predicate>`:
+Our methods create relationships between :ref:`terms <terms-Term>` |_| by using one or more of the following :ref:`predicates <terms-Predicate>` |_|:
 
 :class:`schema:sameAs` :class:`skos:exactMatch` :class:`skos:closeMatch` :class:`skos:relatedMatch`
 

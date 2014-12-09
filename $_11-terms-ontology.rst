@@ -1169,4 +1169,223 @@ Terms imported from Ontologies
    :class:`uo:UO_0000273`
      milligram per liter
 
+.. _terms-langual-G0004:
+
+   :class:`langual:G0004`
+     Cooked by Dry Heat
+
+.. _terms-langual-G0005:
+
+   :class:`langual:G0005`
+     Baked or Roasted
+
+.. _terms-langual-G0006:
+
+   :class:`langual:G0006`
+     Broiled or Grilled
+
+.. _terms-langual-G0007:
+
+   :class:`langual:G0007`
+     Charcoal Broiled
+
+.. _terms-langual-G0008:
+
+   :class:`langual:G0008`
+     Griddled
+
+.. _terms-langual-G0009:
+
+   :class:`langual:G0009`
+     Popped
+
+.. _terms-langual-G0010:
+
+   :class:`langual:G0010`
+     Toasted
+
+.. _terms-langual-G0011:
+
+   :class:`langual:G0011`
+     Cooked by Microwave
+
+.. _terms-langual-G0012:
+
+   :class:`langual:G0012`
+     Cooked by Moist Heat
+
+.. _terms-langual-G0013:
+
+   :class:`langual:G0013`
+     Cooked in Water or Water-Based Liquid
+
+.. _terms-langual-G0014:
+
+   :class:`langual:G0014`
+     Boiled
+
+.. _terms-langual-G0015:
+
+   :class:`langual:G0015`
+     Boiled and Drained
+
+.. _terms-langual-G0016:
+
+   :class:`langual:G0016`
+     Boiled in Large Amount Of Liquid
+
+.. _terms-langual-G0017:
+
+   :class:`langual:G0017`
+     Boiled in Small Amount Of Liquid
+
+.. _terms-langual-G0018:
+
+   :class:`langual:G0018`
+     Boiled and Undrained
+
+.. _terms-langual-G0019:
+
+   :class:`langual:G0019`
+     Braised
+
+.. _terms-langual-G0020:
+
+   :class:`langual:G0020`
+     Simmered, Poached or Stewed
+
+.. _terms-langual-G0021:
+
+   :class:`langual:G0021`
+     Cooked in Steam
+
+.. _terms-langual-G0022:
+
+   :class:`langual:G0022`
+     Steamed with Pressure
+
+.. _terms-langual-G0023:
+
+   :class:`langual:G0023`
+     Steamed without Pressure
+
+.. _terms-langual-G0024:
+
+   :class:`langual:G0024`
+     Cooked with Fat or Oil
+
+.. _terms-langual-G0025:
+
+   :class:`langual:G0025`
+     Cooked with Added Fat or Oil
+
+.. _terms-langual-G0026:
+
+   :class:`langual:G0026`
+     Cooked in Small Amount Of Fat or Oil
+
+.. _terms-langual-G0027:
+
+   :class:`langual:G0027`
+     Sauteed
+
+.. _terms-langual-G0028:
+
+   :class:`langual:G0028`
+     Stir-Fried
+
+.. _terms-langual-G0029:
+
+   :class:`langual:G0029`
+     Deep-Fried
+
+.. _terms-langual-G0030:
+
+   :class:`langual:G0030`
+     Cooked with Inherent Fat or Oil
+
+.. _terms-langual-G0031:
+
+   :class:`langual:G0031`
+     Cooked in Container Immersed in Water or Steam
+
+.. _terms-langual-G0032:
+
+   :class:`langual:G0032`
+     Method Of Heating Container
+
+.. _terms-langual-G0033:
+
+   :class:`langual:G0033`
+     Cooked in Double Boiler
+
+.. _terms-langual-G0034:
+
+   :class:`langual:G0034`
+     Cooked in Water Bath
+
+.. _terms-langual-G0035:
+
+   :class:`langual:G0035`
+     Shallow Fried
+
+.. _terms-langual-G0036:
+
+   :class:`langual:G0036`
+     Steeped
+
+.. _terms-langual-G0037:
+
+   :class:`langual:G0037`
+     Reheated
+
+.. _terms-langual-G0038:
+
+   :class:`langual:G0038`
+     Reheated by Microwave
+
+.. _terms-langual-G0039:
+
+   :class:`langual:G0039`
+     Reheated by Dry Heat
+
+.. _terms-langual-G0040:
+
+   :class:`langual:G0040`
+     Reheated by Boil-In-Bag
+
+.. _terms-langual-G0041:
+
+   :class:`langual:G0041`
+     Reheated in Pan or Cooking Utensil
+
+.. _terms-langual-G0042:
+
+   :class:`langual:G0042`
+     Scalded or Blanched
+
+.. _terms-langual-G0043:
+
+   :class:`langual:G0043`
+     Double Steamed
+
+.. _terms-langual-G0044:
+
+   :class:`langual:G0044`
+     Rotisserie
+
+.. _terms-langual-G0045:
+
+   :class:`langual:G0045`
+     Seared
+
+.. _terms-langual-G0046:
+
+   :class:`langual:G0046`
+     Blind Baked
+
+.. _terms-langual-G0047:
+
+   :class:`langual:G0047`
+     Pressure Fried
 

@@ -9,9 +9,9 @@ This section addresses:
 
 .. rst:role:: Ontomatica defined objective
 
-Ontomatica proposes, as part of LABEL PROJECT, to implement COMPLETE SYSTEM for two national authorities - USA and GBR (UK).
+Ontomatica proposes, as part of :ref:`label project<terms-Label-Project>` |_|, to implement :ref:`complete system<terms-Complete-System>` |_| for two national :ref:`authorities<terms-Authority>` |_| - USA and GBR (UK).
 
-Internationalization is enabled by USDA PRIME.
+Internationalization is enabled by :ref:`USDA prime<terms-USDA-Prime>`.
 
 Ontomatica will identify countries.
 
@@ -26,7 +26,7 @@ For example:
    "United Kingdom", "GBR", "826", "dbpedia:United_Kingdom"
    "United States", "USA", "840", "dbpedia:United_States"
 
-Energy illustration is generated using UN FAO INFOODS and authority values.
+Energy illustration is generated using UN FAO :ref:`INFOODS<terms-INFOODS>` |_| and authority values.
 
 Note below: USDA and GBR use different analytical methods when reporting values.
 
@@ -53,4 +53,7 @@ Legend
 - XPROT = protein conversion factor.
 - XPROT value = 5.83 for the food: whole wheat.
 - XPROT is a floating point number [xsd:float].
+
+
+.. |_| unicode:: 0x80
 
