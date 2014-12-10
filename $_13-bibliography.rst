@@ -14,5 +14,6 @@ Intro text goes here
    $_13-bibliography-articles-technology.rst
    $_13-bibliography-books.rst
    $_13-bibliography-misc.rst
-
+   $_13-bibliography-misc-ontologies.rst
+   $_13-bibliography-misc-data.rst
 

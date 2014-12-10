@@ -1,9 +1,9 @@
 
 .. _$_13-bibliography-misc:
 
-=============
-Web Resources
-=============
+===============
+Resources - Web
+===============
 
 .. bibliography:: $_14-refs-misc.bib
    :cited:
