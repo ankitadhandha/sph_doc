@@ -16,4 +16,5 @@ Intro text goes here
    $_13-bibliography-misc.rst
    $_13-bibliography-misc-ontologies.rst
    $_13-bibliography-misc-data.rst
+   $_13-bibliography-misc-experts.rst
 
