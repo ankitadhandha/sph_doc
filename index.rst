@@ -7,10 +7,14 @@
 Nutrition Database Modernization
 ********************************
 
-:Website: `Agriculture, food, chemical and labeling services for the USDA community <http://www.ontomatica.com/public/organizations/BETV/Intro.html>`_
+:Website: `Food labeling services for the USDA community <http://www.ontomatica.com/public/organizations/BETV/Intro.html>`_
 :Author: `Gig Graham <http://ontomatica.com/public/people/GXG/eCard.html>`_
 :Organization: `Ontomatica <http://www.ontomatica.com>`_
 :Date: 29 November 2014
+
+.. image:: 1_docs_latest_.svg
+
+-----------------------------
 
 .. sidebar:: ATIP Foundation and USDA Proposal Resources
 
