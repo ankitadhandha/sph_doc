@@ -1,4 +1,5 @@
 sphinxcontrib-bibtex
 sphinxcontrib-napoleon
 sphinxcontrib-httpdomain
+sphinxcontrib-exceltable
 
