@@ -34,6 +34,7 @@ extensions = [
               'sphinx.ext.coverage',
               'sphinx.ext.mathjax',
               'sphinx.ext.viewcode',
+              'sphinxcontrib.exceltable',
               'sphinxcontrib.napoleon',
               'sphinxcontrib.bibtex',
               'sphinxcontrib.httpdomain',
