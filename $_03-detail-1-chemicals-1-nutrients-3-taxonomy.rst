@@ -10,7 +10,6 @@ Intro text goes here
 .. toctree::
    :maxdepth: 3
 
-   $_03-detail-1-chemicals-1-nutrients-3-taxonomy-4-a-proximates.rst
    $_03-detail-1-chemicals-1-nutrients-3-taxonomy-4-b-carbohydrates.rst
    $_03-detail-1-chemicals-1-nutrients-3-taxonomy-4-d-lipids.rst
    $_03-detail-1-chemicals-1-nutrients-3-taxonomy-4-i-nitrogen.rst

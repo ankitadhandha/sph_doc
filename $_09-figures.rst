@@ -24,7 +24,6 @@ Figures
 .. figure:: 3_ChEFS_bioactivity_transferase.png
 .. figure:: 3_ChEFS_carbohydrates.png
 .. figure:: 3_ChEFS_carbohydrates_D_glucose_class.png
-.. figure:: 3_ChEFS_carbohydrates_glucose_class.png
 .. figure:: 3_ChEFS_crop_groups.png
 .. figure:: 3_ChEFS_crop_groups_protective_chemicals.png
 .. figure:: 3_ChEFS_ligands.png
