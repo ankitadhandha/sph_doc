@@ -5,8 +5,10 @@
 Meals
 =====
 
+Intro text goes here
 
-.. seealso::
+.. toctree::
+   :maxdepth: 2
 
-   Reference to a related section of the Proposal
+   $_03-detail-5-meals-1-food-patterns.rst
 
