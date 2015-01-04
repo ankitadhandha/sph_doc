@@ -6,18 +6,16 @@ Enzymes
 =======
 
 .. contents:: `Table of contents`
-   :depth: 2
+   :depth: 1
    :local:
 
+--------------
 Added to Foods
-==============
+--------------
 
-Level 2
-^^^^^^^
 
+-----------
 Bioactivity
-===========
+-----------
 
-Level 2
-^^^^^^^
 

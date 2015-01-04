@@ -8,7 +8,7 @@ Nutrients
 Intro text goes here
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
 
    $_03-detail-1-chemicals-1-nutrients-1-web.rst
    $_03-detail-1-chemicals-1-nutrients-3-taxonomy.rst

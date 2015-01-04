@@ -6,12 +6,10 @@ Food Odor
 =========
 
 .. contents:: `Table of contents`
-   :depth: 2
+   :depth: 1
    :local:
 
+------------
 Odor Samples
-============
-
-Level 2
-^^^^^^^
+------------
 

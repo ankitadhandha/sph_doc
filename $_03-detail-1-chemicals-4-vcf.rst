@@ -6,13 +6,10 @@ Volatile Compounds in Food
 ==========================
 
 .. contents:: `Table of contents`
-   :depth: 2
+   :depth: 1
    :local:
 
+---
 VCF
-===
-
-Level 2
-^^^^^^^
-
+---
 

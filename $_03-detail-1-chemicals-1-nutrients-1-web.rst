@@ -6,6 +6,7 @@ Nutrients from ChEFS and ChEMATIC
 =================================
 
 .. contents:: `Table of contents`
+   :depth: 2
    :local:
 
 -----------------------------
