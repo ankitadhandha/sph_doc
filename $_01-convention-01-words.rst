@@ -1,8 +1,8 @@
 
-.. _$_01-convention-terms:
+.. _$_01-convention-words:
 
 ======================
-Terms Used in Proposal
+Words Used in Proposal
 ======================
 
 -------------------------

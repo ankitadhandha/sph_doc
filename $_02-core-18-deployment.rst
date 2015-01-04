@@ -22,8 +22,8 @@ OnTarget
 
 :ref:`OntoMation<terms-OntoMation>` |_| manages the promotion of application content:
 - from :ref:`development<terms-Development>` |_| (1)
-- to ref:`quality assurance<terms-Quality-Assurance>` |_| (5)
-- to :ref`:production<terms-Production>` |_| (6 and 7).
+- to :ref:`quality assurance<terms-Quality-Assurance>` |_| (5)
+- to :ref:`production<terms-Production>` |_| (6 and 7).
 
 .. image:: 2_OnTarget_deployment.png
    :align: center
