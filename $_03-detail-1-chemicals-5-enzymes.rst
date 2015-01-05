@@ -1,17 +1,11 @@
 
 .. _$_03-detail-1-chemicals-5-enzymes:
 
-=======
-Enzymes
-=======
+===============
+Enzymes in Food
+===============
 
-.. contents:: `Table of contents`
-   :depth: 1
-   :local:
-
---------------
-Added to Foods
---------------
+Intro text
 
 .. csv-table::
    :header: "Enzyme", "EC no.", "Source", "Food supplier use"
@@ -71,9 +65,5 @@ Added to Foods
 .. [10] polygalacturonase
 .. [11] a-galactosidase
 .. [12] b-fructofuranosidase
-
------------
-Bioactivity
------------
 
 
