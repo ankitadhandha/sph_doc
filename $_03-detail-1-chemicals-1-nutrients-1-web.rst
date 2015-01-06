@@ -5,7 +5,10 @@
 Nutrients from ChEFS and ChEMATIC
 =================================
 
-.. contents:: `Table of contents`
+Table of Contents for Nutrients from ChEFS and ChEMATIC
+-------------------------------------------------------
+
+.. contents::
    :depth: 2
    :local:
 

@@ -5,8 +5,10 @@
 Mathematics
 ===========
 
+Intro text goes here
 
-.. seealso::
+.. toctree::
+   :maxdepth: 3
 
-   Reference to a related section of the Proposal
-
+   $_03-detail-7-mathematics-1-detail.rst
+   $_03-detail-7-mathematics-2-detail.rst

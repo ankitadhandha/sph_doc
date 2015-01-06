@@ -25,7 +25,7 @@ OnTarget
 - to :ref:`quality assurance<terms-Quality-Assurance>` |_| (5)
 - to :ref:`production<terms-Production>` |_| (6 and 7).
 
-.. image:: 2_OnTarget_deployment.png
+.. image:: $_02-core-18-deployment_.png
    :align: center
 
 -----

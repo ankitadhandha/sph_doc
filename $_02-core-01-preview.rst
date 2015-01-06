@@ -11,7 +11,7 @@ Database provides ability to analyze and track food from its origins, through gr
 
 Such thorough documentation provides information to improve food safety and determine "cause and effect" of the food we eat.
 
-.. figure:: 2_food_stream.png
+.. figure:: $_02-core-01-preview-1-food-stream_.png
    :align: center
    
    Scope of Food Stream Information in Ontomatica systems

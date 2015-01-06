@@ -11,4 +11,5 @@ Intro text goes here
    :maxdepth: 2
 
    $_03-detail-5-meals-1-food-patterns.rst
+   $_03-detail-5-meals-2-detail.rst
 

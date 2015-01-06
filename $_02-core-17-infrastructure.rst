@@ -32,7 +32,7 @@ Infrastructure
 
 Infrastructure is designed for high performance and automated :ref:`fail-over <terms-Failover>` |_| if a core component (e.g. memory, storage) fails.
 
-.. image:: 2_OnDemand_infrastructure.png
+.. image:: $_02-core-17-infrastructure_.png
 
 ---------
 Reporting

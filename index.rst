@@ -1,5 +1,5 @@
 
-.. image:: 1_USDA_ARS_large.png
+.. image:: $_01-USDA-ARS-large_.png
    :align: center
 
 ********************************
@@ -12,7 +12,7 @@ Nutrition Database Modernization
 :Organization: `Ontomatica <http://www.ontomatica.com>`_
 :Date: 29 November 2014
 
-.. image:: 1_docs_latest_.svg
+.. image:: $_01-docs-latest_.svg
 
 -----------------------------
 
@@ -86,9 +86,9 @@ Indices and Tables
 License
 ^^^^^^^
 
-Copyright 2014, Ontomatica LLC. This work is licensed under a `Creative Commons Attribution 3.0 License <http://creativecommons.org/licenses/by/3.0/us/deed.en_US>`_.
+Copyright 2014 Ontomatica LLC. This work is licensed under a `Creative Commons Attribution 3.0 License <http://creativecommons.org/licenses/by/3.0/us/deed.en_US>`_.
 
-.. image:: 1_cc_icon.png
+.. image:: $_01-cc-icon_.png
    :align: left
    :alt: Creative Commons License
 
