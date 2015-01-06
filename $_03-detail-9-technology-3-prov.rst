@@ -5,7 +5,7 @@
 Provenance Ontology (PROV)
 ==========================
 
-Under construction
+Intro text here
 
 .. figure:: $_03-detail-9-technology-3-prov-1-key-concepts_.png
    :align: center

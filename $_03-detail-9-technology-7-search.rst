@@ -5,9 +5,8 @@
 Search
 ======
 
-------
-Search
-------
+Intro text here
+
 
 User Interface
 ^^^^^^^^^^^^^^

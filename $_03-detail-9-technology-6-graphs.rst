@@ -5,6 +5,6 @@
 Graphs
 ======
 
-Under construction
+Intro text here
 
 
