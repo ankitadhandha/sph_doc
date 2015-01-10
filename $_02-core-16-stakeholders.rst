@@ -9,8 +9,8 @@ This section addresses:
 
 .. rst:role:: Ontomatica defined objective
 
-Table of contents for Stakeholder Data Requirements
----------------------------------------------------
+Table of contents
+-----------------
 
 .. contents::
    :depth: 3

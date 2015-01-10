@@ -5,6 +5,20 @@
 Food Odor and Organoleptic Chemicals
 ====================================
 
+---------------------------------
+Organoleptic Chemicals from ChEFS
+---------------------------------
+
+   `ChEFS: isoacetovanillone <http://72.167.253.87/cgi-bin/flamenco.cgi/_ChEFS_/Flamenco?q=facet_ChEBI_R105:391093>`_
+
+   `ChEFS: acetoin <http://72.167.253.87/cgi-bin/flamenco.cgi/_ChEFS_/Flamenco?q=facet_BIOACTIVE:9939/facet_ChEBI_R105:633718&group=facet_ChEBI_R105>`_
+
+   `ChEFS: allyl isothiocyanate <http://72.167.253.87/cgi-bin/flamenco.cgi/_ChEFS_/Flamenco?q=facet_ChEBI_R105:312403/facet_USES_BIOL:1346/facet_USES_ECON:9090&group=facet_USES_ECON>`_
+
+-------------------------------------------
+Organoleptic Classes and Organoleptic Types
+-------------------------------------------
+
 ChEFS integrates organoleptic compounds that have the following odor properties.
 
 .. csv-table::

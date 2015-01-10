@@ -5,8 +5,10 @@
 Fish
 =====
 
-Table of contents for Fish
---------------------------
+Intro text here; fishing zones
+
+Table of Contents
+-----------------
 
 .. contents::
    :depth: 2
@@ -16,8 +18,7 @@ Table of contents for Fish
 Fish Taxonomy
 -------------
 
-image goes here
-
+.. image:: $_03-detail-3-commodities-3-fish-1-aquatic-groups_.png
 
 ------------------
 Fish and Fisheries

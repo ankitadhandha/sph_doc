@@ -5,7 +5,7 @@
 Chemicals
 =========
 
-Intro text goes here
+Intro text here
 
 .. toctree::
    :maxdepth: 3
@@ -15,5 +15,5 @@ Intro text goes here
    $_03-detail-1-chemicals-3-food-odor.rst
    $_03-detail-1-chemicals-4-vcf.rst
    $_03-detail-1-chemicals-5-enzymes.rst
-
+   $_03-detail-1-chemicals-6-bioactivity.rst
 

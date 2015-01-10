@@ -1,9 +1,9 @@
 
 .. _$_03-detail-9-technology-5-rest:
 
-====
-REST
-====
+======================================
+Representational State Transfer (REST)
+======================================
 
 The following illustrates the retrieval of blog posts by a specific user and identified by a specific tag. The general structure is:
 

@@ -1,11 +1,15 @@
 
-.. _$_03-detail-5-meals-1-food-patterns:
+.. _$_03-detail-5-meals-1-fndds-food-patterns:
 
 =============
 Food Patterns
 =============
 
 Intro text
+
+------------------------
+USDA FNDDS Food Patterns
+------------------------
 
 .. csv-table::
    :header: "Food Pattern Class", "Food Pattern Type", "Term"

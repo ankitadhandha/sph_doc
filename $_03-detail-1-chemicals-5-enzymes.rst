@@ -5,7 +5,36 @@
 Enzymes in Food
 ===============
 
-Intro text
+Table of Contents
+-----------------
+
+.. contents::
+   :depth: 2
+   :local:
+
+-------------------------------
+Enzyme Classes and Enzyme Types
+-------------------------------
+
+ChEFS
+   Lyase (EC 4). 743 items and their relationships with many Facets and Facet Terms.
+
+   `ChEFS: bioactivity, Lyases (EC:4) <http://72.167.253.87/cgi-bin/flamenco.cgi/_ChEFS_/Flamenco?q=facet_BIOACTIVE:17042&group=facet_BIOACTIVE>`_
+
+.. image:: $_03-detail-1-chemicals-5-enzymes-1-chefs-bioactivity-lyases_.png
+
+ChEMATIC
+   22,802 items and their relationships with many Facets and Facet Terms.
+
+   `ChEMATIC: enzyme classes <http://72.167.253.87/cgi-bin/flamenco.cgi/_ChEMATIC_v02_-_14-08-21_/Flamenco?q=facet_MD_08:68257202&group=facet_MD_08>`_
+
+.. image:: $_03-detail-1-chemicals-5-enzymes-1-chematic-enzymes_.png
+
+----------------------
+Enzymes Added to Foods
+----------------------
+
+Ontomatica integrates information about enzyme names, Enzyme Commission classification, origin of enzyme and food to which enzyme is added.
 
 .. csv-table::
    :header: "Enzyme", "EC no.", "Source", "Food supplier use"

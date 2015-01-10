@@ -19,8 +19,8 @@ This section addresses:
 
    Allow for tracking of the use of the database (e.g., frequency of record/field selection for viewing or export).
 
-Table of Contents for Infrastructure and Reporting
---------------------------------------------------
+Table of contents
+-----------------
 
 .. contents::
    :depth: 2

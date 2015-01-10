@@ -66,10 +66,10 @@ Grammar
    Rules for specifying a set of well-formed structures using Terms of a given Language.
 
 Language
-   Set of Terms, specified by a Syntax, and sequenced according to a Grammar. Language is used to systematically define and aggregate knowledge.
+   Set of Terms specified by a Syntax and sequenced according to a Grammar. Language is used to systematically define and aggregate knowledge.
 
 Ontology
-   Combination of one or more of the above to express higher order activities, such as communications, translation, learning, understanding, teaching, and making decisions. More specifically, a formal way to represent entities, ideas, and events (Things). Things have Properties such as names and values. Things have Relations such as kinship and sequence of steps (ordinality) to perform a task. Things, Properties and Relations are organized by Categories (Taxonomy). Knowledge - in a form that can be processed by a computer - is the categorical ordering of Things, Properties and Relations from Domain-of-Context into a Domain-of-Knowledge.
+   Combination of the above to express higher order activities, such as communications, translation, learning, understanding, teaching, and making decisions. More specifically, a formal way to represent entities, ideas, and events (Things). Things have Properties such as names and values. Things have Relations such as kinship and sequence of steps (ordinality) to perform a task. Things, Properties and Relations are organized by categories (Taxonomy). Knowledge - in a form that can be processed by a computer - is the categorical ordering of Things, Properties and Relations from Domain-of-Context into a Domain-of-Knowledge.
 
 ------------------------------
 Words for specifying relations
@@ -104,7 +104,7 @@ Symmetric relationship
 Words for implementing an Ontology
 ----------------------------------
 
-Ontology (continued)
+Ontology (continuing to add precision to the word "Ontology" previously used above)
    Uses a Controlled Vocabulary to specify Things, Properties and Relations for a Domain-of-Knowledge. Defines a set of statements about a Domain-of-Knowledge. Statements in Ontomatica ontologies are implemented as Graphs.
 
 Faceted Classification
@@ -113,7 +113,7 @@ Faceted Classification
 Facet Tree
    Hierarchy of Facets in a specific Domain-of-Knowledge.
 
-Thing
+Thing (continuing to add precision to the word "Thing" previously used above)
    An entity capable of an independent existence that can be uniquely identified.
 
 Subject
@@ -128,21 +128,21 @@ Item
 Graph
    Composed of vertices {nodes} and lines {edges} that connect vertices. Ontomatica graphs are Directed Acyclic Graphs (DAG) that represent Things and causal Relations between them.
 
-Facet (continued)
-   Vertex {node} in a Graph. Logically, a facet is a noun. Type or class term is called Facet Term. Code assigned to Facet Term (FT) is called Facet Term Code (FTC).
+Facet and Facet Term (as defined during Facet Classification and revealed in a Facet Tree)
+   Vertex {node} in a Graph. Logically, a facet is a noun. A class term (word identifying a collection of Facet Terms) is called a Facet. A type term (instances of members of a Facet) is called Facet Term. Code assigned to Facet Term (FT) is called Facet Term Code (FTC).
 
 Facet Map
-   Pairing of an Item with one or more Terms in one or more Facet Trees.
+   Pairing of an Item with one or more Facet Terms in one or more Facet Trees.
 
-Relation (continued)
+Relation (continuing to add precision to the word "Relation" previously used above)
    Line {edge} expressing connection between Facets and Facet Terms in a Graph. Logically, a relation is a verb. Term that describes a Relation is a Predicate.
 
-Predicate
-   Type {single} or class {hierarchy} of Relations. Type or class term is called Predicate Term. Code assigned to Predicate Term (PT) is called Predicate Term Code (PTC).
+Predicate and Predicate Term
+   Type {single} or class {hierarchy} of Relations. A class term (word identifying a collection of Predicate Terms) is called a Predicate. A type term (instances of members of a Predicate Taxonomy) is called Predicate Term. Code assigned to Predicate Term (PT) is called Predicate Term Code (PTC).
 
-Syntax (continued)
+Syntax (continuing to add precision to the word "Syntax" previously used above, but now specific to Ontology)
    Web Ontology Language (OWL) that specifies the Syntax for creating structures like phrases, sentences, and paragraphs.
 
-Grammar (continued)
+Grammar (continuing to add precision to the word "Grammar" previously used above, but now specific to Ontology)
    Set of statements in the logical form: :class:`subject` :class:`predicate` :class:`object` where :class:`subject` and :class:`object` are Facet Terms and :class:`predicate` are Predicate Terms.
 
