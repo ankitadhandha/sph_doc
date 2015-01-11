@@ -1,9 +1,9 @@
 
 .. _$_02-core-11-mathematics:
 
-===========
-Mathematics
-===========
+=====================
+Nutrition Mathematics
+=====================
 
 This section addresses:
 
@@ -15,6 +15,7 @@ This section addresses:
 
    Allow incorporation of ARS analytics for expanding the database.
 
+-----------------------------------
 OnTask - Ontomatica workflow engine
 -----------------------------------
 
@@ -38,6 +39,7 @@ Examples of :ref:`USDA mathematics <terms-USDA-Mathematics>` |_| processed by :r
 
 - Email: food record to :ref:`depositor <terms-Depositor>` |_| for review.
 
+---------------
 Sample workflow
 ---------------
 

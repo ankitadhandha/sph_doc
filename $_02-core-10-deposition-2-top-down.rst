@@ -5,8 +5,8 @@
 OnLine Top Down Deposition
 ==========================
 
-Table of contents for OnLine Top Down Deposition
-------------------------------------------------
+Table of Contents
+-----------------
 
 .. contents::
    :depth: 3

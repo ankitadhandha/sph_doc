@@ -5,6 +5,14 @@
 Examples: Production Applications
 =================================
 
+Table of Contents
+-----------------
+
+.. contents::
+   :depth: 3
+   :local:
+
+---------
 Chemicals
 ---------
 
@@ -14,6 +22,7 @@ Chemicals
 
    - `Flavonols class <http://72.167.253.87/cgi-bin/flamenco.cgi/_ChEFS_/Flamenco?q=facet_ChEBI_R105:360248>`_
 
+-----------
 Commodities
 -----------
 
@@ -40,6 +49,7 @@ Food
 
    - `Extra virgin olive oil <http://72.167.253.87/cgi-bin/flamenco.cgi/_specialty_foods_-_14-01-25_/Flamenco?q=A:1036/B:3525/C:27/E:4/G:36/H:649/P:36/R:220/Z:470&group=R>`_
 
+-----
 Meals
 -----
 
@@ -49,6 +59,7 @@ Meals
 
    - `Pizza with meat, N/S as to type of crust (52 ingredients) <http://72.167.253.87/cgi-bin/flamenco.cgi/_USDA_FNDDS_-_EPA_FCID_-_14-01-16_/Flamenco?q=facet_A_FNDDS3_Food:9960&group=facet_A_FNDDS3_View>`_
 
+------------
 Metabolomics
 ------------
 
@@ -58,6 +69,7 @@ Metabolomics
 
    - `Ligands <http://72.167.253.87/cgi-bin/flamenco.cgi/_ChEMATIC_v02_-_14-08-21_/Flamenco?words=ligand&q=&facet=&in=all>`_
 
+-----------------
 Reference Library
 -----------------
 
@@ -65,6 +77,7 @@ Reference Library
 
    - `Total glucosinolate contents in eight broccoli cultivars, Journal of the Science of Food and Agriculture <http://72.167.253.87/cgi-bin/flamenco.cgi/_Reference_Library_-_14-01-16_/Flamenco?q=facet_02_NAL_Biology:5115/facet_03_NAL_Breeding:47/facet_05_NAL_Economics:2426/facet_07_NAL_Food_Nutri:8/facet_11_NAL_Health:1774/facet_13_NAL_NatResEnvSci:1607>`_
 
+--------
 Taxonomy
 --------
 
@@ -76,6 +89,7 @@ Taxonomy
 
    - `Winter Savory <http://72.167.253.87/cgi-bin/flamenco.cgi/_plant_ternary_-_14-01-25_/Flamenco?q=facet_11_XXF_01_plant_ternary:77&group=facet_11_XXF_01_plant_ternary&index=0>`_
 
+-------------------
 Dietary Supplements
 -------------------
 

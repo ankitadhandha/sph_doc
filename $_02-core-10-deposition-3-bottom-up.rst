@@ -5,6 +5,14 @@
 OnLine Bottom Up Deposition
 ===========================
 
+Table of Contents
+-----------------
+
+.. contents::
+   :depth: 3
+   :local:
+
+-------
 Process
 -------
 
@@ -22,12 +30,14 @@ Ontology driven process that classifies a food according to precise ontology ter
 
 - identify data associated with ontology terms.
 
+-------
 Concept
 -------
 
 .. figure:: $_02-core-10-deposition-3-bottom-up_.png
    :align: center
 
+-----------
 Vocal Terms
 -----------
 

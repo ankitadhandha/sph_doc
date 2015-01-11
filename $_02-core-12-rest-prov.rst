@@ -19,8 +19,8 @@ This section addresses:
 
    Permit export of ad hoc data.
 
-Table of contents for REST Service and Reports
-----------------------------------------------
+Table of Contents
+-----------------
 
 .. contents::
    :depth: 3

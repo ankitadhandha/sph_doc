@@ -15,8 +15,8 @@ This section addresses:
 
    Provide links to other nutrition-related databases.
 
-Table of contents for Information Harmonization
------------------------------------------------
+Table of Contents
+-----------------
 
 .. contents::
    :depth: 3

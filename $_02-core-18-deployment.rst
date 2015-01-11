@@ -1,15 +1,15 @@
 
 .. _$_02-core-18-deployment:
 
-============================
-OnTarget Deployment Services
-============================
+===================
+Deployment Services
+===================
 
 This section addresses:
 
 .. rst:role:: Ontomatica defined objective
 
-Table of contents
+Table of Contents
 -----------------
 
 .. contents::

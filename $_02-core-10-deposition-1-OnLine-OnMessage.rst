@@ -5,8 +5,8 @@
 OnLine and OnMessage Deposition
 ===============================
 
-Table of contents for OnLine and OnMessage Deposition
------------------------------------------------------
+Table of Contents
+-----------------
 
 .. contents::
    :depth: 3

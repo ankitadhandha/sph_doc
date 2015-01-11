@@ -11,8 +11,16 @@ This section addresses:
 
    User-friendly design for rapid deposition, manipulation, and retrieval of data with capability of specific queries.
 
+Table of Contents
+-----------------
+
+.. contents::
+   :depth: 3
+   :local:
+
+--------------------
 Ontomatica Navigator
-====================
+--------------------
 
 Ontomatica's :ref:`Navigator <terms-Navigator>` |_| architecture is similar to other modern navigation systems. The Volkswagen `"Find a Match" application <http://www.vw.com/find-match/engine/>`_ is one example.
 
@@ -26,8 +34,9 @@ Ontomatica's Navigator, traversing the :ref:`graphs <terms-Graph>` |_| implement
 .. figure:: $_02-core-09-user-friendly-2-homeopathic_.png
    :align: center
 
+--------------------------------------
 Navigator's Underlying Data Structures
-======================================
+--------------------------------------
 
 Volkswagen and Ontomatica use the same underlying technology for specifying and storing data. Both specify data using ontologies and store ontology representations in the following formats:
 
@@ -37,8 +46,9 @@ Volkswagen and Ontomatica use the same underlying technology for specifying and 
 
 - `JSON-LD <http://en.wikipedia.org/wiki/JSON-LD>`_
 
+--------------------------------
 Navigator and USDA Label Project
-================================
+--------------------------------
 
 Ontomatica Nobel Prize application illustrates :ref:`application services <terms-Application-Service>` |_| navigating :ref:`data services <terms-Data-Service>` |_| that manage content familiar to many. For example, here are `U.S. Nobel Laureates in Chemistry <http://72.167.253.87/cgi-bin/flamenco.cgi/_Nobel_Prize_Winners_-_14-01-16_/Flamenco?q=country:50/prize:1&group=country>`_.
 

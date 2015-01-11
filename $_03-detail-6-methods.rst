@@ -1,9 +1,9 @@
 
 .. _$_03-detail-6-methods:
 
-=======
-Methods
-=======
+==========================
+Nutrition Analysis Methods
+==========================
 
 Intro text goes here
 
