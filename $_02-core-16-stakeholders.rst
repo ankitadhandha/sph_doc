@@ -9,7 +9,7 @@ This section addresses:
 
 .. rst:role:: Ontomatica defined objective
 
-Table of contents
+Table of Contents
 -----------------
 
 .. contents::

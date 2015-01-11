@@ -7,7 +7,7 @@ Data Depository Example - Glucosinolates
 
 Intro text here
 
-Table of contents
+Table of Contents
 -----------------
 
 .. contents::

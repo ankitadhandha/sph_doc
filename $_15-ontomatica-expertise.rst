@@ -1,12 +1,12 @@
 
 .. _$_15-ontomatica-expertise:
 
-=====================
- Ontomatica Expertise
-=====================
+====================
+Ontomatica Expertise
+====================
 
-Table of contents for Ontomatica Expertise
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Table of Contents
+-----------------
 
 .. contents::
    :depth: 3

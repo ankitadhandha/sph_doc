@@ -9,7 +9,7 @@ Table of Contents
 -----------------
 
 .. contents::
-   :depth: 3
+   :depth: 1
    :local:
 
 ---------
@@ -34,8 +34,9 @@ Commodities
 
    - `IR-4 Crop Groups and regulated chemicals that may be used to protect crops <http://72.167.253.87/cgi-bin/flamenco.cgi/_ChEFS_/Flamenco?q=facet_IR4:249701&group=facet_IR4>`_
 
-Food
-----
+-----
+Foods
+-----
 
 - USDA Standard Reference (SR)
 

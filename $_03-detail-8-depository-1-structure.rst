@@ -7,7 +7,7 @@ Data Depository Structure
 
 Intro text here
 
-Table of contents
+Table of Contents
 -----------------
 
 .. contents::
