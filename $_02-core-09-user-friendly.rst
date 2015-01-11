@@ -27,7 +27,7 @@ Ontomatica's :ref:`Navigator <terms-Navigator>` |_| architecture is similar to o
 .. figure:: $_02-core-09-user-friendly-1-volkswagen_.png
    :align: center
 
-The Volkswagen application navigates this `ontology <http://ontorule-project.eu/parrot/parrot?documentUri=http://www.volkswagen.co.uk/vocabularies/vvo/ns.owl>`_.
+The Volkswagen application navigates this `ontology <http://ontorule-project.eu/parrot/parrot?documentUri=http://www.volkswagen.co.uk/vocabularies/vvo/ns.owl>`_. See also: :cite:`5043`  :cite:`5044` :cite:`5045`.
 
 Ontomatica's Navigator, traversing the :ref:`graphs <terms-Graph>` |_| implemented in the `homeopathic application <http://72.167.253.87/cgi-bin/flamenco.cgi/_Homeopathic_Remedies_-_14-01-16_/Flamenco?q=arthritis&index=0>`_, operates in the same way as the Volkswagen navigator, but use different data.
 
@@ -63,7 +63,7 @@ In place of the Nobel Laureate's picture will be the branded food label image re
 
 All queries are represented as a `Universal Resource Identifier <http://en.wikipedia.org/wiki/Uniform_resource_identifier>`_ |_| (URI). This means that an :ref:`end user <terms-End-User>`, :ref:`investigator <terms-Investigator>` |_| and supplier can easily link to and re-use a reference to a food.
 
-Ontomatica's Navigator, as of 2014, is unique in the technology marketplace.
+Ontomatica's Navigator, as of 2015, is unique in the technology marketplace.
 
 Some modern tools enable a user to compose a query by selecting two or more single-level facets. An example is `NCCOR <http://tools.nccor.org/css/>`_.
 
