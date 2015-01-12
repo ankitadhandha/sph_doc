@@ -1,11 +1,11 @@
 
-.. _$_03-detail-6-methods-1-aoac:
+.. _$_03-detail-6-methods-2-aoac:
 
 =======================
 AOAC Analytical Methods
 =======================
 
-Intro text here. Point our references.
+Intro text here. Point to biblio references.
 
 Table of contents
 -----------------

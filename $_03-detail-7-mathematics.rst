@@ -10,6 +10,7 @@ Intro text here
 .. toctree::
    :maxdepth: 3
 
+   $_03-detail-7-mathematics-0-taxonomy.rst
    $_03-detail-7-mathematics-1-simple-summation.rst
    $_03-detail-7-mathematics-2-factored-summation.rst
    $_03-detail-7-mathematics-3-difference.rst
