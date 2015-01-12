@@ -10,6 +10,14 @@ Ontomatica Coverage
 
 Ontomatica :ref:`label classes <terms-Label-Class>` |_| integrate allergen data as specified by FDA, including coverage of all specifications below.
 
+Table of Contents
+-----------------
+
+.. contents::
+   :depth: 2
+   :local:
+
+---------------------------------------------
 FDA Specifications for Food Allergen Labeling
 ---------------------------------------------
 
@@ -45,15 +53,17 @@ FALCPA requires that food source names of any major food allergen used to make a
 
 For the purpose of complying with FALCPA labeling requirements, question and answer (Q&A) of FDA's guidance document, which is updated periodically to add new questions, explains that the food source name for a species of fish or Crustacean shellfish is its "market name" provided in the FDA resource The Seafood List. Q&A provides a table of additional examples of types of tree nuts that are frequently used to make foods. The tree nuts' common or usual names are their food source names for FALCPA labeling purposes. Q&A also explain that either the plural or singular terms for peanuts, types of tree nuts, and soybeans and that the synonyms soy and soya for soybeans are acceptable for declaring the food source names of the major food allergens on food labels.
 
+----------------------------------------------
 Reviews of Food Ingredients and Finished Foods
-==============================================
+----------------------------------------------
 
 This document identifies examples of food ingredients and finished foods that either are or may contain one or more major food allergens. It is not intended to serve as an all-inclusive list. Stated in parentheses after the names of some ingredients/foods are their synonyms and/or a description of what they are or their common uses. Any common synonyms for the terms listed below are also identified using bolded text immediately following those terms in parentheses. Also stated in the parentheses are descriptions of the terms, other related information, and when applicable, reference to the notes section following each allergen subheading.
 
 Some ingredients and finished foods always contain a major food allergen due to their basic nature or when they either have a standard of identity or are otherwise defined or described by Federal law or regulation that confirms the presence of a major food allergen. When ingredients used to make another ingredient or finished food can vary, it may be necessary to review the ingredient specification sheets to determine if the product contains a major food allergen. In other cases, when an ingredient or finished food is derived from the food source of a major food allergen but there is uncertainty about the presence of any protein residue from that allergen, it may be necessary to analyze the food ingredient or the finished food.
 
+---------------------------------
 Potential Milk Protein Indicators
-=================================
+---------------------------------
 
 anhydrous butter oil
    (anhydrous butter oil; made by the removal of practically all of the moisture and nonfat solids from butter)
@@ -294,8 +304,9 @@ Notes:
 
 - Batters used as coatings for deep-fat-fried foods commonly contain milk.
 
+--------------------------------
 Potential Egg Protein Indicators
-================================
+--------------------------------
 
 albumen
    (when spelled with an "e" usually means egg white or an egg white protein; used as a "fining" or clarifying agent in wines, soup stock, consume, bouillons and coffee)
@@ -429,8 +440,9 @@ Notes:
 
 - All salad dressings made with mayonnaise (a standardized food - section 169.140) contain egg.
 
+---------------------------------
 Potential Fish Protein Indicators
-=================================
+---------------------------------
 
 anchovy paste
    (fish-derived condiment made with ground anchovy fillets; used as a flavoring)
@@ -493,8 +505,9 @@ Notes:
 
 - Because FALCPA exempts highly refined oils from the definition of a major food allergen, any highly refined fish oil (e.g., one that has been refined, bleached and deodorized) is not a major food allergen. Therefore, the particular fish from which a highly refined oil is derived should not be included in any FALCPA "Contains" statement that appears on the food label. Nevertheless, in accordance with 101.4(b)(14), regardless of whether or not it is highly refined, the common or usual name of a fish oil must identify its specific food source (e.g., cod liver oil). Also, when a fish oil is used as an ingredient to make another food, it must be declared by its common or usual name in the ingredient list of that food.
 
+------------------------------------------------
 Potential Crustacea Shellfish Protein Indicators
-================================================
+------------------------------------------------
 
 barnacles
    (several types are commonly eaten)
@@ -535,8 +548,9 @@ Notes:
 
 - The range and composition of sauces is so varied that this group of condiments can potentially contain any one of the major food allergens.
 
+-------------------------------------
 Potential Tree Nut Protein Indicators
-=====================================
+-------------------------------------
 
 acorn(s)
    (used in traditional Native American cuisine)
@@ -653,8 +667,9 @@ Notes:
 
 - See regulations at section 101.4(b)(14) for provisions allowing the use of "and/or" labeling for vegetable oils and vegetable oil shortenings, which could be derived from tree nuts (e.g., palm nut and coconut). When such "and/or" labeling is used, the specific common or usual name of each vegetable oil that may be present must be declared within the ingredient list of the food.
 
+-------------------------
 Peanut Protein Indicators
-=========================
+-------------------------
 
 arachis oil
    (peanut oil; cold pressed peanut oil that contains any peanut protein is a major food allergen; highly refined peanut oil is not a major food allergen; see notes below)
@@ -710,8 +725,9 @@ Notes:
 
 - Many types of baked goods (e.g., cookies, brownies), candies, candy bars, and chocolates contain peanuts.
 
+----------------------------------
 Potential Wheat Protein Indicators
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+----------------------------------
 
 atta
    (Hindi word for whole wheat flour used to make traditional Asian Indian breads like chapatti, roti and puri)
@@ -880,8 +896,9 @@ Notes:
 
 - Batters used as coatings for deep-fat-fried foods commonly contain wheat flour or bread crumbs.
 
+------------------------------------
 Potential Soybean Protein Indicators
-====================================
+------------------------------------
 
 Caesar salad or dressing
    (commonly made with anchovies, egg, Parmesan cheese, and Worcestershire sauce that can contain wheat and soy)
