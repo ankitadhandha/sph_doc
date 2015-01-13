@@ -7,5 +7,7 @@ Nutrition Mathematics Taxonomy
 
 Intro text here
 
-.. figure:: $_03-detail-7-mathematics-0-taxonomy-1-MISSING_.png
+`Mathematics methods taxonomy <http://www.ontomatica.com/public/organizations/BETV/methods_mathematics.html>`_
+
+.. figure:: $_03-detail-7-mathematics-0-taxonomy-1-complete_.png
 
