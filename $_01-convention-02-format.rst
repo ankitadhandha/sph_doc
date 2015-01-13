@@ -54,3 +54,65 @@ Illustration of a **REST conversation**
 
    Advice that an alternative approach will produce a poor or unintended outcome
 
+.. math::
+   \begin{matrix}AAE8=\sum_{1}^8 (essential-amino-acids)\end{matrix}
+
+Following semantic techniques:
+
+.. math::
+   \begin{matrix}[infoods:AAE8]=\sum_{1}^8 (essential-amino-acids)\end{matrix}
+
+Which reduces to:
+
+.. math::
+   \begin{multline}[infoods:AAE8]=[isoleucine]+\\
+   [leucine]+\\
+   [lysine]+\\
+   [methionine]+\\
+   [phenylalanine]+\\
+   [threonine]+\\
+   [tryptophan]+\\
+   [valine]
+   \end{multline}
+
+Continuing semantic syntax:
+
+.. math::
+   \begin{multline}[infoods:AAE8]=[infoods:ILE]+\\
+   [infoods:LEU]+\\
+   [infoods:LYS]+\\
+   [infoods:MET]+\\
+   [infoods:PHE]+\\
+   [infoods:THR]+\\
+   [infoods:TRP]+\\
+   [infoods:VAL]
+   \end{multline}
+
+Now replace the operator symbol "+" with its semantic operator :class:`[ncit:C64911]`.
+
+.. math::
+   \begin{multline}[infoods:AAE8]=[infoods:ILE] [ncit:C64911]\\
+   [infoods:LEU] [ncit:C64911]\\
+   [infoods:LYS] [ncit:C64911]\\
+   [infoods:MET] [ncit:C64911]\\
+   [infoods:PHE] [ncit:C64911]\\
+   [infoods:THR] [ncit:C64911]\\
+   [infoods:TRP] [ncit:C64911]\\
+   [infoods:VAL]
+   \end{multline}
+
+To be absolutely clear, the unit is "grams per 100 grams per edible portion" :class:`[vocal:v62177]`.
+
+.. math::
+   \begin{multline}[infoods:AAE8]_{g100gEP}=\\
+   ([infoods:ILE][vocal:v62177])[ncit:C64911]\\
+   ([infoods:LEU][vocal:v62177])[ncit:C64911]\\
+   ([infoods:LYS][vocal:v62177])[ncit:C64911]\\
+   ([infoods:MET][vocal:v62177])[ncit:C64911]\\
+   ([infoods:PHE][vocal:v62177])[ncit:C64911]\\
+   ([infoods:THR][vocal:v62177])[ncit:C64911]\\
+   ([infoods:TRP][vocal:v62177])[ncit:C64911]\\
+   ([infoods:VAL][vocal:v62177])
+   \end{multline}
+
+.. |_| unicode:: 0x80
