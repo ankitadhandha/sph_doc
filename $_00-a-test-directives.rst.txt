@@ -5,6 +5,12 @@
 Test Directives
 ===============
 
+.. raw:: html
+
+    Now is the time to use a <font color="red">red</font> word in a sentence.
+
+\
+
 .. exceltable::
    :file: $_00-b-excel-test.xls
    :header: 1

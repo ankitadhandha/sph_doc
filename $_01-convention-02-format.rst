@@ -5,12 +5,6 @@
 Format Used in Proposal
 =======================
 
-.. raw:: html
-
-    Now is the time to use a <font color="red">red</font> word in a sentence.
-
-\
-
 USDA **requirements** are formatted as follows:
 
 .. rst:role:: USDA #12
