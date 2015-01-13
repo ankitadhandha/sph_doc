@@ -1,6 +1,5 @@
 
 .. image:: $_01-USDA-ARS-large_.png
-   :align: center
 
 ********************************
 
@@ -16,11 +15,7 @@ Nutrition Database Modernization
 
 -----------------------------
 
-.. sidebar:: ATIP Foundation and USDA Proposal Resources
-
-   `ATIP Foundation <http://atipfoundation.com/>`_
-
-   `USDA ARS leadership <http://www.ars.usda.gov/pandp/people/people.htm?personid=44775>`_
+.. sidebar:: USDA Proposal Resources
 
    `USDA ARS Nutrient Database for Standard Reference (SR) <http://ndb.nal.usda.gov/>`_
 

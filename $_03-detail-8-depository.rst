@@ -12,5 +12,6 @@ Intro text here
 
    $_03-detail-8-depository-1-structure.rst
    $_03-detail-8-depository-2-reference-library.rst
-   $_03-detail-8-depository-3-glucosinolates.rst
-   $_03-detail-8-depository-4-glycemic-load.rst
+   $_03-detail-8-depository-3-reference-data-glucosinolates.rst
+   $_03-detail-8-depository-4-reference-data-glycemic-load.rst
+   $_03-detail-8-depository-5-workflow.rst
