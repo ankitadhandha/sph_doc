@@ -11,15 +11,13 @@ Table of contents
 -----------------
 
 .. contents::
-   :depth: 2
+   :depth: 1
    :local:
 
-------------------------
-Analytical Methods: AOAC
-------------------------
 
+--------------------
 Amino Acids Analysis
-^^^^^^^^^^^^^^^^^^^^
+--------------------
 
 .. csv-table::
    :header: "Class", "Type", "Identifier", "Reference"
@@ -35,8 +33,9 @@ Amino Acids Analysis
    "", "Available Lysine (AL)", "AOAC Official Method 975.44, 2006", ""
    "", "Available Lysine and Complete Amino Acid Profile (AL+AAP)", "AOAC Official Method 975.44; 982.30 E(a,b,c), 2006", ""
 
+-----------------------------------
 Proximate Analysis and Calculations
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-----------------------------------
 
 .. csv-table::
    :header: "Class", "Type", "Identifier", "Reference"
@@ -70,8 +69,9 @@ Proximate Analysis and Calculations
    "", "Phytic acid", "AOAC Official Method 986.11, 2006", ""
    "", "Beta-Glucan", "AOAC Official Method 995.16", ""
 
+------------------------------
 Lipids, Fats and Oils Analysis
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+------------------------------
 
 .. csv-table::
    :header: "Class", "Type", "Identifier", "Reference"
@@ -100,8 +100,9 @@ Lipids, Fats and Oils Analysis
    "", "Total Carotenoids", "AOAC Official Method 938.04", ""
    "", "Xanthophylls and Carotene", "AOAC Official Method 970.64", ""
 
+-----------------
 Minerals Analysis
-^^^^^^^^^^^^^^^^^
+-----------------
 
 .. csv-table::
    :header: "Class", "Type", "Identifier", "Reference"
@@ -120,3 +121,4 @@ Minerals Analysis
    "", "Phosphorus, gravimetric", "AOAC Official Method 966.01 (plant tissue)", ""
    "Secondary, Micronutrients", "Sulfur", "AOAC Official Method 980.02", ""
    "", "Boron", "AOAC Official Method 982.01B(a)", ""
+
