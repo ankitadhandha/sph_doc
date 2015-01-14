@@ -65,7 +65,8 @@ Following semantic techniques:
 Which reduces to:
 
 .. math::
-   \begin{multline}[infoods:AAE8]=[isoleucine]+\\
+   \begin{align}
+   [infoods:AAE8]=[isoleucine]+\\
    [leucine]+\\
    [lysine]+\\
    [methionine]+\\
@@ -73,12 +74,13 @@ Which reduces to:
    [threonine]+\\
    [tryptophan]+\\
    [valine]
-   \end{multline}
+   \end{align}
 
 Continuing semantic syntax:
 
 .. math::
-   \begin{multline}[infoods:AAE8]=[infoods:ILE]+\\
+   \begin{align}
+   [infoods:AAE8]=[infoods:ILE]+\\
    [infoods:LEU]+\\
    [infoods:LYS]+\\
    [infoods:MET]+\\
@@ -86,12 +88,13 @@ Continuing semantic syntax:
    [infoods:THR]+\\
    [infoods:TRP]+\\
    [infoods:VAL]
-   \end{multline}
+   \end{align}
 
 Now replace the operator symbol "+" with its semantic operator :class:`[ncit:C64911]`.
 
 .. math::
-   \begin{multline}[infoods:AAE8]=[infoods:ILE] [ncit:C64911]\\
+   \begin{align}
+   [infoods:AAE8]=[infoods:ILE] [ncit:C64911]\\
    [infoods:LEU] [ncit:C64911]\\
    [infoods:LYS] [ncit:C64911]\\
    [infoods:MET] [ncit:C64911]\\
@@ -99,12 +102,13 @@ Now replace the operator symbol "+" with its semantic operator :class:`[ncit:C64
    [infoods:THR] [ncit:C64911]\\
    [infoods:TRP] [ncit:C64911]\\
    [infoods:VAL]
-   \end{multline}
+   \end{align}
 
 To be absolutely clear, the unit is "grams per 100 grams per edible portion" :class:`[vocal:v62177]`.
 
 .. math::
-   \begin{multline}[infoods:AAE8]_{g100gEP}=\\
+   \begin{align}
+   [infoods:AAE8]_{g100gEP}=\\
    ([infoods:ILE][vocal:v62177])[ncit:C64911]\\
    ([infoods:LEU][vocal:v62177])[ncit:C64911]\\
    ([infoods:LYS][vocal:v62177])[ncit:C64911]\\
@@ -113,6 +117,6 @@ To be absolutely clear, the unit is "grams per 100 grams per edible portion" :cl
    ([infoods:THR][vocal:v62177])[ncit:C64911]\\
    ([infoods:TRP][vocal:v62177])[ncit:C64911]\\
    ([infoods:VAL][vocal:v62177])
-   \end{multline}
+   \end{align}
 
 .. |_| unicode:: 0x80
