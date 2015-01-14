@@ -22,7 +22,7 @@ Organoleptic Classes and Organoleptic Types
 ChEFS integrates organoleptic compounds that have the following odor properties.
 
 .. csv-table::
-   :header: "Oder Class", "Odor", "Organoleptic Chemical"
+   :header: "Odor Class", "Odor", "Organoleptic Chemical"
    :widths: 10, 10, 10
 
    "Animal Class", "tallow", "6-decenal"
