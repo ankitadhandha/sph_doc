@@ -9,9 +9,11 @@ This section addresses:
 
 .. rst:role:: Ontomatica defined objective
 
-Ontomatica proposes, as part of :ref:`label project<terms-Label-Project>` |_|, to implement :ref:`complete system<terms-Complete-System>` |_| for two national :ref:`authorities<terms-Authority>` |_| - USA and GBR (UK).
+.. attention::
 
-Internationalization is enabled by :ref:`USDA prime<terms-USDA-Prime>`.
+   This section applies to :ref:`USDA prime data <terms-USDA-Prime>`, not to :ref:`USDA select data <terms-USDA-Select>`.
+
+Ontomatica proposes, as part of :ref:`label project<terms-Label-Project>` |_|, to implement :ref:`complete system<terms-Complete-System>` |_| for two national :ref:`authorities<terms-Authority>` |_| - USA and GBR (UK).
 
 Ontomatica will identify countries.
 

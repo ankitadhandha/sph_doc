@@ -5,6 +5,10 @@
 FDA Food Label Claims Specifications
 ====================================
 
+.. attention::
+
+   This section applies to :ref:`USDA prime data <terms-USDA-Prime>`, not to :ref:`USDA select data <terms-USDA-Select>`.
+
 Ontomatica Coverage
 -------------------
 

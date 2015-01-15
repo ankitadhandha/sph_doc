@@ -13,7 +13,7 @@ This section addresses:
 
 .. attention::
 
-   This section applies to :ref:`USDA prime data <terms-USDA-Prime>` |_|, not to :ref:`USDA select data <terms-USDA-Select>` |_|.
+   This section applies to :ref:`USDA prime data <terms-USDA-Prime>`, not to :ref:`USDA select data <terms-USDA-Select>`.
 
 Table of Contents
 -----------------
@@ -26,11 +26,15 @@ Table of Contents
 Chromatographic and Spectral Profiles
 -------------------------------------
 
-Ontomatica deposition service integrates the following terms for use by Investigators when depositing chromatographic and spectral profiles.
+Ontomatica deposition service integrates the following terms for use by :ref:`investigators <terms-Investigator>` |_| when depositing chromatographic and spectral profiles.
 
 The `Physico-chemical methods and properties ontology <http://www.ontobee.org/browser/index.php?o=FIX>`_ (FIX) has been parsed and each term below is referenceable. The HUPO Proteomics `Mass Spectrometry ontology <http://www.psidev.info/>`_ (MS) has not been parse. Instead, Ontomatica uses the Essepuntato `Live OWL Documentation Service <http://www.essepuntato.it/lode>`_ (LODE) to display the `MS ontology <http://www.essepuntato.it/lode/owlapi/http://www.ontomatica.com/public/organizations/BETV/ms.owl>`_. Be patient while the LODE service parses the MS ontology OWL file. Once displayed, each facet term code below is searchable.
 
-In the table below a **Section** is upper case bold and a *Topic* is upper case italic. The spectral term is lower case and associated with its facet term code.
+Ontomatica deposition service will enable :ref:`investigators <terms-Investigator>` |_| to deposit data like this data from USDA:
+
+   - `Fingerprint data for chemical Glucoraphanin from biological sample Brassica oleracea Brocolli (italica) Legacy <https://docs.google.com/spreadsheet/pub?key=0ArcX1zlTGgmjdEFpbWNoTTJRMThYVFVCaWFBN3A5RUE&output=html>`_
+
+In the table below a **Section** is upper case bold and a *Topic* |_| is upper case italic. The spectral term is lower case and associated with its facet term code.
 
 .. csv-table::
    :header: "Spectral Profile Information", "Ontology Term"

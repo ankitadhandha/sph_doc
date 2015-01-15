@@ -9,11 +9,15 @@ This section addresses:
 
 .. rst:role:: USDA #3
 
-   Develop capability for checking the quality of incoming data based on general database principles and specific ARS analytics. 
+   Develop capability for checking the quality of incoming data based on general database principles and specific ARS analytics.
 
 .. rst:role:: USDA #5
 
    Allow incorporation of ARS analytics for expanding the database.
+
+.. attention::
+
+   This section applies to :ref:`USDA prime data <terms-USDA-Prime>`, not to :ref:`USDA select data <terms-USDA-Select>`.
 
 -----------------------------------
 OnTask - Ontomatica workflow engine
