@@ -11,7 +11,7 @@ This section addresses:
 
 .. attention::
 
-   This section applies to :ref:`USDA prime data <terms-USDA-Prime>`, not to :ref:`USDA select data <terms-USDA-Select>`.
+   This section applies to :ref:`USDA prime data <terms-USDA-Prime>`, not to :ref:`USDA select data <terms-USDA-Select>`. For explanation of USDA prime and USDA select data, see `Deposition Workflow <$_02-core-10-deposition-1-OnLine-OnMessage.html#deposition-workflow>`_
 
 Table of Contents
 -----------------

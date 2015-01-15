@@ -11,7 +11,7 @@ This section addresses:
 
 .. attention::
 
-   This section applies to :ref:`USDA prime data <terms-USDA-Prime>`, not to :ref:`USDA select data <terms-USDA-Select>`.
+   This section applies to :ref:`USDA prime data <terms-USDA-Prime>`, not to :ref:`USDA select data <terms-USDA-Select>`. For explanation of USDA prime and USDA select data, see `Deposition Workflow <$_02-core-10-deposition-1-OnLine-OnMessage.html#deposition-workflow>`_
 
 Ontomatica proposes, as part of :ref:`label project<terms-Label-Project>` |_|, to implement :ref:`complete system<terms-Complete-System>` |_| for two national :ref:`authorities<terms-Authority>` |_| - USA and GBR (UK).
 

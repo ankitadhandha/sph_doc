@@ -40,7 +40,7 @@ The following table identifies technologies used by Ontomatica products that imp
 .. _R: $_02-core-12-rest-prov.html
 
 .. |S| replace:: See illustration
-.. _S: $_02-core-17-real-time-infrastructure.html
+.. _S: $_02-core-17-infrastructure.html#infrastructure
 
 .. |_| unicode:: 0x80
 
