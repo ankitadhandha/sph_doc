@@ -32,7 +32,9 @@ The `Physico-chemical methods and properties ontology <http://www.ontobee.org/br
 
 Ontomatica deposition service will enable :ref:`investigators <terms-Investigator>` |_| to deposit data like this data from USDA:
 
-   - `Fingerprint data for chemical Glucoraphanin from biological sample Brassica oleracea Brocolli (italica) Legacy <https://docs.google.com/spreadsheet/pub?key=0ArcX1zlTGgmjdEFpbWNoTTJRMThYVFVCaWFBN3A5RUE&output=html>`_
+- Fingerprint data for `Glucoraphanin from Brassica oleracea, genotype Legacy <https://docs.google.com/spreadsheet/pub?key=0ArcX1zlTGgmjdEFpbWNoTTJRMThYVFVCaWFBN3A5RUE&output=html>`_
+
+- Note that spectral data is presented for five different methods of analysis.
 
 In the table below a **Section** is upper case bold and a *Topic* |_| is upper case italic. The spectral term is lower case and associated with its facet term code.
 
