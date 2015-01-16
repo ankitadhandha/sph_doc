@@ -62,8 +62,6 @@ In the table below a **Section** is upper case bold and a *Topic* |_| is upper c
    "---", "---"
    "**Method of Analysis Information**", ""
    "*Instrument model*", "`MS_1000031 <http://www.essepuntato.it/lode/owlapi/http://www.ontomatica.com/public/organizations/BETV/ms.owl>`_"
-   "*General Type of Instrument*", ""
-   "electrospray ionization mass spectroscopy", "`FIX_0000079 <http://purl.obolibrary.org/obo/FIX_0000079>`_"
    "*Ion analyzer type*", ""
    "chromatography by separation mechanism", "`FIX_0000610 <http://purl.obolibrary.org/obo/FIX_0000610>`_"
    "capillary electrophoresis", "`FIX_0000836 <http://purl.obolibrary.org/obo/FIX_0000836>`_"

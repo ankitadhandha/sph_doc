@@ -138,17 +138,17 @@ Description (4)
        file.write('%d\t%s\n' % (item, ' '.join(texts[item].split())))
    file.close()
 
------------
+----------
 OntoLogics
------------
+----------
 
-Not part of Proposal
+Ontomatica's OntoLogics services are not part of Proposal.
 
 ---------------
 Future Features
 ---------------
 
-Presented on next page.
+Presented `here <$_06-future.html>`_
 
 .. |_| unicode:: 0x80
 

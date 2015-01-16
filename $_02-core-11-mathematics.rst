@@ -39,7 +39,7 @@ Examples of :ref:`USDA mathematics <terms-USDA-Mathematics>` |_| processed by :r
 
 - Compute: value of missing value for FNDDS nutrient :ref:`component <terms-Component>`.
 
-- Compute :ref:`retention values <terms-Retention-Value>` |_| based on :ref:`cooking method <terms-Cooking-Method>`.
+- Compute: :ref:`retention values <terms-Retention-Value>` |_| based on :ref:`cooking method <terms-Cooking-Method>`.
 
 - Email: food record to :ref:`depositor <terms-Depositor>` |_| for review.
 
