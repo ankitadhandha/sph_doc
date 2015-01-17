@@ -41,6 +41,8 @@ extensions = [
               'sphinxcontrib.httpdomain',
              ]
 
+mathjax_path = 'http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'
+
 # -- Options for Napoleon Extension --------------------------------------------
 
 # Parse Google style docstrings.
@@ -155,7 +157,7 @@ default_role = None
 
 # A string of reStructuredText that will be included at the end of every source file that is read.
 # decode fails: rst_epilog = open(os.path.join(CURDIR, 'epilog.rst'),'r').read().decode('utf-8')
-rst_epilog = open(os.path.join(CURDIR, 'epilog.rst'),'r').read()
+# rst_epilog = open(os.path.join(CURDIR, 'epilog.rst'),'r').read()
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
@@ -166,7 +168,6 @@ pygments_style = 'sphinx'
 # If true, keep warnings as "system message" paragraphs in the built documents.
 #keep_warnings = False
 
-mathjax_path = 'http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'
 
 # -- Options for HTML output ---------------------------------------------------------------------
 

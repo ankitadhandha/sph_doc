@@ -1,4 +1,6 @@
 
+.. |_| unicode:: 0x80
+
 .. |nbsp| unicode:: 0xA0 
    :trim:
 
@@ -12,5 +14,9 @@
    :trim:
 
 .. |br| raw:: html
-
    <br />
+
+.. |---| unicode:: U+02014 .. em dash
+   :trim:
+
+
