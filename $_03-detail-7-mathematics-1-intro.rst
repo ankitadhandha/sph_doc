@@ -1,9 +1,9 @@
 
 .. _$_03-detail-7-mathematics-1-intro:
 
-==================================
-Nutrition Mathematics Introduction
-==================================
+===================================
+Introduction: Nutrition Mathematics
+===================================
 
 Intro text here
 

@@ -1,9 +1,9 @@
 
 .. _$_03-detail-7-mathematics-8-reports:
 
-=======
-Reports
-=======
+===============================
+Consumer and Regulatory Reports
+===============================
 
 .. figure:: $_03-detail-7-mathematics-8-reports-1-MISSING_.png
 

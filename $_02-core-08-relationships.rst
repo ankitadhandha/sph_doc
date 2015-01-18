@@ -22,68 +22,47 @@ This section addresses:
 `isA <http://en.wikipedia.org/wiki/Is-a>`_ Relationships
 --------------------------------------------------------
 
-.. list-table::
-   :widths: 15 15
-   :header-rows: 1
-   
-   * - Relationship
-     - Inverse
-   * - X :class:`includesSpecific` Y
-     - Y :class:`isA` X
-   * - 
-     - Taxon :class:`isA` Taxon
-   * - 
-     - Food product :class:`isA` Food product
-   * - 
-     - Food product :class:`isOneOf` {Food product list}
-   * - 
-     - X :class:`inheritsTo` Y
-   * - 
-     - Y :class:`inheritsFrom` X
+.. csv-table::
+   :header: "Relationship", "Inverse"
+
+   "X :class:`includesSpecific` Y", "Y :class:`isA` X"
+   "", "Taxon :class:`isA` Taxon"
+   "", "Food product :class:`isA` Food product"
+   "", "Food product :class:`isOneOf` {Food product list}"
+   "", "X :class:`inheritsTo` Y"
+   "", "Y :class:`inheritsFrom` X"
 
 WordNet whole-part Relationships (`Holonymy/meronymy <http://en.wikipedia.org/wiki/Holonymy>`_)
 -----------------------------------------------------------------------------------------------
 
-.. list-table::
-   :widths: 10 10
-   :header-rows: 1
+.. csv-table::
+   :header: "Relationship", "Inverse"
 
-   * - Relationship
-     - Inverse
-   * - X :class:`containsSubstance` Y
-     - Y :class:`substanceContainedIn` X
-   * - FoodProduct :class:`containsSubstance` {Substance, amount in total, amount in solids, label claim (yes/no) }
-     - 
-   * - X :class:`hasIngredient` Y
-     - Y :class:`ingredientOf` X
-   * - FoodProduct :class:`hasIngredient` {Food product, rank, total ingredient in total product, ingredient solids in product solids {purpose list} }
-     - 
-   * - FoodProduct :class:`mayHaveIngredient` {Food product, rank, total ingredient in total product, ingredient solids in product solids {purpose list} }
-     - 
-   * - X :class:`madeFrom` Y
-     - Y :class:`usedToMake` X
-   * - Container :class:`usesStructuralStrengthMaterial` Substance
-     - 
-   * - Container :class:`usesCoatingMaterial` Substance
-     - 
-   * - FoodProduct :class:`isMadeFrom` FoodProduct
-     - 
-   * - FoodProduct :class:`isDerivedFrom` {Food source, environment, agricultural treatment, growth stage}
-     - 
-   * - FoodProduct :class:`isPartOf` {Anatomical part, growth stage, cut, grade}
-     - 
-   * - FoodProduct :class:`isExtractedSubstance` {Extracted substance, extracting substance, process, temperature, duration, sequence_ID.}
-     - 
-   * - FoodProduct :class:`hadRemovedSubstance` {Extracted substance, etc.}
-     - 
-   * - X :class:`yieldsPortion` Y
-     - Y :class:`portionOf` X
-   * - X :class:`spatiallyIncludes` Y
-     - Y :class:`spatiallyIncludedIn` X
-   * - X :class:`hasComponent` Y
-     - Y :class:`componentOf` X
-   * - FoodProduct :class:`containsDish` FoodProduct
-     - 
+   "X :class:`containsSubstance` Y", "Y :class:`substanceContainedIn` X"
+   "FoodProduct :class:`containsSubstance`", ""
+   "|nbsp| |nbsp| {Substance, amount in total, amount in solids, label claim (yes/no) }", ""
+   "X :class:`hasIngredient` Y", "Y :class:`ingredientOf` X"
+   "FoodProduct :class:`hasIngredient`", ""
+   "|nbsp| |nbsp| {Food product, rank, total ingredient in total product, ", ""
+   "|nbsp| |nbsp| ingredient solids in product solids {purpose list} }", ""
+   "FoodProduct :class:`mayHaveIngredient`", ""
+   "|nbsp| |nbsp| {Food product, rank, total ingredient in total product, ", ""
+   "|nbsp| |nbsp| ingredient solids in product solids {purpose list} }", ""
+   "X :class:`madeFrom` Y", "Y :class:`usedToMake` X"
+   "Container :class:`usesStructuralStrengthMaterial` Substance", ""
+   "Container :class:`usesCoatingMaterial` Substance", ""
+   "FoodProduct :class:`isMadeFrom` FoodProduct", ""
+   "FoodProduct :class:`isDerivedFrom`", ""
+   "|nbsp| |nbsp| {Food source, environment, agricultural treatment, growth stage}", ""
+   "FoodProduct :class:`isPartOf` {Anatomical part, growth stage, cut, grade}", ""
+   "FoodProduct :class:`isExtractedSubstance`", ""
+   "|nbsp| |nbsp| {Extracted substance, extracting substance, process, ", ""
+   "|nbsp| |nbsp| temperature, duration, sequence_ID.}", ""
+   "FoodProduct :class:`hadRemovedSubstance` {Extracted substance, etc.}", ""
+   "X :class:`yieldsPortion` Y", "Y :class:`portionOf` X"
+   "X :class:`spatiallyIncludes` Y", "Y :class:`spatiallyIncludedIn` X"
+   "X :class:`hasComponent` Y", "Y :class:`componentOf` X"
+   "FoodProduct :class:`containsDish` FoodProduct", ""
 
 Additional Relationships
 ------------------------
@@ -95,7 +74,9 @@ Additional Relationships
    "X :class:`instrumentFor` Y", "Y :class:`performedByInstrument` X"
    "X :class:`processFor` Y", "Y :class:`usesProcess` X"
    "X :class:`appliedTo` Y", "Y :class:`underwentProcess` X"
-   "FoodProduct :class:`underwentProcess` {Process, equipment, temperature, duration, place/stage, sequence_ID, {purpose list} }", ""
+   "FoodProduct :class:`underwentProcess`", ""
+   "|nbsp| |nbsp| {Process, equipment, temperature, duration,", ""
+   "|nbsp| |nbsp| place/stage, sequence_ID, {purpose list} }", ""
    "FoodProduct :class:`isForSpecialUse` {Use/diet, {country list} }", ""
    "FoodProduct :class:`madeFor` {Consumer, {country list} }", ""
    "FoodProduct :class:`usuallyConsumedFor` {Meal type, {country list} }", ""
@@ -121,6 +102,7 @@ Additional Relationships
 .. |G| replace:: Glossary of Terms
 .. _G: $_07-glossary.html
 
-
 .. |_| unicode:: 0x80
+
+.. |nbsp| unicode:: 0xA0
 
