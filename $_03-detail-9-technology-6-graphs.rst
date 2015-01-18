@@ -30,9 +30,19 @@ Graph - Omega-3 Fatty Acid
 Graph - Pizza
 -------------
 
-Pizza in DAG format :cite:`5228` generated from `OWL file <http://www.ontomatica.com/public/docs/html/resources/pizza_Manchester_example_v1-4_DAG_-_14-06-02_.html>`_
+- Pizza in DAG format :cite:`5228` generated from `Manchester Pizza OWL file <http://www.ontomatica.com/public/docs/html/resources/pizza_Manchester_example_v1-4_DAG_-_14-06-02_.html>`_
 
+- Individual pizza products :cite:`5229` in `factored format <http://www.ontomatica.com/public/docs/html/resources/pizza_Manchester_simplified_OWL_individual_products_-_14-06-02_.html>`_
 
-Individual pizza products :cite:`5229` in `factored format <http://www.ontomatica.com/public/docs/html/resources/pizza_Manchester_simplified_OWL_individual_products_-_14-06-02_.html>`_
+-----------------------------------------------------
+Graph - Physico-Chemical Methods and Properties (FIX)
+-----------------------------------------------------
 
+- FIX class hierarchy :cite:`6018` is generated from `FIX OWL file <http://www.ontomatica.com/public/organizations/BETV/fix_graph.html>`_.
+
+-----------------------------------
+Graph - UN FAO Agrontology Ontology
+-----------------------------------
+
+- Agrontology in DAG format :cite:`6002` is generated from `Agrontology OWL file <http://www.ontomatica.com/public/organizations/BETV/agrontology_graph.html>`_.
 
