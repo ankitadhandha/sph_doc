@@ -5,9 +5,6 @@
 Web Ontology Language (OWL)
 ===========================
 
-Intro text here
-
-.. figure:: $_03-detail-9-technology-1-owl-1-process-model_.png
-   :align: center
+An overview of OWL :cite:`5022` is depicted in this `summary illustration <http://www.ontomatica.com/public/organizations/BETV/visual_owl.html>`_.
 
 

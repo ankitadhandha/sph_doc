@@ -5,9 +5,14 @@
 Simple Knowledge Object Sharing (SKOS)
 ======================================
 
-Intro text here
+The SKOS :ref:`graph <terms-Graph>` is depicted in this `illustration <http://www.ontomatica.com/public/organizations/BETV/skos_graph.html>`_.
 
-.. figure:: $_03-detail-9-technology-2-skos-1-model_.png
-   :align: center
+An example of applying SKOS :cite:`6050` to identifying milk is depicted in this illustration:
+
+.. figure:: $_03-detail-9-technology-2-skos-1-milk_.png
+
+An example of applying SKOS to identifying animals is depicted in this illustration:
+
+.. figure:: $_03-detail-9-technology-2-skos-2-animals_.png
 
 
