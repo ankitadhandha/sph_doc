@@ -1,5 +1,5 @@
 
-.. _$_04-fda-3-label-claims:
+.. _$_04-fda-3-label-claim:
 
 ====================================
 FDA Food Label Claims Specifications

@@ -10,10 +10,12 @@ Intro text goes here
 .. toctree::
    :maxdepth: 1
 
-   $_13-bibliography-articles-food.rst
-   $_13-bibliography-articles-technology.rst
-   $_13-bibliography-books.rst
-   $_13-bibliography-misc.rst
-   $_13-bibliography-misc-ontologies.rst
-   $_13-bibliography-misc-data.rst
+   $_13-bibliography-1-book-food-method.rst
+   $_13-bibliography-2-article-food-method.rst
+   $_13-bibliography-3-book-food-ref.rst
+   $_13-bibliography-4-article-food-ref.rst
+   $_13-bibliography-5-misc-ontology.rst
+   $_13-bibliography-6-misc-data.rst
+   $_13-bibliography-7-misc-web.rst
+   $_13-bibliography-8-article-technology.rst
 

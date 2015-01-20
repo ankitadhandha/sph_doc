@@ -11,6 +11,6 @@ Intro text goes here
    :maxdepth: 1
 
    $_04-fda-1-coverage.rst
-   $_04-fda-2-allergens.rst
-   $_04-fda-3-label-claims.rst
+   $_04-fda-2-allergen.rst
+   $_04-fda-3-label-claim.rst
 

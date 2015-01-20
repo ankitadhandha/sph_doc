@@ -66,8 +66,8 @@ Table of Contents
    $_04-fda.rst
    $_06-future.rst
    $_07-glossary.rst
-   $_10-terms-project.rst
-   $_11-terms-ontology.rst
+   $_10-term-project.rst
+   $_11-term-ontology.rst
    $_13-bibliography.rst
    $_15-ontomatica.rst
    $_12-epilogue.rst

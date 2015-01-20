@@ -5,6 +5,6 @@
 Web Ontology Language (OWL)
 ===========================
 
-An overview of OWL :cite:`5022` is depicted in this `summary illustration <http://www.ontomatica.com/public/organizations/BETV/visual_owl.html>`_.
+An overview of OWL :cite:`5022` :cite:`4012` is depicted in this `summary illustration <http://www.ontomatica.com/public/organizations/BETV/visual_owl.html>`_.
 
 
