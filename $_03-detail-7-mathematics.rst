@@ -11,6 +11,7 @@ Intro text here
    :maxdepth: 2
 
    $_03-detail-7-mathematics-1-intro.rst
+   $_03-detail-7-mathematics-1-intro-new.rst
    $_03-detail-7-mathematics-2-taxonomy.rst
    $_03-detail-7-mathematics-4-simple-summation.rst
    $_03-detail-7-mathematics-5-factored-summation.rst

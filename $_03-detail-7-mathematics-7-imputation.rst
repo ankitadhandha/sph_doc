@@ -5,6 +5,18 @@
 Calculation by Imputation
 =========================
 
-.. figure:: $_03-detail-7-mathematics-7-imputation-1-MISSING_.png
+Intro text here
 
+Table of Contents
+-----------------
+
+.. contents::
+   :depth: 2
+   :local:
+
+-------
+Example
+-------
+
+.. figure:: $_03-detail-7-mathematics-7-imputation-1-MISSING_.png
 

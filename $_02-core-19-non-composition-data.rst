@@ -5,6 +5,8 @@
 Non-composition Data
 ====================
 
+.. _return-to-top-02-core-19-non-composition:
+
 This section addresses:
 
 .. rst:role:: USDA #9
@@ -162,5 +164,6 @@ Taxonomic Information
 
 Replay taxonomic data in several production databases.
 
+:ref:`Return to top <return-to-top-02-core-19-non-composition>`
 
 .. |_| unicode:: 0x80

@@ -5,6 +5,8 @@
 Information Harmonization
 =========================
 
+.. _return-to-top-02-core-14-harmonization:
+
 This section addresses:
 
 .. rst:role:: USDA #4
@@ -119,6 +121,8 @@ Example: Variety of Frequently Used Terms
    "Carbonated beverages", "agrovoc:c_28261", "nalt:16986", "dbpedia:Soft_drink"
    "Fish products", "agrovoc:c_2930", "nalt:9444", "dbpedia:Fish_products"
    "Milk protein", "agrovoc:c_4831", "nalt:9453", "dbpedia:Milk#Physical_and_chemical_structure"
+
+:ref:`Return to top <return-to-top-02-core-14-harmonization>`
 
 .. |_| unicode:: 0x80
 

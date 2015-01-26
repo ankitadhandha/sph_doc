@@ -5,6 +5,8 @@
 Examples: Production Applications
 =================================
 
+.. _return-to-top-02-core-07-examples:
+
 Table of Contents
 -----------------
 
@@ -97,4 +99,6 @@ Dietary Supplements
 - Classified according to US FDA SPL specifications
 
    - `Calcium <http://72.167.253.87/cgi-bin/flamenco.cgi/_dietary_supplements_-_14-01-25_/Flamenco?q=A:22/B:1192/E:43/F:29/M:14,34/P:226/X:607&group=M&morelike=1>`_
+
+:ref:`Return to top <return-to-top-02-core-07-examples>`
 

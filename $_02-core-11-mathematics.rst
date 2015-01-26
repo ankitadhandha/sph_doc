@@ -5,6 +5,8 @@
 Nutrition Mathematics
 =====================
 
+.. _return-to-top-02-core-11-mathematics:
+
 This section addresses:
 
 .. rst:role:: USDA #3
@@ -49,6 +51,8 @@ Sample workflow
 
 .. figure:: $_02-core-11-mathematics-USDA-processes_.png
    :align: center
+
+:ref:`Return to top <return-to-top-02-core-11-mathematics>`
 
 .. |_| unicode:: 0x80
 

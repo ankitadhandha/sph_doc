@@ -5,6 +5,8 @@
 REST Services and Reports
 =========================
 
+.. _return-to-top-02-core-12-rest-prov:
+
 This section addresses:
 
 .. rst:role:: USDA #6
@@ -205,5 +207,7 @@ Curator uses a REST conversation to implement the example above.
 
    - `ChemAxon concepts <http://www.chemaxon.com/products/jchem-web-services/>`_
    - `ChemAxon application programming interface (APIs) <https://restdemo.chemaxon.com/apidocs/>`_
+
+:ref:`Return to top <return-to-top-02-core-12-rest-prov>`
 
 .. |_| unicode:: 0x80

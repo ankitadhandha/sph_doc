@@ -5,6 +5,8 @@
 Data Integration
 ================
 
+.. _return-to-top-02-core-15-integration:
+
 This section addresses:
 
 .. rst:role:: USDA #4
@@ -72,6 +74,8 @@ Authorities
    "UniProt", "bioactive components ", "Identity"
    "KEGG", "chemicals ", "Identity"
    "", "bioactive components ", "Identity"
+
+:ref:`Return to top <return-to-top-02-core-15-integration>`
 
 .. |_| unicode:: 0x80
 

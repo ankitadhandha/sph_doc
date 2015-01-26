@@ -5,6 +5,8 @@
 Generic Verbs and Nouns
 =======================
 
+.. _return-to-top-02-core-08-relationships:
+
 This section addresses:
 
 .. rst:role:: USDA #12
@@ -95,6 +97,8 @@ Additional Relationships
    "FoodProduct :class:`packedIn` Container", ""
    "X :class:`hasPrice` MoneyAmount", ""
    "Substance :class:`measuredIn` Unit of measurement", ""
+
+:ref:`Return to top <return-to-top-02-core-08-relationships>`
 
 .. |N| replace:: Data Integration
 .. _N: $_02-core-15-integration.html

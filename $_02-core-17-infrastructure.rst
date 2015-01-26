@@ -5,6 +5,8 @@
 Infrastructure and Reporting
 ============================
 
+.. _return-to-top-02-core-17-infrastructure:
+
 This section addresses:
 
 .. rst:role:: USDA #7
@@ -133,6 +135,7 @@ Service Provider
 
 Ontomatica plans to use `Cybercon <http://www.cybercon.com/>`_ as the hosting service provider.
 
+:ref:`Return to top <return-to-top-02-core-17-infrastructure>`
 
 .. |_| unicode:: 0x80
 

@@ -9,7 +9,6 @@ The following table identifies technologies used by Ontomatica products that imp
 
 .. csv-table::
    :header: "Label Project Services", "Ontomatica Products", "Technologies"
-   :widths: 15, 20, 25
 
    "Application Services", ":ref:`Navigator <terms-Navigator>`", ":ref:`Label Classes <terms-Label-Class>`"
    "Deposition Services", ":ref:`OnMessage <terms-OnMessage>`", ":ref:`Message deposit <terms-Message-Deposit>`"

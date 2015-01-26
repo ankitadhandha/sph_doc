@@ -7,6 +7,17 @@ Introduction: Nutrition Mathematics
 
 Intro text here
 
+Table of Contents
+-----------------
+
+.. contents::
+   :depth: 2
+   :local:
+
+------
+Part 1
+------
+
 The UN FAO INFOODS tag for the calculation "amino acids, total essential" is AAE8. There are eight basic essential amino acids. AAE8 is represented as follows:
 
 .. math:: \begin{align}AAE8=\sum_{1}^8(essential-amino-acids)\end{align}
@@ -86,6 +97,10 @@ Each amino acid in a sample will have a <value> in the form of a floating point 
    [ncit:C64911]([infoods:VAL][vocal:v62177][xsd:float]<value>)
    \end{align}
 
+------
+Part 2
+------
+
 A semantic record will have the following syntax:
 
 :class:`[infoods:AAE8]` :class:`[vocal:v62177]` = :class:`[infoods:ILE]` :class:`[vocal:v62177]` :class:`[xsd:float]` <value> :class:`[ncit:C64911]` :class:`[infoods:LEU]` :class:`[vocal:v62177]` :class:`[xsd:float]` <value> :class:`[ncit:C64911]` :class:`[infoods:LYS]` :class:`[vocal:v62177]` :class:`[xsd:float]` <value> :class:`[ncit:C64911]` :class:`[infoods:MET]` :class:`[vocal:v62177]` :class:`[xsd:float]` <value> :class:`[ncit:C64911]` :class:`[infoods:PHE]` :class:`[vocal:v62177]` :class:`[xsd:float]` <value> :class:`[ncit:C64911]` :class:`[infoods:THR]` :class:`[vocal:v62177]` :class:`[xsd:float]` <value> :class:`[ncit:C64911]` :class:`[infoods:TRP]` :class:`[vocal:v62177]` :class:`[xsd:float]` <value> :class:`[ncit:C64911]` :class:`[infoods:VAL]` :class:`[vocal:v62177]` :class:`[xsd:float]` <value>
@@ -95,6 +110,10 @@ The operator symbol "=" is replaced with its equivalent semantic operator :class
 :class:`[infoods:AAE8]` :class:`[vocal:v62177]` :class:`[ncit:C54125]` :class:`[infoods:ILE]` :class:`[vocal:v62177]` :class:`[xsd:float]` <value> :class:`[ncit:C64911]` :class:`[infoods:LEU]` :class:`[vocal:v62177]` :class:`[xsd:float]` <value> :class:`[ncit:C64911]` :class:`[infoods:LYS]` :class:`[vocal:v62177]` :class:`[xsd:float]` <value> :class:`[ncit:C64911]` :class:`[infoods:MET]` :class:`[vocal:v62177]` :class:`[xsd:float]` <value> :class:`[ncit:C64911]` :class:`[infoods:PHE]` :class:`[vocal:v62177]` :class:`[xsd:float]` <value> :class:`[ncit:C64911]` :class:`[infoods:THR]` :class:`[vocal:v62177]` :class:`[xsd:float]` <value> :class:`[ncit:C64911]` :class:`[infoods:TRP]` :class:`[vocal:v62177]` :class:`[xsd:float]` <value> :class:`[ncit:C64911]` :class:`[infoods:VAL]` :class:`[vocal:v62177]` :class:`[xsd:float]` <value>
 
 The structure above is in a format that can be sent "over the wire" (e.g. HTTP or FTP). The structure is `serialized <http://en.wikipedia.org/wiki/Serialization>`_.
+
+-------------
+Serialization
+-------------
 
 Serialization is the process of taking an object instance (e.g. the food item and its related data) and converting it to a format that can be transported across a network or persisted to storage (such as a file or database). The serialized format contains the object's state information. De-serialization is the process of using the serialized state to reconstruct the object from the serialized state to its original state.
 

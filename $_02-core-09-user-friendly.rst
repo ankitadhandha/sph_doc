@@ -5,6 +5,8 @@
 User Friendly Designs
 =====================
 
+.. _return-to-top-02-core-09-user-friendly:
+
 This section addresses:
 
 .. rst:role:: USDA #1
@@ -68,6 +70,8 @@ Ontomatica's Navigator, as of 2015, is unique in the technology marketplace.
 Some modern tools enable a user to compose a query by selecting two or more single-level facets. An example is `NCCOR <http://tools.nccor.org/css/>`_.
 
 Only Navigator enables a user to compose queries by selecting terms from multiple hierarchies of terms.
+
+:ref:`Return to top <return-to-top-02-core-09-user-friendly>`
 
 .. |_| unicode:: 0x80
 
