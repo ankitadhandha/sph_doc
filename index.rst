@@ -3,6 +3,8 @@
 
 ********************************
 
+.. _return-to-top-Nutrition-Database-Modernization:
+
 Nutrition Database Modernization
 ********************************
 
@@ -12,6 +14,8 @@ Nutrition Database Modernization
 :Date: 29 November 2014
 
 .. image:: $_01-docs-latest_.svg
+
+* :ref:`Index of Glossary Terms <genindex>`
 
 -----------------------------
 
@@ -49,8 +53,6 @@ Nutrition Database Modernization
 
    `US NIH National Center for Biotechnology Information (NCBI) PubChem <https://pubchem.ncbi.nlm.nih.gov/>`_
 
-   `US National Institute of Standards and Technology (NIST) <http://www.nist.gov/chemistry-portal.cfm>`_
-
    `National Center for Biomedical Ontology (NCBO) <http://www.bioontology.org/>`_
 
 Table of Contents
@@ -72,12 +74,6 @@ Table of Contents
    $_15-ontomatica.rst
    $_12-epilogue.rst
 
-Indices and Tables
-^^^^^^^^^^^^^^^^^^
-
-* :ref:`genindex`
-* :ref:`search`
-
 License
 ^^^^^^^
 
@@ -87,4 +83,5 @@ Copyright 2014 Ontomatica LLC. This work is licensed under a `Creative Commons A
    :align: left
    :alt: Creative Commons License
 
+:ref:`Return to top <return-to-top-Nutrition-Database-Modernization>`
 
