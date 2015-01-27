@@ -24,7 +24,7 @@ Conversion of food data is done in the areas of nutrition (i.e. food composition
 
 Food composition data are expressed in a variety of ways, depending on national conventions, practices of various institutions and journals requirements. However, to aggregate or compare data from diverse sources, it is often necessary to convert them.
 
-A common source of error in the use of compositional data is their conversions from one unit, denominator or expression to another. As there are no comprehensive guidelines available on this topic, FAO/INFOODS decided to develop such guidelines.
+A common source of error in the use of compositional data is their conversions from one unit, denominator or expression to another. We use comprehensive guidelines developed by FAO/INFOODS.
 
 ----------
 Objectives
