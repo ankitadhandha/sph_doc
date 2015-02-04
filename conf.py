@@ -35,6 +35,7 @@ extensions = [
               'sphinx.ext.mathjax',
               'sphinx.ext.ifconfig',
               'sphinx.ext.viewcode',
+              'sphinx.ext.intersphinx',
               'sphinxcontrib.exceltable',
               'sphinxcontrib.napoleon',
               'sphinxcontrib.bibtex',
@@ -42,6 +43,16 @@ extensions = [
              ]
 
 mathjax_path = 'http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'
+
+# -- Intersphinx ---------------------------------------------------------------
+
+intersphinx_cache_limit = 10     # days to keep the cached inventories
+intersphinx_mapping = {
+        'sphinx':('http://sphinx.pocoo.org',None),
+        'python':('http://docs.python.org/3.2',None),
+    'matplotlib':('http://matplotlib.sourceforge.net',None),
+         'numpy':('http://docs.scipy.org/doc/numpy',None),
+}
 
 # -- Options for Napoleon Extension --------------------------------------------
 
@@ -140,7 +151,7 @@ number_figures = True
 exclude_patterns = [
                     '_build',
                     'epilog.rst',
-                    '$_00-a-samples.rst',
+                    '_sphinx_lib',
                    ]
 
 # The reST default role (used for this markup: `text`) to use for all documents.

@@ -1,5 +1,5 @@
 
-.. image:: $_01-USDA-ARS-large_.png
+.. image:: _static/$_01-USDA-ARS-large_.png
 
 ********************************
 
@@ -13,7 +13,7 @@ Nutrition Database Modernization
 :Organization: `Ontomatica <http://www.ontomatica.com>`_
 :Date: 29 November 2014
 
-.. image:: $_01-docs-latest_.svg
+.. image:: _static/$_01-docs-latest_.svg
 
 * :ref:`Index of Glossary Terms <genindex>`
 
@@ -61,25 +61,25 @@ Table of Contents
 .. toctree::
    :maxdepth: 2
 
-   $_00-prologue.rst
-   $_01-convention.rst
-   $_02-core.rst
-   $_03-detail.rst
-   $_04-fda.rst
-   $_06-future.rst
-   $_07-glossary.rst
-   $_10-term-project.rst
-   $_11-term-ontology.rst
-   $_13-bibliography.rst
-   $_15-ontomatica.rst
-   $_12-epilogue.rst
+   00_dir/$_00-prologue.rst
+   01_dir/$_01-convention.rst
+   02_dir/$_02-core.rst
+   03_dir/$_03-detail.rst
+   04_dir/$_04-fda.rst
+   06_dir/$_06-future.rst
+   07_dir/$_07-glossary.rst
+   10_dir/$_10-term-project.rst
+   11_dir/$_11-term-ontology.rst
+   13_dir/$_13-bibliography.rst
+   15_dir/$_15-ontomatica.rst
+   12_dir/$_12-epilogue.rst
 
 License
 ^^^^^^^
 
 Copyright 2014 Ontomatica LLC. This work is licensed under a `Creative Commons Attribution 3.0 License <http://creativecommons.org/licenses/by/3.0/us/deed.en_US>`_.
 
-.. image:: $_01-cc-icon_.png
+.. image:: _static/$_01-cc-icon_.png
    :align: left
    :alt: Creative Commons License
 

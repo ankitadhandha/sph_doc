@@ -5,6 +5,10 @@
 Test Directives
 ===============
 
+
+Using ODS file system, this is a link to display a referenced file
+   See :download:`this example download <\requirements.txt>`.
+
 .. raw:: html
 
     Now is the time to use a <font color="red">red</font> word in a sentence.
