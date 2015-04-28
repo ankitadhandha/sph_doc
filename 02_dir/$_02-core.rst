@@ -29,5 +29,4 @@ Intro text goes here
    $_02-core-17-infrastructure.rst
    $_02-core-18-deployment.rst
    $_02-core-19-non-composition-data.rst
-   $_02-core-20-governance.rst
 
