@@ -19,7 +19,7 @@ Nutrition Database Modernization
 
 -----------------------------
 
-.. sidebar:: USDA Proposal Resources
+.. sidebar:: GG Testig USDA Proposal Resources
 
    `USDA ARS Nutrient Database for Standard Reference (SR) <http://ndb.nal.usda.gov/>`_
 
