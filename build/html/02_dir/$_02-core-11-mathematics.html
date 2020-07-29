@@ -1,0 +1,144 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Nutrition Mathematics &#8212; Sphinx  documentation</title>
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/language_data.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="nutrition-mathematics">
+<span id="core-11-mathematics"></span><h1>Nutrition Mathematics<a class="headerlink" href="#nutrition-mathematics" title="Permalink to this headline">¶</a></h1>
+<p id="return-to-top-02-core-11-mathematics">This section addresses:</p>
+<dl class="role">
+<dt id="role-USDA #3">
+<code class="descname">:USDA #3:</code><a class="headerlink" href="#role-USDA #3" title="Permalink to this definition">¶</a></dt>
+<dd><p>Develop capability for checking the quality of incoming data based on general database principles and specific ARS analytics.</p>
+</dd></dl>
+
+<dl class="role">
+<dt id="role-USDA #5">
+<code class="descname">:USDA #5:</code><a class="headerlink" href="#role-USDA #5" title="Permalink to this definition">¶</a></dt>
+<dd><p>Allow incorporation of ARS analytics for expanding the database.</p>
+</dd></dl>
+
+<div class="admonition attention">
+<p class="first admonition-title">Attention</p>
+<p class="last">This section applies to <a class="reference internal" href="../10_dir/$_10-term-project.html#terms-usda-prime"><span class="std std-ref">USDA prime data</span></a>, not to <a class="reference internal" href="../10_dir/$_10-term-project.html#terms-usda-select"><span class="std std-ref">USDA select data</span></a>. For explanation of USDA prime and USDA select data, see <a class="reference external" href="$_02-core-10-deposition-1-OnLine-OnMessage.html#deposition-workflow">Deposition Workflow</a></p>
+</div>
+<div class="section" id="ontask-ontomatica-workflow-engine">
+<h2>OnTask - Ontomatica workflow engine<a class="headerlink" href="#ontask-ontomatica-workflow-engine" title="Permalink to this headline">¶</a></h2>
+<p>Examples of <a class="reference internal" href="../10_dir/$_10-term-project.html#terms-usda-mathematics"><span class="std std-ref">USDA mathematics</span></a>  processed by <a class="reference internal" href="../10_dir/$_10-term-project.html#terms-ontask"><span class="std std-ref">OnTask</span></a>  deposition workflow:</p>
+<ul class="simple">
+<li>Validate: sum of <a class="reference internal" href="../10_dir/$_10-term-project.html#terms-proximate"><span class="std std-ref">proximates</span></a>  is less than or equal to 100.</li>
+<li>Validate: sum of carbohydrate <a class="reference internal" href="../10_dir/$_10-term-project.html#terms-fraction"><span class="std std-ref">fractions</span></a>  is less than or equal to total <a class="reference internal" href="../10_dir/$_10-term-project.html#terms-carbohydrate"><span class="std std-ref">carbohydrates</span></a>.</li>
+<li>Validate: sum of individual <a class="reference internal" href="../10_dir/$_10-term-project.html#terms-fatty-acid"><span class="std std-ref">fatty acids</span></a>  is less than or equal to total <a class="reference internal" href="../10_dir/$_10-term-project.html#terms-fat"><span class="std std-ref">fat</span></a>.</li>
+<li>Validate: sum of individual <a class="reference internal" href="../10_dir/$_10-term-project.html#terms-carotenoid"><span class="std std-ref">carotenoids</span></a>  times the appropriate <a class="reference internal" href="../10_dir/$_10-term-project.html#terms-factor"><span class="std std-ref">factors</span></a>  is less than or equal to <a class="reference internal" href="../10_dir/$_10-term-project.html#terms-vitamin-a"><span class="std std-ref">vitamin A</span></a>  value.</li>
+<li>Validate: each food has <a class="reference internal" href="../10_dir/$_10-term-project.html#terms-refuse-value"><span class="std std-ref">refuse value</span></a>.</li>
+<li>Validate: each food has at least one <a class="reference internal" href="../10_dir/$_10-term-project.html#terms-household-measure"><span class="std std-ref">household measure</span></a>.</li>
+<li>Compute: value of missing value for FNDDS nutrient <a class="reference internal" href="../10_dir/$_10-term-project.html#terms-component"><span class="std std-ref">component</span></a>.</li>
+<li>Compute: <a class="reference internal" href="../10_dir/$_10-term-project.html#terms-retention-value"><span class="std std-ref">retention values</span></a>  based on <a class="reference internal" href="../10_dir/$_10-term-project.html#terms-cooking-method"><span class="std std-ref">cooking method</span></a>.</li>
+<li>Email: food record to <a class="reference internal" href="../10_dir/$_10-term-project.html#terms-depositor"><span class="std std-ref">depositor</span></a>  for review.</li>
+</ul>
+</div>
+<div class="section" id="sample-workflow">
+<h2>Sample workflow<a class="headerlink" href="#sample-workflow" title="Permalink to this headline">¶</a></h2>
+<div class="figure align-center">
+<img alt="../_images/$_02-core-11-mathematics-USDA-processes_.png" src="../_images/$_02-core-11-mathematics-USDA-processes_.png" />
+</div>
+<p><a class="reference internal" href="#return-to-top-02-core-11-mathematics"><span class="std std-ref">Return to top</span></a></p>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../index.html">Sphinx</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, Gig.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.8.5</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../_sources/02_dir/$_02-core-11-mathematics.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

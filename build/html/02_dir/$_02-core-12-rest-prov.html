@@ -1,0 +1,371 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>REST Services and Reports &#8212; Sphinx  documentation</title>
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/language_data.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="rest-services-and-reports">
+<span id="core-12-rest-prov"></span><h1>REST Services and Reports<a class="headerlink" href="#rest-services-and-reports" title="Permalink to this headline">¶</a></h1>
+<p id="return-to-top-02-core-12-rest-prov">This section addresses:</p>
+<dl class="role">
+<dt id="role-USDA #6">
+<code class="descname">:USDA #6:</code><a class="headerlink" href="#role-USDA #6" title="Permalink to this definition">¶</a></dt>
+<dd><p>Permit export of composition and analytical data and conversion of composition data to an application development format.</p>
+</dd></dl>
+
+<dl class="role">
+<dt id="role-USDA #10">
+<code class="descname">:USDA #10:</code><a class="headerlink" href="#role-USDA #10" title="Permalink to this definition">¶</a></dt>
+<dd><p>Permit assembly of ad hoc databases to suit individual needs.</p>
+</dd></dl>
+
+<dl class="role">
+<dt id="role-USDA #11">
+<code class="descname">:USDA #11:</code><a class="headerlink" href="#role-USDA #11" title="Permalink to this definition">¶</a></dt>
+<dd><p>Permit export of ad hoc data.</p>
+</dd></dl>
+
+<div class="section" id="table-of-contents">
+<h2>Table of Contents<a class="headerlink" href="#table-of-contents" title="Permalink to this headline">¶</a></h2>
+<div class="contents local topic" id="contents">
+<ul class="simple">
+<li><a class="reference internal" href="#general-structure-of-rest-api" id="id1">General Structure of REST API</a><ul>
+<li><a class="reference internal" href="#query-parameters-input-specification" id="id2">Query Parameters: Input Specification</a></li>
+<li><a class="reference internal" href="#query-parameters-operation-specification" id="id3">Query Parameters: Operation Specification</a></li>
+<li><a class="reference internal" href="#query-parameters-output-specification" id="id4">Query Parameters: Output Specification</a></li>
+<li><a class="reference internal" href="#request-food-property-tables" id="id5">Request: Food property tables</a><ul>
+<li><a class="reference internal" href="#return-food-property-table" id="id6">Return food property table</a></li>
+<li><a class="reference internal" href="#variation-return-nutrient-fact-panel-nfp-type" id="id7">Variation: Return Nutrient Fact Panel &lt;NFP_type&gt;</a></li>
+<li><a class="reference internal" href="#variation-return-dates" id="id8">Variation: Return dates</a></li>
+<li><a class="reference internal" href="#variation-return-cross-references-xrefs" id="id9">Variation: Return Cross References &lt;xrefs&gt;</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#quality-control-using-provenance-ontology-and-rest" id="id10">Quality Control using Provenance Ontology and REST</a></li>
+</ul>
+</div>
+<p><a class="reference internal" href="../10_dir/$_10-term-project.html#terms-label-project"><span class="std std-ref">Label project</span></a>  data will be available to <a class="reference internal" href="../10_dir/$_10-term-project.html#terms-investigator"><span class="std std-ref">investigators</span></a>  via <a class="reference internal" href="../10_dir/$_10-term-project.html#terms-rest"><span class="std std-ref">REST</span></a>  (Representational State Transfer) services. REST is a simple stateless architecture that runs over HTTP. REST service reads a designated Web page that contains an XML file in RDF format. XML/RDF file describes and includes label project data. Data is returned to investigator in <a class="reference internal" href="../10_dir/$_10-term-project.html#terms-json-ld"><span class="std std-ref">JSON-LD</span></a>  format.</p>
+<div class="figure align-center">
+<img alt="../_images/$_02-core-12-rest-prov_.png" src="../_images/$_02-core-12-rest-prov_.png" />
+</div>
+<div class="section" id="general-structure-of-rest-api">
+<h3><a class="toc-backref" href="#id1">General Structure of REST API</a><a class="headerlink" href="#general-structure-of-rest-api" title="Permalink to this headline">¶</a></h3>
+<p>Structure of a USDA REST <a class="reference internal" href="../10_dir/$_10-term-project.html#terms-conversation"><span class="std std-ref">conversation</span></a>  :</p>
+<p>Structure of the USDA REST API is:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">usda</span><span class="o">.</span><span class="n">ars</span><span class="o">.</span><span class="n">gov</span><span class="o">/</span><span class="n">rest</span><span class="o">/&lt;</span><span class="nb">input</span> <span class="n">specification</span><span class="o">&gt;/&lt;</span><span class="n">operation</span> <span class="n">specification</span><span class="o">&gt;/</span><span class="p">[</span><span class="o">&lt;</span><span class="n">output</span> <span class="n">specification</span><span class="o">&gt;</span><span class="p">]</span><span class="o">/</span><span class="p">[</span><span class="o">&lt;</span><span class="n">operation</span> <span class="n">options</span><span class="o">&gt;</span><span class="p">]</span>
+</pre></div>
+</div>
+<p>Example: “retrieve food description using food identifier <code class="xref py py-class docutils literal notranslate"><span class="pre">[USDA_fid]</span></code> and <a class="reference internal" href="../10_dir/$_10-term-project.html#terms-item"><span class="std std-ref">item</span></a> number 2244”</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">usda</span><span class="o">.</span><span class="n">ars</span><span class="o">.</span><span class="n">gov</span><span class="o">/</span><span class="n">rest</span><span class="o">/</span><span class="n">food</span><span class="o">/</span><span class="n">USDA_fid</span><span class="o">/</span><span class="mi">2244</span><span class="o">/</span><span class="n">JSON</span>
+</pre></div>
+</div>
+<div class="section" id="query-parameters-input-specification">
+<h4><a class="toc-backref" href="#id2">Query Parameters: Input Specification</a><a class="headerlink" href="#query-parameters-input-specification" title="Permalink to this headline">¶</a></h4>
+<p>Input portion of URL tells service which records to use as subject of query.</p>
+<p>This is further subdivided into two or more locations in URL “path” as follows:</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name" colspan="2">query parameter title:</th></tr>
+<tr class="field-odd field"><td>&#160;</td><td class="field-body">input specification</td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">query parameter domain:</th></tr>
+<tr class="field-even field"><td>&#160;</td><td class="field-body">values may include food, compound, Nutrient Fact Panel (NFP) values and other inputs</td>
+</tr>
+</tbody>
+</table>
+<p>For example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>                           <span class="mi">1</span>          <span class="mi">2</span>            <span class="mi">3</span>
+<span class="o">&lt;</span><span class="n">input_specification</span><span class="o">&gt;</span> <span class="o">=</span> <span class="o">&lt;</span><span class="n">domain</span><span class="o">&gt;/&lt;</span><span class="n">namespace</span><span class="o">&gt;/&lt;</span><span class="n">identifiers</span><span class="o">&gt;</span>
+
+
+                <span class="mf">2.1</span>     <span class="mf">2.2</span>        <span class="mf">2.3</span>             <span class="mf">2.4</span>
+<span class="mi">1</span>   <span class="o">&lt;</span><span class="n">domain</span><span class="o">&gt;</span> <span class="o">=</span> <span class="n">food</span> <span class="o">|</span> <span class="n">compound</span> <span class="o">|</span> <span class="n">NFP_values</span> <span class="o">|</span> <span class="o">&lt;</span><span class="n">other</span> <span class="n">inputs</span><span class="o">&gt;</span>
+
+
+                                                   <span class="mf">2.</span><span class="n">n</span><span class="o">.</span><span class="mi">1</span>                                              <span class="mf">2.</span><span class="n">n</span><span class="o">.</span><span class="mi">2</span>
+<span class="mf">2.1</span>    <span class="n">food</span> <span class="n">domain</span> <span class="o">&lt;</span><span class="n">namespace</span><span class="o">&gt;</span> <span class="o">=</span> <span class="n">USDA_fid</span> <span class="o">|</span> <span class="n">sourceid</span><span class="o">/&lt;</span><span class="n">source</span> <span class="n">name</span><span class="o">&gt;</span> <span class="o">|</span> <span class="n">sourceall</span><span class="o">/&lt;</span><span class="n">source</span> <span class="n">name</span><span class="o">&gt;</span> <span class="o">|</span> <span class="n">name</span> <span class="o">|</span> <span class="o">&lt;</span><span class="n">xref</span><span class="o">&gt;</span>
+
+<span class="mf">2.2</span>    <span class="n">compound</span> <span class="n">domain</span> <span class="o">&lt;</span><span class="n">namespace</span><span class="o">&gt;</span> <span class="o">=</span> <span class="n">PC_cid</span> <span class="o">|</span> <span class="n">name</span> <span class="o">|</span> <span class="n">inchikey</span> <span class="o">|</span> <span class="o">&lt;</span><span class="n">xref</span><span class="o">&gt;</span>
+
+
+                                                   <span class="mf">2.</span><span class="n">n</span><span class="o">.</span><span class="mi">3</span>
+<span class="mf">2.3</span>    <span class="n">NFP_values</span> <span class="n">domain</span> <span class="o">&lt;</span><span class="n">namespace</span><span class="o">&gt;</span> <span class="o">=</span> <span class="n">NFP_id</span> <span class="o">|</span> <span class="nb">type</span><span class="o">/&lt;</span><span class="n">NFP</span> <span class="nb">type</span><span class="o">&gt;</span> <span class="o">|</span> <span class="n">sourceall</span><span class="o">/&lt;</span><span class="n">source</span> <span class="n">name</span><span class="o">&gt;</span> <span class="o">|</span> <span class="n">activity</span><span class="o">/&lt;</span><span class="n">activity</span> <span class="n">column</span> <span class="n">name</span><span class="o">&gt;</span> <span class="o">|</span> <span class="p">{</span><span class="n">_to_be_specified_</span><span class="p">}</span>
+
+<span class="mf">2.</span><span class="n">n</span><span class="o">.</span><span class="mi">1</span>     <span class="o">&lt;</span><span class="n">source_name</span><span class="o">&gt;</span> <span class="o">=</span> <span class="nb">any</span> <span class="n">valid</span> <span class="n">Branded</span> <span class="n">Food</span> <span class="n">depositor</span> <span class="n">name</span>
+
+<span class="mf">2.</span><span class="n">n</span><span class="o">.</span><span class="mi">2</span>     <span class="o">&lt;</span><span class="n">xref</span><span class="o">&gt;</span> <span class="o">=</span> <span class="n">xref</span> <span class="o">/</span> <span class="p">{</span><span class="n">RegistryID</span> <span class="o">|</span> <span class="n">RN</span> <span class="o">|</span> <span class="n">NCBI_ProteinGI</span> <span class="o">|</span> <span class="n">NCBI_TaxonomyID</span> <span class="p">}</span>
+
+<span class="mf">2.</span><span class="n">n</span><span class="o">.</span><span class="mi">3</span>     <span class="o">&lt;</span><span class="n">NFP_type</span><span class="o">&gt;</span> <span class="o">=</span> <span class="nb">all</span> <span class="o">|</span> <span class="n">panel</span> <span class="o">|</span> <span class="n">summary</span> <span class="o">|</span> <span class="p">{</span><span class="n">_to_be_specified_</span><span class="p">}</span>
+
+<span class="mf">2.4</span>    <span class="o">&lt;</span><span class="n">other_inputs_to_be_specified_</span><span class="o">&gt;</span> <span class="o">=</span> <span class="n">sources</span> <span class="o">/</span> <span class="p">[</span><span class="n">substance</span><span class="p">,</span> <span class="n">assay</span><span class="p">]</span> <span class="o">|</span> <span class="n">conformers</span>
+
+<span class="mi">3</span>    <span class="o">&lt;</span><span class="n">identifiers</span><span class="o">&gt;</span> <span class="o">=</span> <span class="n">comma</span><span class="o">-</span><span class="n">separated</span> <span class="nb">list</span> <span class="n">of</span> <span class="n">positive</span> <span class="n">integers</span> <span class="p">(</span><span class="n">e</span><span class="o">.</span><span class="n">g</span><span class="o">.</span> <span class="n">PC_cid</span><span class="p">,</span> <span class="n">USDA_fid</span><span class="p">,</span> <span class="n">NFP_id</span><span class="p">)</span> <span class="ow">or</span> <span class="n">identifier</span> <span class="n">strings</span> <span class="p">(</span><span class="n">source</span><span class="p">,</span> <span class="n">inchikey</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="query-parameters-operation-specification">
+<h4><a class="toc-backref" href="#id3">Query Parameters: Operation Specification</a><a class="headerlink" href="#query-parameters-operation-specification" title="Permalink to this headline">¶</a></h4>
+<p>Operation part of URL tells service what to do with input records - such as to retrieve whole record or specific properties of a food.</p>
+<p>Construction of this part of “path” will depend on Operation Specification. If no operation is specified, default is to retrieve entire record.</p>
+<p>Available operations dependent on Input Specification. For example, certain operations are applicable only to foods, compounds and not <code class="xref py py-class docutils literal notranslate"><span class="pre">NFP_values</span></code>.</p>
+<p>For example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>                                                         <span class="mf">1.</span><span class="n">n</span><span class="o">.</span><span class="mi">1</span>                                                             <span class="mf">1.</span><span class="n">n</span><span class="o">.</span><span class="mi">2</span>
+<span class="mf">1.1</span>  <span class="n">food</span> <span class="n">domain</span> <span class="o">&lt;</span><span class="n">operation_specification</span><span class="o">&gt;</span> <span class="o">=</span> <span class="n">record</span> <span class="o">|</span> <span class="o">&lt;</span><span class="n">food_property</span><span class="o">&gt;</span> <span class="o">|</span> <span class="n">synonyms</span> <span class="o">|</span> <span class="n">PC_cids</span> <span class="o">|</span> <span class="n">NFP_values</span> <span class="o">|</span> <span class="n">classification</span> <span class="o">|</span> <span class="o">&lt;</span><span class="n">xrefs</span><span class="o">&gt;</span> <span class="o">|</span> <span class="n">description</span>
+
+<span class="mf">1.</span><span class="n">n</span><span class="o">.</span><span class="mi">1</span>    <span class="o">&lt;</span><span class="n">food_property</span><span class="o">&gt;</span> <span class="o">=</span> <span class="nb">property</span> <span class="o">/</span> <span class="p">[</span><span class="n">comma</span><span class="o">-</span><span class="n">separated</span> <span class="nb">list</span> <span class="n">of</span> <span class="nb">property</span> <span class="n">tags</span><span class="p">]</span>
+
+<span class="mf">1.</span><span class="n">n</span><span class="o">.</span><span class="mi">2</span>    <span class="o">&lt;</span><span class="n">xrefs</span><span class="o">&gt;</span> <span class="o">=</span> <span class="n">xrefs</span> <span class="o">/</span> <span class="p">[</span><span class="n">comma</span><span class="o">-</span><span class="n">separated</span> <span class="nb">list</span> <span class="n">of</span> <span class="n">xrefs</span> <span class="n">tags</span><span class="p">]</span>
+
+<span class="mf">1.3</span>  <span class="n">NFP</span> <span class="n">domain</span> <span class="o">&lt;</span><span class="n">operation_specification</span><span class="o">&gt;</span> <span class="o">=</span> <span class="n">record</span> <span class="o">|</span> <span class="n">NFP_ids</span> <span class="o">|</span> <span class="n">USDA_fids</span> <span class="o">|</span> <span class="n">PC_cids</span> <span class="o">|</span> <span class="n">description</span> <span class="o">|</span> <span class="n">summary</span> <span class="o">|</span> <span class="n">classification</span> <span class="o">|</span> <span class="n">xrefs</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="query-parameters-output-specification">
+<h4><a class="toc-backref" href="#id4">Query Parameters: Output Specification</a><a class="headerlink" href="#query-parameters-output-specification" title="Permalink to this headline">¶</a></h4>
+<p>Final portion of URL tells service what output format is desired.</p>
+<p>Output format also can be specified in HTTP Accept field of request header.</p>
+<p>For example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">&lt;</span><span class="n">output</span><span class="p">:</span><span class="n">specification</span><span class="o">&gt;</span> <span class="o">=</span> <span class="n">JSON</span> <span class="o">|</span> <span class="n">CSV</span> <span class="o">|</span> <span class="n">TXT</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="request-food-property-tables">
+<h4><a class="toc-backref" href="#id5">Request: Food property tables</a><a class="headerlink" href="#request-food-property-tables" title="Permalink to this headline">¶</a></h4>
+<p>Request properties for a food (USDA_fid) or compound (PC_cid).</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">usda</span><span class="o">.</span><span class="n">ars</span><span class="o">.</span><span class="n">gov</span><span class="o">/</span><span class="n">rest</span><span class="o">/</span><span class="n">food</span><span class="o">/</span><span class="n">USDA_fid</span><span class="o">/</span><span class="mi">3114</span><span class="o">/</span><span class="nb">property</span><span class="o">/</span><span class="n">JSON</span>
+</pre></div>
+</div>
+<div class="section" id="return-food-property-table">
+<h5><a class="toc-backref" href="#id6">Return food property table</a><a class="headerlink" href="#return-food-property-table" title="Permalink to this headline">¶</a></h5>
+<table border="1" class="colwidths-given docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Property</th>
+<th class="head">Notes</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>to_be_specified</td>
+<td>to_be_specified</td>
+</tr>
+<tr class="row-odd"><td>to_be_specified</td>
+<td>to_be_specified</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="variation-return-nutrient-fact-panel-nfp-type">
+<h5><a class="toc-backref" href="#id7">Variation: Return Nutrient Fact Panel &lt;NFP_type&gt;</a><a class="headerlink" href="#variation-return-nutrient-fact-panel-nfp-type" title="Permalink to this headline">¶</a></h5>
+<table border="1" class="colwidths-given docutils">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Options</th>
+<th class="head">Allowed Values</th>
+<th class="head">meaning</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>NFP_type</td>
+<td>all, primary, secondary</td>
+<td>Type of NFP to return given, USDA_fids, PC_cids</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="variation-return-dates">
+<h5><a class="toc-backref" href="#id8">Variation: Return dates</a><a class="headerlink" href="#variation-return-dates" title="Permalink to this headline">¶</a></h5>
+<table border="1" class="colwidths-given docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Date</th>
+<th class="head">Meaning</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Deposition</td>
+<td>when an USDA_fid or NFP_id first appeared</td>
+</tr>
+<tr class="row-odd"><td>Modification</td>
+<td>when an USDA_fid or NFP_id was last modified</td>
+</tr>
+<tr class="row-even"><td>Hold</td>
+<td>when an USDA_fid or NFP_id will be released</td>
+</tr>
+<tr class="row-odd"><td>Creation</td>
+<td>when a USDA_fid or NFP_id first appeared</td>
+</tr>
+<tr class="row-even"><td>Deprecation</td>
+<td>when a USDA_fid or NFP_id is no longer active</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="variation-return-cross-references-xrefs">
+<h5><a class="toc-backref" href="#id9">Variation: Return Cross References &lt;xrefs&gt;</a><a class="headerlink" href="#variation-return-cross-references-xrefs" title="Permalink to this headline">¶</a></h5>
+<table border="1" class="colwidths-given docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Cross Reference</th>
+<th class="head">Meaning</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>RegistryID</td>
+<td>external registry identifier</td>
+</tr>
+<tr class="row-odd"><td>PubMedID</td>
+<td>NCBI PubMed identifier</td>
+</tr>
+<tr class="row-even"><td>DBURL</td>
+<td>external database home page URL</td>
+</tr>
+<tr class="row-odd"><td>TaxonomyID</td>
+<td>NCBI taxonomy identifier</td>
+</tr>
+<tr class="row-even"><td>SourceName</td>
+<td>external depositor name</td>
+</tr>
+<tr class="row-odd"><td>SourceCategory</td>
+<td>depositor category(ies)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="section" id="quality-control-using-provenance-ontology-and-rest">
+<h3><a class="toc-backref" href="#id10">Quality Control using Provenance Ontology and REST</a><a class="headerlink" href="#quality-control-using-provenance-ontology-and-rest" title="Permalink to this headline">¶</a></h3>
+<p>Several <a class="reference internal" href="../10_dir/$_10-term-project.html#terms-conversation"><span class="std std-ref">conversation</span></a>  types will be supported.</p>
+<p>For example, Ontomatica <span class="xref std std-ref">imports</span>  the Provenance Ontology <code class="xref py py-class docutils literal notranslate"><span class="pre">[prov]</span></code>.</p>
+<p>The following illustrates a <a class="reference internal" href="../10_dir/$_10-term-project.html#terms-curator"><span class="std std-ref">curator</span></a>  using <code class="xref py py-class docutils literal notranslate"><span class="pre">[prov]</span></code>:</p>
+<ul class="simple">
+<li>Alanna wishes to verify that a new data set correctly addresses previous error.</li>
+<li>David <code class="xref py py-class docutils literal notranslate"><span class="pre">[ex:David]</span></code> documents Alanna’s instructions <code class="xref py py-class docutils literal notranslate"><span class="pre">[ex:instructions]</span></code> in a plan <code class="xref py py-class docutils literal notranslate"><span class="pre">[prov:Plan]</span></code>.</li>
+<li>David then generates a new dataset <code class="xref py py-class docutils literal notranslate"><span class="pre">[ex:dataset2]</span></code> that implements correction activity <code class="xref py py-class docutils literal notranslate"><span class="pre">[ex:correct1]</span></code>.</li>
+<li>Alanna confirms <code class="xref py py-class docutils literal notranslate"><span class="pre">[prov:Plan]</span></code> and executes a <code class="xref py py-class docutils literal notranslate"><span class="pre">diff</span></code> (difference) to contrast <code class="xref py py-class docutils literal notranslate"><span class="pre">[ex:dataset2]</span></code> with <code class="xref py py-class docutils literal notranslate"><span class="pre">[ex:dataset1]</span></code>.</li>
+</ul>
+<p>Curator uses a REST conversation to implement the example above.</p>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<p>Model sites that implement REST</p>
+<ul class="last simple">
+<li><a class="reference external" href="http://www.chemaxon.com/products/jchem-web-services/">ChemAxon concepts</a></li>
+<li><a class="reference external" href="https://restdemo.chemaxon.com/apidocs/">ChemAxon application programming interface (APIs)</a></li>
+</ul>
+</div>
+<p><a class="reference internal" href="#return-to-top-02-core-12-rest-prov"><span class="std std-ref">Return to top</span></a></p>
+</div>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../index.html">Sphinx</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, Gig.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.8.5</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../_sources/02_dir/$_02-core-12-rest-prov.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
