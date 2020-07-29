@@ -1,0 +1,454 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Non-composition Data &#8212; Sphinx  documentation</title>
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/language_data.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="non-composition-data">
+<span id="core-19-non-composition"></span><h1>Non-composition Data<a class="headerlink" href="#non-composition-data" title="Permalink to this headline">¶</a></h1>
+<p id="return-to-top-02-core-19-non-composition">This section addresses:</p>
+<dl class="role">
+<dt id="role-USDA #9">
+<code class="descname">:USDA #9:</code><a class="headerlink" href="#role-USDA #9" title="Permalink to this definition">¶</a></dt>
+<dd><p>Support input and storage of various non-composition data types (metabolomic profiles; DNA barcodes; taxonomic information; and chromatographic and spectral profiles).</p>
+</dd></dl>
+
+<div class="admonition attention">
+<p class="first admonition-title">Attention</p>
+<p class="last">This section applies to <a class="reference internal" href="../10_dir/$_10-term-project.html#terms-usda-prime"><span class="std std-ref">USDA prime data</span></a>, not to <a class="reference internal" href="../10_dir/$_10-term-project.html#terms-usda-select"><span class="std std-ref">USDA select data</span></a>. For explanation of USDA prime and USDA select data, see <a class="reference external" href="$_02-core-10-deposition-1-OnLine-OnMessage.html#deposition-workflow">Deposition Workflow</a></p>
+</div>
+<div class="section" id="table-of-contents">
+<h2>Table of Contents<a class="headerlink" href="#table-of-contents" title="Permalink to this headline">¶</a></h2>
+<div class="contents local topic" id="contents">
+<ul class="simple">
+<li><a class="reference internal" href="#chromatographic-and-spectral-profiles" id="id7">Chromatographic and Spectral Profiles</a></li>
+<li><a class="reference internal" href="#metabolomic-profiles" id="id8">Metabolomic Profiles</a></li>
+<li><a class="reference internal" href="#taxonomic-information" id="id9">Taxonomic Information</a></li>
+</ul>
+</div>
+<div class="section" id="chromatographic-and-spectral-profiles">
+<h3><a class="toc-backref" href="#id7">Chromatographic and Spectral Profiles</a><a class="headerlink" href="#chromatographic-and-spectral-profiles" title="Permalink to this headline">¶</a></h3>
+<p>Ontomatica deposition service integrates the following terms for use by <a class="reference internal" href="../10_dir/$_10-term-project.html#terms-investigator"><span class="std std-ref">investigators</span></a>  when depositing chromatographic and spectral profiles.</p>
+<p>The <a class="reference external" href="http://www.ontobee.org/browser/index.php?o=FIX">Physico-chemical methods and properties ontology</a> (FIX) has been parsed and each term below is referenceable. The HUPO Proteomics <a class="reference external" href="http://www.psidev.info/">Mass Spectrometry ontology</a> (MS) has not been parse. Instead, Ontomatica uses the Essepuntato <a class="reference external" href="http://www.essepuntato.it/lode">Live OWL Documentation Service</a> (LODE) to display the <a class="reference external" href="http://www.essepuntato.it/lode/owlapi/http://www.ontomatica.com/public/organizations/BETV/ms.owl">MS ontology</a>. Be patient while the LODE service parses the MS ontology OWL file. Once displayed, each facet term code below is searchable.</p>
+<p>Ontomatica deposition service will enable <a class="reference internal" href="../10_dir/$_10-term-project.html#terms-investigator"><span class="std std-ref">investigators</span></a>  to deposit data like this data from USDA:</p>
+<ul class="simple">
+<li>Fingerprint data for <a class="reference external" href="https://docs.google.com/spreadsheet/pub?key=0ArcX1zlTGgmjdEFpbWNoTTJRMThYVFVCaWFBN3A5RUE&amp;output=html">Glucoraphanin from Brassica oleracea, genotype Legacy</a></li>
+<li>Note that spectral data is presented for five different methods of analysis.</li>
+</ul>
+<p>In the table below a <strong>Section</strong> is upper case bold and a <em>Topic</em>  is upper case italic. The spectral term is lower case and associated with its facet term code.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Spectral Profile Information</th>
+<th class="head">Ontology Term</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><em>Deposit Accession</em></td>
+<td><a class="reference external" href="http://edamontology.org/data_2091">EDAM:data_2091</a></td>
+</tr>
+<tr class="row-odd"><td><em>Deposit Title</em></td>
+<td><a class="reference external" href="http://dublincore.org/documents/2012/06/14/dcmi-terms/?v=terms#title">dc:title</a></td>
+</tr>
+<tr class="row-even"><td><em>Analysis Date</em></td>
+<td><a class="reference external" href="http://www.w3.org/TR/owl-time/">Time</a></td>
+</tr>
+<tr class="row-odd"><td><em>Deposit Creation, Last Modification Date</em></td>
+<td><a class="reference external" href="http://www.w3.org/TR/owl-time/">Time</a></td>
+</tr>
+<tr class="row-even"><td><em>Authors and Affiliations of Deposit</em></td>
+<td><a class="reference external" href="http://www.w3.org/TR/vcard-rdf/">vCard</a></td>
+</tr>
+<tr class="row-odd"><td><em>Creative Commons License of Re-use of Deposit</em></td>
+<td><a class="reference external" href="http://creativecommons.org/ns">Creative Commons</a></td>
+</tr>
+<tr class="row-even"><td><em>Copyright of Deposit</em></td>
+<td><a class="reference external" href="http://creativecommons.org/ns">Creative Commons</a></td>
+</tr>
+<tr class="row-odd"><td><em>Reference to Spectral Data</em></td>
+<td><a class="reference external" href="http://semanticscience.org/resource/CHEMINF_000302">CHEMINF_000302</a></td>
+</tr>
+<tr class="row-even"><td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-odd"><td><strong>Chemical Compound Information</strong></td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td><em>Name of Chemical Compound Analyzed</em></td>
+<td><a class="reference external" href="http://semanticscience.org/resource/CHEMINF_000140">CHEMINF_000140</a></td>
+</tr>
+<tr class="row-odd"><td><em>Category of Chemical Compound</em></td>
+<td>ChEFS</td>
+</tr>
+<tr class="row-even"><td><em>Molecular Formula of Chemical Compound</em></td>
+<td><a class="reference external" href="http://semanticscience.org/resource/CHEMINF_000037">CHEMINF_000037</a></td>
+</tr>
+<tr class="row-odd"><td><em>Monoisotopic Mass of Chemical Compound</em></td>
+<td><a class="reference external" href="http://semanticscience.org/resource/CHEMINF_000218">CHEMINF_000218</a></td>
+</tr>
+<tr class="row-even"><td><em>SMILES String</em></td>
+<td><a class="reference external" href="http://semanticscience.org/resource/CHEMINF_000020">CHEMINF_000020</a></td>
+</tr>
+<tr class="row-odd"><td><em>IUPAC International Chemical Identifier (InChIKey)</em></td>
+<td><a class="reference external" href="http://semanticscience.org/resource/CHEMINF_000059">CHEMINF_000059</a></td>
+</tr>
+<tr class="row-even"><td><strong>Biological Sample Information</strong></td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td><em>Identity of Biological Species</em></td>
+<td><a class="reference external" href="http://edamontology.org/data_1875">EDAM:data_1875</a></td>
+</tr>
+<tr class="row-even"><td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-odd"><td><strong>Method of Analysis Information</strong></td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td><em>Instrument model</em></td>
+<td><a class="reference external" href="http://www.essepuntato.it/lode/owlapi/http://www.ontomatica.com/public/organizations/BETV/ms.owl">MS_1000031</a></td>
+</tr>
+<tr class="row-odd"><td><em>Ion analyzer type</em></td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>chromatography by separation mechanism</td>
+<td><a class="reference external" href="http://purl.obolibrary.org/obo/FIX_0000610">FIX_0000610</a></td>
+</tr>
+<tr class="row-odd"><td>capillary electrophoresis</td>
+<td><a class="reference external" href="http://purl.obolibrary.org/obo/FIX_0000836">FIX_0000836</a></td>
+</tr>
+<tr class="row-even"><td>gas chromatography</td>
+<td><a class="reference external" href="http://purl.obolibrary.org/obo/FIX_0000098">FIX_0000098</a></td>
+</tr>
+<tr class="row-odd"><td>liquid chromatography</td>
+<td><a class="reference external" href="http://purl.obolibrary.org/obo/FIX_0000608">FIX_0000608</a></td>
+</tr>
+<tr class="row-even"><td><em>Ionization methods</em></td>
+<td><a class="reference external" href="http://www.essepuntato.it/lode/owlapi/http://www.ontomatica.com/public/organizations/BETV/ms.owl">MS_1000008</a></td>
+</tr>
+<tr class="row-odd"><td>atmospheric pressure ionization mass spectrometry</td>
+<td><a class="reference external" href="http://purl.obolibrary.org/obo/FIX_0000908">FIX_0000908</a></td>
+</tr>
+<tr class="row-even"><td>atmospheric pressure photoionization mass spectrometry</td>
+<td><a class="reference external" href="http://purl.obolibrary.org/obo/FIX_0000907">FIX_0000907</a></td>
+</tr>
+<tr class="row-odd"><td>electron ionization mass spectrometry</td>
+<td><a class="reference external" href="http://purl.obolibrary.org/obo/FIX_0000089">FIX_0000089</a></td>
+</tr>
+<tr class="row-even"><td>electrospray ionization mass spectroscopy</td>
+<td><a class="reference external" href="http://purl.obolibrary.org/obo/FIX_0000079">FIX_0000079</a></td>
+</tr>
+<tr class="row-odd"><td>fast atom bombardment mass spectrometry</td>
+<td><a class="reference external" href="http://purl.obolibrary.org/obo/FIX_0000086">FIX_0000086</a></td>
+</tr>
+<tr class="row-even"><td>matrix-assisted laser desorption/ionization mass spectrometry</td>
+<td><a class="reference external" href="http://purl.obolibrary.org/obo/FIX_0000081">FIX_0000081</a></td>
+</tr>
+<tr class="row-odd"><td>APCI</td>
+<td><a class="reference external" href="http://www.essepuntato.it/lode/owlapi/http://www.ontomatica.com/public/organizations/BETV/ms.owl">MS_1000070</a></td>
+</tr>
+<tr class="row-even"><td>APPI</td>
+<td><a class="reference external" href="http://www.essepuntato.it/lode/owlapi/http://www.ontomatica.com/public/organizations/BETV/ms.owl">MS_1000382</a></td>
+</tr>
+<tr class="row-odd"><td>EI</td>
+<td><a class="reference external" href="http://www.essepuntato.it/lode/owlapi/http://www.ontomatica.com/public/organizations/BETV/ms.owl">MS_1000389</a></td>
+</tr>
+<tr class="row-even"><td>ESI</td>
+<td><a class="reference external" href="http://www.essepuntato.it/lode/owlapi/http://www.ontomatica.com/public/organizations/BETV/ms.owl">MS_1000073</a></td>
+</tr>
+<tr class="row-odd"><td>B</td>
+<td><a class="reference external" href="http://www.essepuntato.it/lode/owlapi/http://www.ontomatica.com/public/organizations/BETV/ms.owl">MS_1000080</a></td>
+</tr>
+<tr class="row-even"><td>IT</td>
+<td><a class="reference external" href="http://www.essepuntato.it/lode/owlapi/http://www.ontomatica.com/public/organizations/BETV/ms.owl">MS_1000264</a></td>
+</tr>
+<tr class="row-odd"><td>Q</td>
+<td><a class="reference external" href="http://www.essepuntato.it/lode/owlapi/http://www.ontomatica.com/public/organizations/BETV/ms.owl">MS_1000081</a></td>
+</tr>
+<tr class="row-even"><td>TOF</td>
+<td><a class="reference external" href="http://www.essepuntato.it/lode/owlapi/http://www.ontomatica.com/public/organizations/BETV/ms.owl">MS_1000084</a></td>
+</tr>
+<tr class="row-odd"><td><em>Fourier transformation</em></td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>Fourier transform-ion cyclotron resonance mass spectrometry</td>
+<td><a class="reference external" href="http://purl.obolibrary.org/obo/FIX_0000083">FIX_0000083</a></td>
+</tr>
+<tr class="row-odd"><td><em>Ion trap analyzer</em></td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>ion trap mass spectrometry</td>
+<td><a class="reference external" href="http://purl.obolibrary.org/obo/FIX_0000917">FIX_0000917</a></td>
+</tr>
+<tr class="row-odd"><td><em>Data Type</em></td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>MSn spectrum</td>
+<td><a class="reference external" href="http://www.essepuntato.it/lode/owlapi/http://www.ontomatica.com/public/organizations/BETV/ms.owl">MS_1000580</a></td>
+</tr>
+<tr class="row-odd"><td>precursor ion spectrum</td>
+<td><a class="reference external" href="http://www.essepuntato.it/lode/owlapi/http://www.ontomatica.com/public/organizations/BETV/ms.owl">MS_1000341</a></td>
+</tr>
+<tr class="row-even"><td><em>Polarity of Ion Detection</em></td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>positive thermal ionization mass spectrometry</td>
+<td><a class="reference external" href="http://purl.obolibrary.org/obo/FIX_0000914">FIX_0000914</a></td>
+</tr>
+<tr class="row-even"><td>positive thermal ionization mass spectrometry</td>
+<td><a class="reference external" href="http://www.essepuntato.it/lode/owlapi/http://www.ontomatica.com/public/organizations/BETV/ms.owl">MS_1000030</a></td>
+</tr>
+<tr class="row-odd"><td>negative thermal ionization mass spectrometry</td>
+<td><a class="reference external" href="http://purl.obolibrary.org/obo/FIX_0000915">FIX_0000915</a></td>
+</tr>
+<tr class="row-even"><td>negative thermal ionization mass spectrometry</td>
+<td><a class="reference external" href="http://www.essepuntato.it/lode/owlapi/http://www.ontomatica.com/public/organizations/BETV/ms.owl">MS_1000129</a></td>
+</tr>
+<tr class="row-odd"><td>Ion mode</td>
+<td><a class="reference external" href="http://www.essepuntato.it/lode/owlapi/http://www.ontomatica.com/public/organizations/BETV/ms.owl">MS_1000465</a></td>
+</tr>
+<tr class="row-even"><td><em>Collision Energy for Dissociation</em></td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>collision energy</td>
+<td><a class="reference external" href="http://www.essepuntato.it/lode/owlapi/http://www.ontomatica.com/public/organizations/BETV/ms.owl">MS_1000045</a></td>
+</tr>
+<tr class="row-even"><td><em>Name of Collision Gas</em></td>
+<td>ChEFS</td>
+</tr>
+<tr class="row-odd"><td>collision gas</td>
+<td><a class="reference external" href="http://www.essepuntato.it/lode/owlapi/http://www.ontomatica.com/public/organizations/BETV/ms.owl">MS_1000419</a></td>
+</tr>
+<tr class="row-even"><td><em>Flow Rate of Desolvation Gas</em></td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>ion desolvation</td>
+<td><a class="reference external" href="http://www.essepuntato.it/lode/owlapi/http://www.ontomatica.com/public/organizations/BETV/ms.owl">MS_1000390</a></td>
+</tr>
+<tr class="row-even"><td>flow rate array</td>
+<td><a class="reference external" href="http://www.essepuntato.it/lode/owlapi/http://www.ontomatica.com/public/organizations/BETV/ms.owl">MS_1000820</a></td>
+</tr>
+<tr class="row-odd"><td><em>Temperature of Desolvation Gas</em></td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>temperature array</td>
+<td><a class="reference external" href="http://www.essepuntato.it/lode/owlapi/http://www.ontomatica.com/public/organizations/BETV/ms.owl">MS_1000822</a></td>
+</tr>
+<tr class="row-odd"><td><em>Matrix Used in MALDI</em></td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>MALDI matrix application</td>
+<td><a class="reference external" href="http://www.essepuntato.it/lode/owlapi/http://www.ontomatica.com/public/organizations/BETV/ms.owl">MS_1000832</a></td>
+</tr>
+<tr class="row-odd"><td><em>Name of Reagent Gas</em></td>
+<td>ChEFS</td>
+</tr>
+<tr class="row-even"><td><em>Retention Time on Chromatography</em></td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>Retention time</td>
+<td><a class="reference external" href="http://www.essepuntato.it/lode/owlapi/http://www.ontomatica.com/public/organizations/BETV/ms.owl">MS_1000016</a></td>
+</tr>
+<tr class="row-even"><td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-odd"><td><strong>Mass Spectral Data Description</strong></td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td><em>m/z of Base Peak</em></td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>base peak</td>
+<td><a class="reference external" href="http://www.essepuntato.it/lode/owlapi/http://www.ontomatica.com/public/organizations/BETV/ms.owl">MS_1000210</a></td>
+</tr>
+<tr class="row-even"><td><em>Molecular Formula of Derivative</em></td>
+<td>PubChem</td>
+</tr>
+<tr class="row-odd"><td><em>Mass of Derivative</em></td>
+<td>PubChem</td>
+</tr>
+<tr class="row-even"><td><em>Type of Focused Ion</em></td>
+<td>see footnote <a class="footnote-reference" href="#id5" id="id3">[1]</a></td>
+</tr>
+<tr class="row-odd"><td><em>m/z of Precursor Ion in MSn spectrum</em></td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>msPrefix precursor recalculation</td>
+<td><a class="reference external" href="http://www.essepuntato.it/lode/owlapi/http://www.ontomatica.com/public/organizations/BETV/ms.owl">MS_1000781</a></td>
+</tr>
+<tr class="row-odd"><td>precursor m/z</td>
+<td><a class="reference external" href="http://www.essepuntato.it/lode/owlapi/http://www.ontomatica.com/public/organizations/BETV/ms.owl">MS_1000504</a></td>
+</tr>
+<tr class="row-even"><td><em>Type of Precursor Ion in MSn</em></td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>Precursor type</td>
+<td><a class="reference external" href="http://www.essepuntato.it/lode/owlapi/http://www.ontomatica.com/public/organizations/BETV/ms.owl">MS_ 1000792</a></td>
+</tr>
+<tr class="row-even"><td>Precursor type</td>
+<td>see footnote <a class="footnote-reference" href="#id6" id="id4">[2]</a></td>
+</tr>
+<tr class="row-odd"><td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td><strong>Mass Spectral Peaks Information</strong></td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td><em>Data Processing Method of Peak Detection</em></td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>Data processing</td>
+<td><a class="reference external" href="http://www.essepuntato.it/lode/owlapi/http://www.ontomatica.com/public/organizations/BETV/ms.owl">MS_1000543</a></td>
+</tr>
+<tr class="row-odd"><td><em>Peak Detection</em></td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>selected ion detection</td>
+<td><a class="reference external" href="http://www.essepuntato.it/lode/owlapi/http://www.ontomatica.com/public/organizations/BETV/ms.owl">MS_1000091</a></td>
+</tr>
+<tr class="row-odd"><td>peak picking</td>
+<td><a class="reference external" href="http://www.essepuntato.it/lode/owlapi/http://www.ontomatica.com/public/organizations/BETV/ms.owl">MS_1000035</a></td>
+</tr>
+<tr class="row-even"><td><em>Total Number of Peaks</em></td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>number of matched peaks</td>
+<td><a class="reference external" href="http://www.essepuntato.it/lode/owlapi/http://www.ontomatica.com/public/organizations/BETV/ms.owl">MS_1001121</a></td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="footnotes">
+<h4>Footnotes<a class="headerlink" href="#footnotes" title="Permalink to this headline">¶</a></h4>
+<table class="docutils footnote" frame="void" id="id5" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id3">[1]</a></td><td><p class="first">Type of Focused Ion. Available types are:</p>
+<p class="last">[M]+, [M]+*, [M+H]+, [2M+H]+, [M+Na]+, [M-H+Na]+, [2M+Na]+, [M+2Na-H]+, [(M+NH3)+H]+, [M+H-H2O]+, [M+H-C6H10O4]+, [M+H-C6H10O5]+, [M]-, [M-H]-, [M-2H]-, [M-2H+H2O]-, [M-H+OH]-, [2M-H]-, [M+HCOO-]-, [(M+CH3COOH)-H]-, [2M-H-CO2]- and [2M-H-C6H10O5]-</p>
+</td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="id6" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id4">[2]</a></td><td><p class="first">Precursor type. Available types are:</p>
+<p class="last">[M]+, [M]+*, [M+H]+, [2M+H]+, [M+Na]+, [M-H+Na]+, [2M+Na]+, [M+H-C6H10O4]+, [M-H+OH]-, [M+2Na-H]+, [M+H-C6H10O5]+, [2M-H]-, [M+HCOO-]-, [M]-, [(M+NH3)+H]+, [M+H-H2O]+, [M-H]-, [M-2H+H2O]-, [M-2H]-, [(M+CH3COOH)-H]-, [2M-H-CO2]- and [2M-H-C6H10O5]-</p>
+</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="metabolomic-profiles">
+<h3><a class="toc-backref" href="#id8">Metabolomic Profiles</a><a class="headerlink" href="#metabolomic-profiles" title="Permalink to this headline">¶</a></h3>
+<p>From Wikipedia:</p>
+<blockquote>
+<div>Metabolomics is the scientific study of chemical processes involving metabolites. Specifically, metabolomics is the “systematic study of the unique chemical fingerprints that specific cellular processes leave behind”, the study of their small-molecule metabolite profiles. The metabolome represents the collection of all metabolites in a biological cell, tissue, organ or organism, which are the end products of cellular processes. mRNA gene expression data and proteomic analyses reveal the set of gene products being produced in the cell, data that represents one aspect of cellular function. Conversely, metabolic profiling can give an instantaneous snapshot of the physiology of that cell. One of the challenges of systems biology and functional genomics is to integrate proteomic, transcriptomic, and metabolomic information to provide a better understanding of cellular biology.</div></blockquote>
+<div class="section" id="ontomatica-coverage">
+<h4>Ontomatica Coverage<a class="headerlink" href="#ontomatica-coverage" title="Permalink to this headline">¶</a></h4>
+<p>ChEMATIC discussion here</p>
+</div>
+</div>
+<div class="section" id="taxonomic-information">
+<h3><a class="toc-backref" href="#id9">Taxonomic Information</a><a class="headerlink" href="#taxonomic-information" title="Permalink to this headline">¶</a></h3>
+<p>Replay taxonomic data in several production databases.</p>
+<p><a class="reference internal" href="#return-to-top-02-core-19-non-composition"><span class="std std-ref">Return to top</span></a></p>
+</div>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../index.html">Sphinx</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, Gig.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.8.5</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../_sources/02_dir/$_02-core-19-non-composition-data.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

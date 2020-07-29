@@ -1,0 +1,399 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>OnLine Top Down Deposition &#8212; Sphinx  documentation</title>
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/language_data.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="online-top-down-deposition">
+<span id="core-10-deposition-2-top-down"></span><h1>OnLine Top Down Deposition<a class="headerlink" href="#online-top-down-deposition" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="table-of-contents">
+<span id="return-to-top-02-core-10-deposition-2-top-down"></span><h2>Table of Contents<a class="headerlink" href="#table-of-contents" title="Permalink to this headline">¶</a></h2>
+<div class="contents local topic" id="contents">
+<ul class="simple">
+<li><a class="reference internal" href="#process" id="id3">Process</a></li>
+<li><a class="reference internal" href="#examples-pre-combined-items" id="id4">Examples: Pre-Combined Items</a></li>
+</ul>
+</div>
+<div class="section" id="process">
+<h3><a class="toc-backref" href="#id3">Process</a><a class="headerlink" href="#process" title="Permalink to this headline">¶</a></h3>
+<p>Template-driven process that classifies a food by its similarity to another food.</p>
+<p>Templates are <a class="reference internal" href="../10_dir/$_10-term-project.html#terms-pre-combined-item"><span class="std std-ref">pre-combined items</span></a> specified by ontology terms.</p>
+<p>One ontology used by Ontomatica is <a class="reference external" href="http://www.w3.org/2004/02/skos/core#">Simple Knowledge Object Sharing</a> (SKOS) <a href="#id1"><span class="problematic" id="id2">:cite:`6050`</span></a>. Example of applying SKOS:</p>
+<ul class="simple">
+<li>Initiate <a class="reference internal" href="../10_dir/$_10-term-project.html#terms-conversation"><span class="std std-ref">conversation</span></a> by identifying an exact match <code class="xref py py-class docutils literal notranslate"><span class="pre">skos:exactMatch</span></code> or close match <code class="xref py py-class docutils literal notranslate"><span class="pre">skos:closeMatch</span></code> for <a class="reference internal" href="../10_dir/$_10-term-project.html#terms-deposition"><span class="std std-ref">deposition</span></a>.</li>
+</ul>
+<div class="figure align-center">
+<img alt="../_images/$_02-core-10-deposition-2-top-down_.png" src="../_images/$_02-core-10-deposition-2-top-down_.png" />
+</div>
+</div>
+<div class="section" id="examples-pre-combined-items">
+<h3><a class="toc-backref" href="#id4">Examples: Pre-Combined Items</a><a class="headerlink" href="#examples-pre-combined-items" title="Permalink to this headline">¶</a></h3>
+<p>Explanation.</p>
+<table border="1" class="colwidths-given docutils">
+<colgroup>
+<col width="43%" />
+<col width="57%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Food Items</th>
+<th class="head"><code class="xref py py-class docutils literal notranslate"><span class="pre">[langual:FTC]</span></code> (LanguaL Facet Term Codes (FTC)</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Ale, Pasteurized, Bottled</td>
+<td>A0195 B1230 C0102 E0123 H0232 H0246 J0135 M0210 N0040</td>
+</tr>
+<tr class="row-odd"><td>Almond Extract, in Glass Bottle</td>
+<td>A0215 B1347 C0174 E0123 H0100 H0232 M0130 N0040</td>
+</tr>
+<tr class="row-even"><td>Angel Food Cake, Whole</td>
+<td>A0210 B1012 C0210 E0146 H0358 H0319 H0205</td>
+</tr>
+<tr class="row-odd"><td>Apple Butter</td>
+<td>A0184 B1245 C0140 E0119 H0105</td>
+</tr>
+<tr class="row-even"><td>Apple Juice, Bottled, Infant or Junior Food</td>
+<td>A0127 B1245 C0140 E0123 M0203 N0001 P0020</td>
+</tr>
+<tr class="row-odd"><td>Apple Juice, Unsweetened, Canned</td>
+<td>A0127 B1245 C0140 E0123 J0123 M0194 P0105</td>
+</tr>
+<tr class="row-even"><td>Apple Sauce, Unsweetened, Canned</td>
+<td>A0143 B1245 C0229 E0110 J0123 M0194 P0105</td>
+</tr>
+<tr class="row-odd"><td>Beef and Pork Frankfurter</td>
+<td>A0221 B1105 C0268 E0105 F0014 H0172 H0288 H0306</td>
+</tr>
+<tr class="row-even"><td>Beef Stroganoff with Noodles</td>
+<td>A0220 B1079 C0208 E0134 H0191 H0242 H0166</td>
+</tr>
+<tr class="row-odd"><td>Beef Taco with Lettuce, Tomato and Cheese</td>
+<td>A0102 B1161 C0268 E0105 F0023 H0207 H0152 H0212 H0143 H0253 H0328</td>
+</tr>
+<tr class="row-even"><td>Blue Cheese Dressing</td>
+<td>A0136 B1017 C0190 E0110 H0143 H0331 H0253</td>
+</tr>
+<tr class="row-odd"><td>Boneless Chicken Breast, Raw</td>
+<td>A0273 B1457 C0267 E0150 F0003 Z0004</td>
+</tr>
+<tr class="row-even"><td>Broccoli Spears, Quick Frozen</td>
+<td>A0152 B1443 C0144 E0150 J0132</td>
+</tr>
+<tr class="row-odd"><td>Cauliflower in Cheddar Cheese Sauce</td>
+<td>A0152 B1094 C0237 E0150 H0143 H0184 H0328 H0253 K0033</td>
+</tr>
+<tr class="row-even"><td>Cheeseburger, McDonald’s</td>
+<td>A0218 B1161 C0268 E0105 F0023 H0207 H0319 H0212 H0256 H0107 H0253 H0143 Z0111</td>
+</tr>
+<tr class="row-odd"><td>Chicken Noodle Soup, Canned</td>
+<td>A0243 B1457 C0170 E0149 F0014 H0319 H0212 H0171 J0123 M0194</td>
+</tr>
+<tr class="row-even"><td>Chicken, Roaster, Whole, Grilled</td>
+<td>A0273 B1457 C0120 E0150 F0014 G0006 Z0054</td>
+</tr>
+<tr class="row-odd"><td>Chili Con Carne</td>
+<td>A0172 B1161 C0268 E0134 H0212</td>
+</tr>
+<tr class="row-even"><td>Chocolate Chip Cookie</td>
+<td>A0203 B1312 C0208 E0140 H0158 H0231 H0119 H0253</td>
+</tr>
+<tr class="row-odd"><td>Chocolate Ice Cream, Haagen-Dazs</td>
+<td>A0227 B1201 C0195 E0139 F0018 H0158 H0178 H0184 H0185 H0231 H0206 J0136 Z0112</td>
+</tr>
+<tr class="row-even"><td>Chocolate Syrup</td>
+<td>A0272 B1012 C0108 E0139 H0231 H0119 H0253 H0368</td>
+</tr>
+<tr class="row-odd"><td>Coconut Milk</td>
+<td>A0260 B1536 C0214 E0123</td>
+</tr>
+<tr class="row-even"><td>Coffee Bean, Roasted</td>
+<td>A0268 B1305 C0132 E0150 F0014 G0003 H0391</td>
+</tr>
+<tr class="row-odd"><td>Cooked Ham, Canned, Not Smoked</td>
+<td>A0279 B1136 C0268 E0146 F0014 H0253 M0204 Z0024</td>
+</tr>
+<tr class="row-even"><td>Corned Beef Hash</td>
+<td>A0212 B1161 C0268 E0134 H0212 H0253 H0227</td>
+</tr>
+<tr class="row-odd"><td>Cottage Cheese, 4% Milkfat, Creamed</td>
+<td>A0185 B1201 C0245 E0134 H0101</td>
+</tr>
+<tr class="row-even"><td>Cranberry Juice Cocktail, in Plastic Bottle</td>
+<td>A0130 B1508 C0140 E0123 H0136 M0184 N0036</td>
+</tr>
+<tr class="row-odd"><td>Cream Cheese</td>
+<td>A0185 B1201 C0245 E0119 F0018 H0101 J0135</td>
+</tr>
+<tr class="row-even"><td>Cream Of Asparagus Soup, (Campbell’s)</td>
+<td>A0180 B1415 C0186 E0134 H0319 H0263 H0296 H0279 H0260 H0369 H0388 H0151 H0114</td>
+</tr>
+<tr class="row-odd"><td>Cream-Style Corn, Golden, (Del Monte)</td>
+<td>A0152 B1595 C0133 E0110 F0014 H0279 H0158 J0123 M0151 N0030 Z0112</td>
+</tr>
+<tr class="row-even"><td>Dill Pickle, Packed in Brine</td>
+<td>A0271 B1404 C0140 E0150 H0190 H0200 H0123 K0022</td>
+</tr>
+<tr class="row-odd"><td>Durum Flour</td>
+<td>A0149 B1079 C0208 E0106</td>
+</tr>
+<tr class="row-even"><td>Enriched Corn Meal</td>
+<td>A0149 B1379 C0155 E0117 H0194 H0309 H0310 H0311 H0181</td>
+</tr>
+<tr class="row-odd"><td>Garlic Powder</td>
+<td>A0113 B1233 C0240 E0106 H0138 J0116</td>
+</tr>
+<tr class="row-even"><td>Graham Cracker Pie Crust</td>
+<td>A0140 B1312 C0208 E0153 H0158 H0221 H0319</td>
+</tr>
+<tr class="row-odd"><td>Grape Jelly</td>
+<td>A0209 B1329 C0140 E0119 H0136 H0200 H0145</td>
+</tr>
+<tr class="row-even"><td>Hard Salami, Whole</td>
+<td>A0221 B1105 C0268 E0146 H0119 H0138</td>
+</tr>
+<tr class="row-odd"><td>Hot Dog, Lower Salt</td>
+<td>A0221 B1134 C0268 E0105 F0014 H0288 H0306 H0172 K0027 M0186 N0036 P0077</td>
+</tr>
+<tr class="row-even"><td>Hydrolyzed Whey Protein Concentrate</td>
+<td>A0129 B1201 C0236 E0139 H0277</td>
+</tr>
+<tr class="row-odd"><td>Infant Formula, Milk-Based</td>
+<td>A0274 B1201 C0235 E0123 H0157 H0159 H0163 H0221 H0194 P0020</td>
+</tr>
+<tr class="row-even"><td>Lowfat Chocolate Milk</td>
+<td>A0148 B1201 C0235 E0123 H0158 H0231 H0119 H0253 H0247 J0135 P0024 P0039</td>
+</tr>
+<tr class="row-odd"><td>Lowfat Cottage Cheese</td>
+<td>A0185 B1201 C0245 E0134 H0101 H0325 P0024 P0039</td>
+</tr>
+<tr class="row-even"><td>Macaroni and Cheese</td>
+<td>A0220 B1079 C0208 E0134 H0143 H0328 H0221 H0184 K0003</td>
+</tr>
+<tr class="row-odd"><td>Maple Syrup</td>
+<td>A0118 B1167 C0271 E0139</td>
+</tr>
+<tr class="row-even"><td>Mashed Potato Flakes, Instant</td>
+<td>A0152 B1218 C0240 E0100 H0138 H0169 J0140</td>
+</tr>
+<tr class="row-odd"><td>Mayonnaise</td>
+<td>A0292 B1017 C0190 E0119 H0185 H0200 H0306 J0149</td>
+</tr>
+<tr class="row-even"><td>Minute Rice</td>
+<td>A0125 B1322 C0208 E0150 F0014 H0169 H0309 H0311 H0181 H0194 H0138 J0116 M0156 N0039 P0088 P0095 P0127 P0162 Z0112</td>
+</tr>
+<tr class="row-odd"><td>Mozzarella Cheese</td>
+<td>A0185 B1201 C0245 E0151 H0107</td>
+</tr>
+<tr class="row-even"><td>Peanut Butter, Smooth</td>
+<td>A0260 B1337 C0132 E0119 H0174 H0263 K0003</td>
+</tr>
+<tr class="row-odd"><td>Pineapple Chunks, Packed in Pineapple Juice</td>
+<td>A0143 B1484 C0229 E0115 K0039</td>
+</tr>
+<tr class="row-even"><td>Pizza with Sausage</td>
+<td>A0100 B1312 C0208 E0140 H0143 H0191 H0212</td>
+</tr>
+<tr class="row-odd"><td>Potato Chip, Salted, in Laminate Bag</td>
+<td>A0228 B1218 C0240 E0145 H0221 H0173 M0144</td>
+</tr>
+<tr class="row-even"><td>Raisin, Sundried</td>
+<td>A0143 B1329 C0137 E0150 H0138 J0141</td>
+</tr>
+<tr class="row-odd"><td>Refried Beans</td>
+<td>A0152 B1368 C0133 E0134 H0221</td>
+</tr>
+<tr class="row-even"><td>Ripe Olive, Packed in Brine, Canned</td>
+<td>A0152 B1299 C0139 E0150 K0018 Z0052</td>
+</tr>
+<tr class="row-odd"><td>Sauerkraut, Canned</td>
+<td>A0271 B1406 C0151 E0100 F0014 H0101 H0367 J0123 K0017 M0194</td>
+</tr>
+<tr class="row-even"><td>Shrimp and Pork Egg Roll</td>
+<td>A0103 B1282 C0101 E0105 H0207 H0212 H0319 H0153 H0191</td>
+</tr>
+<tr class="row-odd"><td>Shrimp Salad</td>
+<td>A0208 B1237 C0173 E0134 H0221 H0200 H0306 H0186</td>
+</tr>
+<tr class="row-even"><td>Skim Milk</td>
+<td>A0148 B1201 C0235 E0123 H0248 H0194 H0316 J0135</td>
+</tr>
+<tr class="row-odd"><td>Soda Water, Unflavored</td>
+<td>A0241 B1217 C0005 E0123 H0109 P0024 P0102</td>
+</tr>
+<tr class="row-even"><td>Sour Dough Bread, Loaf</td>
+<td>A0178 B1312 C0208 E0146 H0256</td>
+</tr>
+<tr class="row-odd"><td>Soy Protein Concentrate</td>
+<td>A0129 B1452 C0236 E0100</td>
+</tr>
+<tr class="row-even"><td>Spaghetti Sauce</td>
+<td>A0152 B1276 C0140 E0121 H0151</td>
+</tr>
+<tr class="row-odd"><td>Tabasco Pepper Sauce</td>
+<td>A0263 B2636 C0167 E0123 H0123 H0151 H0200</td>
+</tr>
+<tr class="row-even"><td>Tamale</td>
+<td>A0102 B1379 C0155 E0105 H0207 M0206 N0049</td>
+</tr>
+<tr class="row-odd"><td>Tomato Soup, Condensed, Canned</td>
+<td>A0180 B1276 C0140 E0119 H0114 M0204</td>
+</tr>
+<tr class="row-even"><td>Tomato-Based Barbecue Sauce</td>
+<td>A0263 B1276 C0140 E0121 H0136 H0151</td>
+</tr>
+<tr class="row-odd"><td>Tonic Water</td>
+<td>A0241 B1217 C0005 E0123 H0105 H0109 H0117</td>
+</tr>
+<tr class="row-even"><td>Tuna, Chunk Light, Solid Pack, in Vegetable Oil</td>
+<td>A0267 B1269 C0268 E0125 F0014 H0263 J0123 K0021 M0151 N0023 Z0057</td>
+</tr>
+<tr class="row-odd"><td>Turkey Salami, Whole</td>
+<td>A0131 B1236 C0268 E0146 H0307 H0306 Z0002</td>
+</tr>
+<tr class="row-even"><td>Vanilla Extract</td>
+<td>A0215 B1324 C0133 E0123 H0100 H0232</td>
+</tr>
+<tr class="row-odd"><td>Vegetable Stock</td>
+<td>A0243 B1579 C0170 E0123</td>
+</tr>
+<tr class="row-even"><td>Vodka</td>
+<td>A0120 B1324 C0133 E0123 H0232 H0270</td>
+</tr>
+<tr class="row-odd"><td>Wheat Germ</td>
+<td>A0149 B1312 C0182 E0100</td>
+</tr>
+<tr class="row-even"><td>Whipping Cream, Pressurized</td>
+<td>A0148 B1201 C0154 E0123 J0135 K0015 M0151</td>
+</tr>
+<tr class="row-odd"><td>White Bread, Loaf</td>
+<td>A0178 B1312 C0208 E0146 H0256</td>
+</tr>
+<tr class="row-even"><td>Whitefish Filet, Smoked</td>
+<td>A0267 B2687 C0125 E0152 H0118</td>
+</tr>
+<tr class="row-odd"><td>Whole Durum Flour</td>
+<td>A0149 B1079 C0133 E0106</td>
+</tr>
+<tr class="row-even"><td>Whole Milk, Ultra-pasteurized</td>
+<td>A0148 B1201 C0235 E0123 J0148</td>
+</tr>
+<tr class="row-odd"><td>Whole Tomatoes, Packed in Tomato Juice</td>
+<td>A0152 B1276 C0140 E0150 K0016</td>
+</tr>
+<tr class="row-even"><td>Whole Wheat Flour</td>
+<td>A0149 B1312 C0133 E0106</td>
+</tr>
+<tr class="row-odd"><td>Whole Wheat Pita Bread</td>
+<td>A0178 B1312 C0133 E0140 H0256</td>
+</tr>
+<tr class="row-even"><td>Yogurt</td>
+<td>A0101 B1201 C0235 E0119 H0101</td>
+</tr>
+<tr class="row-odd"><td>Water, Distilled</td>
+<td>A0112 B1217 C0005 E0123 H0270</td>
+</tr>
+<tr class="row-even"><td>Whole Wheat Bread, Loaf</td>
+<td>A0178 B1312 C0133 E0146 H0256</td>
+</tr>
+</tbody>
+</table>
+<p><a class="reference internal" href="#return-to-top-02-core-10-deposition-2-top-down"><span class="std std-ref">Return to top</span></a></p>
+</div>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../index.html">Sphinx</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, Gig.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.8.5</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../_sources/02_dir/$_02-core-10-deposition-2-top-down.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

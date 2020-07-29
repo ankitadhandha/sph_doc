@@ -1,8 +1,0 @@
-
-.. _$_03-detail-4-foods-4-onto-food-identity:
-
-=============
-Food Identity
-=============
-
-.. image:: $_03-detail-4-foods-4-onto-food-identity-1-wheat-MISSING_.png
